@@ -1,0 +1,609 @@
+body,
+
+div,
+
+ul,
+
+li,
+
+p,
+
+h1,
+
+h2,
+
+h3,
+
+h4,
+
+h5,
+
+h6 {
+
+    font-family: "Oxygen", sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+body,
+
+html {
+
+    margin: auto;
+
+    height: 100%;
+
+    width: 100%;
+
+    max-width: 1200px;
+
+    min-width: 350px:
+
+}
+
+.clear-fix {
+
+    overflow: auto;
+
+}
+
+.education-entry,
+
+.work-entry,
+
+.project-entry {
+
+    padding: 0 5%;
+
+}
+
+h1 {
+
+    color: #19c;
+
+    display: inline;
+
+    font-size: 40px;
+
+    line-height: 48px;
+
+}
+
+h2 {
+
+    color: #808080;
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    line-height: 29px;
+
+}
+
+h3 {
+
+    color: #000;
+
+    font-size: 20px;
+
+    font-style: italic;
+
+    line-height: 22px;
+
+}
+
+h4 {
+
+    color: #4a4a4a;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    line-height: 17px;
+
+}
+
+h2,
+
+h3,
+
+h4,
+
+h5 {
+
+    padding: 10px 5%;
+
+}
+
+nav {
+
+    width: 90%;
+
+    margin: auto;
+
+}
+
+.date-text {
+
+    color: #999;
+
+    float: left;
+
+    font-size: 14px;
+
+    font-style: italic;
+
+    line-height: 16px;
+
+}
+
+.location-text {
+
+    color: #999;
+
+    float: right;
+
+    font-size: 14px;
+
+    font-style: italic;
+
+    line-height: 16px;
+
+}
+
+p {
+
+    color: #333;
+
+    font-size: 14px;
+
+    line-height: 21px;
+
+}
+
+a {
+
+    color: #19c;
+
+    display: block;
+
+    text-decoration: none;
+
+}
+
+.welcome-message {
+
+    color: #f3f3f3;
+
+    font-size: 18px;
+
+    font-style: italic;
+
+    line-height: 28px;
+
+}
+
+.skills-start {
+
+    color: #0fb;
+
+    display: none;
+
+}
+
+.education-entry {
+
+    margin-bottom: 10px;
+
+}
+
+.blue {
+
+    background-color: #00f;
+
+}
+
+.blue-text {
+
+    color: #00f;
+
+}
+
+.med-blue-text {
+
+    color: #19c;
+
+}
+
+.lt-blue {
+
+    background-color: #cff;
+
+}
+
+.lt-blue-text {
+
+    color: #cff;
+
+}
+
+.orange {
+
+    background-color: #f5ae23;
+
+}
+
+.lt-green {
+
+    background-color: #0fb;
+
+}
+
+.lt-green-text {
+
+    color: #0fb;
+
+}
+
+.orange-text {
+
+    color: #f5ae23;
+
+}
+
+.white-text {
+
+    color: #fff;
+
+    font-weight: bold;
+
+}
+
+.gray {
+
+    background-color: #ddd;
+
+    clear: both;
+
+}
+
+.dark-gray {
+
+    background-color: #444;
+
+}
+
+.header {
+
+    background-color: #444;
+
+}
+
+.embed-container {
+
+    position: relative;
+
+    padding-bottom: 56.25%;
+
+    /* 16/9 ratio */
+
+    padding-top: 30px;
+
+    /* IE6 workaround*/
+
+    height: 0;
+
+    overflow: hidden;
+
+}
+
+.embed-container iframe,
+
+.embed-container object,
+
+.embed-container embed {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+.flex-box {
+
+    display: -webkit-flex;
+
+    display: flex;
+
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+    padding: 10px;
+
+}
+
+.center-content {
+
+    padding: 2.5% 5%;
+
+}
+
+ul {
+
+    list-style-type: none;
+
+}
+
+.biopic {
+
+    display: none;
+
+    float: left;
+
+    padding: 10px;
+
+    width: 150px;
+
+}
+
+img {
+
+    background-size: contain;
+
+    padding: 10px;
+
+    width: 100%;
+
+    max-width: 500px;
+
+}
+
+span {
+
+    padding: 5px;
+
+}
+
+.connect {
+
+    background-color: #19c;
+
+    text-align: center;
+
+}
+
+.menu {
+
+    background-color: #142424;
+
+    flex-wrap: wrap;
+
+    text-align: center;
+
+    width: 90%
+
+}
+
+.menu-item {
+
+    box-sizing: border-box;
+
+    display: inline-block;
+
+    width: 33.33%;
+
+    text-align: center;
+
+    line-height: 24px;
+
+    text-transform: uppercase;
+
+    font-size: 2.5em;
+
+    font-size: 2.5vw;
+
+    padding: 10px 0 20px 0;
+
+}
+
+.menu-item:hover {
+
+    box-shadow: inset 1px 1px 4px #000;
+
+}
+
+.menu-experience {
+
+    background-color: darkslateblue;
+
+}
+
+#menu.fixed {
+
+    position: fixed;
+
+    top: 0;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    max-width: 1080px;
+
+}
+
+.selected {
+
+    background-color: #104d41;
+
+}
+
+.shadow {
+
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.w3-card-4 {
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    flex-grow: 1;
+    padding: 10px;
+    margin: 15px;
+    background-color: lightgray;
+
+}
+
+/* Media queries to handle various device widths */
+
+
+
+@media only screen and (min-width: 1800px) {
+
+    .connect {
+
+        margin-top: 5%;
+
+    }
+
+    .menu-item {
+
+        font-size: 1.5em;
+
+        font-size: 2vw;
+
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .connect {
+
+        margin-top: 5%;
+
+    }
+
+    .menu-item {
+
+        font-size: 1.5em;
+
+        font-size: 2vw;
+
+    }
+
+}
+
+@media only screen and (max-width:900px) {
+
+    .biopic {
+
+        width: 175px;
+
+    }
+
+    .menu-item {
+
+        font-size: 1.5em;
+
+        font-size: 3vw;
+
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+
+    .connect {
+
+        margin-top: 10%;
+
+    }
+
+    .biopic {
+
+        width: 150px;
+
+    }
+
+    .welcome-message {
+
+        display: none;
+
+    }
+
+    .img {
+
+        max-width: 400px;
+
+    }
+
+    .menu-item {
+
+        font-size: 1em;
+
+        font-size: 4vw;
+
+    }
+
+}
+
+.map {
+
+    display: block;
+
+    height: 100%;
+
+    margin: 0 5%;
+
+}
+
+.map-div {
+
+    height: 400px;
+
+    padding-bottom: 5%;
+
+    width: 100%;
+
+}
+
+@media only screen and (max-width:450px) {
+
+    .menu-item {
+
+        font-size: .5em;
+
+        font-size: 4vw;
+
+    }
+
+}
+
+@media only screen and (min-width: 750px) {
+
+    .skills-start,
+
+    .biopic {
+
+        display: block;
+
+    }
+
+}
+
