@@ -1,25 +1,27 @@
 var model = {
     BIO: {
         NAME: 'Corey Willinger',
-        ROLE: 'Web Developer in training',
+        ROLE: 'Software Engineer / Educator',
         CONTACTS: {
             EMAIL: 'corey.willinger@gmail.com',
             MOBILE: '',
             GITHUB: 'corigami',
-            LOCATION: 'Dayton, OH, USA'
+            LOCATION: 'Beavercreak, OH, USA'
         },
         PICTURE: 'images/me.jpg',
         WELCOME_MSG: '',
         SKILLS: [
             'Software Engineering',
+            'Adult Education',
+            'Instructional Systems Design',
+            'Distance Learning',
             'Security+ Certified',
             'DoD Certified Acquisition Professional (IT Level I)',
             'Java',
-            'HTML5',
+            'HTML5/CSS',
             'Javascript',
             'C++',
             'C#',
-            'Distance Learning',
             'Distributed Systems',
             'Information Assurance',
             'Computer Networking',
@@ -48,6 +50,21 @@ var model = {
                 DATES: '2015-Present',
                 LOCATION: 'Wright-Patterson AFB, OH, USA'
             }, {
+                TITLE: 'Adjunct Faculty - Undergraduate Computer Science',
+                DESCRIPTION: [
+                    'Instructor for undergraduate Computer Science curriculum: Web Programming I (CS 321) and Computer Architecture (CS 220)',
+                    'Teaches core programming concepts on client-side technologies: HTML, CSS, and JavaScript',
+                    'Teaches fundamental computer architecture topics data : number systems, Boolean algebra, combinational logic, sequential logic, CPU layout, registers, adders, buses, and memory devices',
+                    'Develops and implements lectures and active-learning content for student classroom engagement',
+                    'Develops and manages class syllabi; ensures department and college standards are met',
+                    'Assesses student grades based on performance, participation, assignments and examinations'
+
+                ],
+                EMPLOYER: 'Park University',
+                DATES: '2016-Present',
+                LOCATION: 'Dayton, OH, USA'
+            },
+            {
                 TITLE: 'Branch Chief, Network Infrastructure / Plans & Programs Division Chief',
                 DESCRIPTION: [
                     'Led 9 civ/mil personnel in Plans & Prog., budget, and Information Assurance',
@@ -237,10 +254,10 @@ var model = {
                 TITLE: 'Theory of Constraints Simulation',
                 DATES: '2016',
                 DESCRIPTION: 'This is an on-going project that I\'m working on for a fellow instructor who teaches ' +
-                'Theory of Constraints and Critical Chain theory for logistics management.  The simulator makes use ' +
-                'of the Chart.js library to dynamicly build graphs based on simulation data.  It also makes use of jQuery ' +
-                'to ease managment of input data.  The design of the GUI has not been a priority to this point as the focus ' +
-                'has been on the underlying algorithms and data structures.',
+                    'Theory of Constraints and Critical Chain theory for logistics management.  The simulator makes use ' +
+                    'of the Chart.js library to dynamicly build graphs based on simulation data.  It also makes use of jQuery ' +
+                    'to ease managment of input data.  The design of the GUI has not been a priority to this point as the focus ' +
+                    'has been on the underlying algorithms and data structures.',
                 URL: 'http://www.gamisweb.com/toc',
                 GITURL: 'https://github.com/corigami/ToC-Sim',
                 IMAGES: [
@@ -251,8 +268,8 @@ var model = {
                 TITLE: 'RSS Feed - Test Driven Development Using Jasmine',
                 DATES: '2016',
                 DESCRIPTION: 'This project highlights the use of Jasmine to conduct unit tests on a basic web application.  ' +
-                'Tests for functionality of have certain functions have been implemented.  Additionally, tests have been created ' +
-                'for functions that do not yet exist, highlighting the red-green-refactor approach to development.',
+                    'Tests for functionality of have certain functions have been implemented.  Additionally, tests have been created ' +
+                    'for functions that do not yet exist, highlighting the red-green-refactor approach to development.',
                 URL: 'http://www.gamisweb.com/tdd',
                 GITURL: 'https://github.com/corigami/FEND-feedreader-testing',
                 IMAGES: [
@@ -264,10 +281,10 @@ var model = {
                 TITLE: 'Neighborhod Map',
                 DATES: '2016',
                 DESCRIPTION: 'This project displays multiple lessons learned throughout my Udacity Nanodegree program.  ' +
-                'It encompasses responsive design, asynchronous third-party API calls, error-handling, jQuery, and ' +
-                'separation of concerns, leveraging MVVM and the Knockout.js library.  You can use the filter box to ' +
-                'narrow down number of entries.  Clicking on either the side menu or a pin will display additional ' +
-                ' information from Wikipedia if available.',
+                    'It encompasses responsive design, asynchronous third-party API calls, error-handling, jQuery, and ' +
+                    'separation of concerns, leveraging MVVM and the Knockout.js library.  You can use the filter box to ' +
+                    'narrow down number of entries.  Clicking on either the side menu or a pin will display additional ' +
+                    ' information from Wikipedia if available.',
                 URL: 'http://www.gamisweb.com/map',
                 GITURL: 'https://github.com/corigami/FEND-neighborhood-map',
                 IMAGES: [
@@ -278,12 +295,12 @@ var model = {
                 TITLE: 'OMNet++ UAV P2P File Replication Simulation',
                 DATES: '2015',
                 DESCRIPTION: 'This is the simulation that was produced as part of my Master\'s Thesis examining ' +
-                'the impact of file replication in a UAV swarm utilizing reactive MANET protocols. The simulation was ' +
-                'produced utilizing OMNeT++ v4.6 and is written in C++. It simulates a swarm of UAVs generating files at ' +
-                'a variable rate and replicates them using a implementation of the ORION transfer protocol for MANETs. ' +
-                'A master node then queries the swarm for random files and logs the data.' +
-                'Results were analyzed with R, and documented in my thesis which was generated using Latex.' +
-                'Thesis can viewed at the Defense Technical Information Center by clicking on the Title link.',
+                    'the impact of file replication in a UAV swarm utilizing reactive MANET protocols. The simulation was ' +
+                    'produced utilizing OMNeT++ v4.6 and is written in C++. It simulates a swarm of UAVs generating files at ' +
+                    'a variable rate and replicates them using a implementation of the ORION transfer protocol for MANETs. ' +
+                    'A master node then queries the swarm for random files and logs the data.' +
+                    'Results were analyzed with R, and documented in my thesis which was generated using Latex.' +
+                    'Thesis can viewed at the Defense Technical Information Center by clicking on the Title link.',
                 URL: 'http://www.dtic.mil/docs/citations/ADA615415',
                 EMBED: '<iframe src="https://mix.office.com/embed/zvbylas7wt19" frameborder="0" allowfullscreen></iframe>',
                 GITURL: 'https://github.com/corigami/thesis_orion_omnet',
@@ -295,11 +312,11 @@ var model = {
                 TITLE: 'Unity 3D Ant Colony Optimization',
                 DATES: '2014',
                 DESCRIPTION: 'This is a project that I worked on for my advanced algorithms class. It was creates created ' +
-                'in Unity 3d and written with C#. It demonstrates the usage of an Ad hoc On-demand Distance Vector (AODV) ' +
-                'routing protocol, as well as an Ant Colony Optimization and Genetic algorithm to produce a minimally connected ' +
-                'dominated set (MCDS) of nodes to be utilized in a mobile ad-hoc network. Network traffic is notional, and is ' +
-                'abstracted to just send/receive mechanics (no OSI stack, headers, etc).  As a part of the project, I engineered ' +
-                'the project to be extendable to use different mobility and network models in an to implement SOLID design principles.',
+                    'in Unity 3d and written with C#. It demonstrates the usage of an Ad hoc On-demand Distance Vector (AODV) ' +
+                    'routing protocol, as well as an Ant Colony Optimization and Genetic algorithm to produce a minimally connected ' +
+                    'dominated set (MCDS) of nodes to be utilized in a mobile ad-hoc network. Network traffic is notional, and is ' +
+                    'abstracted to just send/receive mechanics (no OSI stack, headers, etc).  As a part of the project, I engineered ' +
+                    'the project to be extendable to use different mobility and network models in an to implement SOLID design principles.',
                 URL: 'https://github.com/corigami/Simulator',
                 EMBED: '<iframe src="https://mix.office.com/embed/ts3kisoddce5" frameborder="0" allowfullscreen></iframe>',
                 GITURL: 'https://github.com/corigami/Simulator',
@@ -312,10 +329,10 @@ var model = {
                 TITLE: 'Arcade Game Clone',
                 DATES: '2015',
                 DESCRIPTION: 'This was an assignment for the Udacity Front-End Web Developemnt Nanodegree. ' +
-                ' The purpose was to showcase Object Oriented Programming in JavaScript. It was useful to see' +
-                ' how OOP worked in JavaScript versus other languages that I was used to such as C++ and Java.' +
-                ' Hopefully I\'ll get around to adding more functionality as time permits, but in its current state' +
-                ' it has a working movement controller, collision detection with enemies and obstacles and level progression.',
+                    ' The purpose was to showcase Object Oriented Programming in JavaScript. It was useful to see' +
+                    ' how OOP worked in JavaScript versus other languages that I was used to such as C++ and Java.' +
+                    ' Hopefully I\'ll get around to adding more functionality as time permits, but in its current state' +
+                    ' it has a working movement controller, collision detection with enemies and obstacles and level progression.',
                 URL: 'http://www.gamisweb.com/frogger',
                 GITURL: 'https://github.com/corigami/frontend-nanodegree-arcade-game',
                 IMAGES: [
@@ -326,9 +343,9 @@ var model = {
                 TITLE: 'Career Development Course Tester',
                 DATES: '2005ish',
                 DESCRIPTION: 'If you want an example of bad code, look no further! This was written in my early undergraduate ' +
-                'days before I had any clue what I was doing. I did manage to produce a text parser to read in pre-formated text to ' +
-                'populate the question database. Sadly, after 10 years of use, this program is still being used by some workcenters ' +
-                'in my old Avionics career field. It implements random ordering of questions and answers and produces a text report output.',
+                    'days before I had any clue what I was doing. I did manage to produce a text parser to read in pre-formated text to ' +
+                    'populate the question database. Sadly, after 10 years of use, this program is still being used by some workcenters ' +
+                    'in my old Avionics career field. It implements random ordering of questions and answers and produces a text report output.',
                 GITURL: 'https://github.com/corigami/gamitester',
                 URL: 'https://github.com/corigami/gamitester',
                 IMAGES: [
