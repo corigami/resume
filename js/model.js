@@ -316,7 +316,7 @@ var model = {
                     'routing protocol, as well as an Ant Colony Optimization and Genetic algorithm to produce a minimally connected ' +
                     'dominated set (MCDS) of nodes to be utilized in a mobile ad-hoc network. Network traffic is notional, and is ' +
                     'abstracted to just send/receive mechanics (no OSI stack, headers, etc).  As a part of the project, I engineered ' +
-                    'the project to be extendable to use different mobility and network models in an to implement SOLID design principles.',
+                    'the project to be extendable to use different mobility and network models in an attempt to implement SOLID design principles.',
                 URL: 'https://github.com/corigami/Simulator',
                 EMBED: '<iframe src="https://mix.office.com/embed/ts3kisoddce5" frameborder="0" allowfullscreen></iframe>',
                 GITURL: 'https://github.com/corigami/Simulator',
