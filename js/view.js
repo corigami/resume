@@ -1,5 +1,9 @@
 /*global model, controller*/
 var view = {
+    cardElements: [],
+    expCards: [],
+    eduCards: [],
+    projCards: [],
     init: function () {
         'use strict';
         $('#map-div').append(helperVar.googleMap);
@@ -30,11 +34,39 @@ var view = {
         if (document.getElementById('map') === null) {
             document.getElementById('map-div').style.display = 'none';
         }
+
+
+        for (var i = 0; i < document.getElementsByClassName('w3-card-4').length; i++) {
+            this.cardElements.push(document.getElementsByClassName('w3-card-4')[i]);
+
+        }
+
+        for (var i = 0; i < this.cardElements.length; i++) {
+            var element = this.cardElements[i];
+            var folded = new OriDomi(element, {
+                touchEnabled: false,
+                speed: 500
+            });
+
+            folded.foldUp();
+
+            console.log(this.cardElements[i].parentNode.id);
+            if (this.cardElements[i].parentNode.id == 'experience') {
+                this.expCards.push(folded);
+            } else if (this.cardElements[i].parentNode.id == 'education') {
+                this.eduCards.push(folded);
+            } else if (this.cardElements[i].parentNode.id == 'projects') {
+                this.projCards.push(folded);
+            }
+
+
+            //folded.reveal(10)
+        }
     },
     displayMenu: function () {
-        'use strice';
+        'use strict';
         var menu = $('#menu');
-        var items = ['Experience', 'Education', 'Projects'];
+        var items = ['experience', 'education', 'projects'];
         items.forEach(function (item) {
             var menuItem = document.createElement('div'),
                 idString = "menu-" + item,
@@ -51,9 +83,50 @@ var view = {
                     scrollTop: 0
                 }, 'fast');
                 $('#' + item.toLowerCase()).fadeIn("slow");
+                if (item == 'experience') {
+                    view.eduCards.forEach(function (card) {
+                        if (!card.isFoldedUp)
+                            card.foldUp();
+                    });
+                    view.projCards.forEach(function (card) {
+                        if (!card.isFoldedUp)
+                            card.foldUp();
+                    });
+                    view.displayCards(view.expCards, 0)
 
+                } else if (item == 'education') {
+                    view.expCards.forEach(function (card) {
+                        if (!card.isFoldedUp)
+                            card.foldUp();
+                    });
+                    view.projCards.forEach(function (card) {
+                        if (!card.isFoldedUp)
+                            card.foldUp();
+                    });
+                    view.displayCards(view.eduCards, 0)
+
+                } else if (item == 'projects') {
+                    view.expCards.forEach(function (card) {
+                        if (!card.isFoldedUp)
+                            card.foldUp();
+                    });
+                    view.eduCards.forEach(function (card) {
+                        if (!card.isFoldedUp)
+                            card.foldUp();
+                    });
+                    view.displayCards(view.projCards, 0)
+
+                }
             });
         });
+    },
+    displayCards: function (cards, index) {
+        if (index < cards.length) {
+            cards[index].reveal(-30, 'bottom', function () {
+                view.displayCards(cards, ++index)
+            });
+        }
+
     },
     displayBio: function (section) {
         'use strict';
@@ -142,6 +215,10 @@ var view = {
             $('#education').hide();
 
         });
+
+
+
+
     },
     displayProjects: function () {
         'use strict';
@@ -207,4 +284,5 @@ $(document).ready(function () {
             $('.menu').removeClass('fixed');
         }
     });
+
 });
