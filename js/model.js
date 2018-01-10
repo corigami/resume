@@ -1,69 +1,105 @@
 var model = {
     BIO: {
         NAME: 'Corey Willinger',
-        ROLE: 'Software Engineer / Educator',
+        ROLE: 'Transitioning Cyber Operations Officer with a passion for Teaching, Coding, and Learning',
         CONTACTS: {
             EMAIL: 'corey.willinger@gmail.com',
             MOBILE: '',
             GITHUB: 'corigami',
-            LOCATION: 'Beavercreak, OH, USA'
+            LOCATION: 'Dayton, OH, USA'
         },
         PICTURE: 'images/me.jpg',
         WELCOME_MSG: '',
         SKILLS: [
             'Software Engineering',
-            'Adult Education',
-            'Instructional Systems Design',
-            'Distance Learning',
-            'Security+ Certified',
-            'DoD Certified Acquisition Professional (IT Level I)',
+            'Object-Oriented',
             'Java',
-            'HTML5/CSS',
-            'Javascript',
+            'HTML5',
+            'JavaScript',
             'C++',
-            'C#',
-            'Distributed Systems',
-            'Information Assurance',
-            'Computer Networking',
+            'R',
+            'Python',
+            'Security+',
+            'CyberSecurity',
+            'Education',
+            'Networking',
+            'Acquisitions',
+            'Consulting',
+            'Program Management',
+            'Avionic Systems',
+            'Electronic Priniciples',
+            'Management',
             'SharePoint',
             'MS Office',
-            'Military Veteran',
-            'Program/Project Management',
-            'Asset Management',
-            'Avionic Systems Repair',
-            'Electronic Priniciples'
         ]
     },
 
     WORK: {
         JOBS: [
             {
-                TITLE: 'Course Director - Software Professional Development Program',
+                TITLE: 'Course Director, Avionics Cyber Vulnerability, Mitigation, and Protection',
                 DESCRIPTION: [
-                    'Develops, directs & teaches instructor-led distance learning on software testing and software requirements',
-                    'Collaborates, develops and reviews course content for lessons covering all phases of software development',
-                    'Provides consulting to USAF and DoD software acquisition/sustainment programs & systems engineering functions',
-                    'Conducts applied research and communicates results in cooperation with software engineers and project managers',
-                    'Develops course content through Instructional Systems Design processes and creative delivery techniques'
+                    
+                ],
+                SKILLBULLET:[
+                    {
+                        BULLET: 'Instructs avionics cyber vulnerability assessment processes for system program managers',
+                        SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management']
+                    },
+                     {
+                        BULLET: 'Developed/taught distance learning on software engineering & management topics',
+                        SKILLS: ['Software Engineering', 'Teaching', 'Program Management', 'Education','Object-Oriented', 'Management']
+                    },
+                    {
+                        BULLET: 'Coordinates with senior DoD and USAF officials to ensure software education needs are met',
+                        SKILLS: ['Software Engineering', 'Consulting', 'Teaching', 'Program Management', 'Acquisitions', 'Management']
+                    },
+                    {
+                        BULLET: 'Consulting to DoD and USAF cyber, software programs & systems engineering functions',
+                        SKILLS: ['Software Engineering', 'Consulting', 'Program Management', 'Acquisitions', 'CyberSecurity', 'Management']
+                    }
+                    ,
+                    {
+                        BULLET: 'Develops course content through ISD processes and creative delivery techniques',
+                        SKILLS: ['Teaching', 'Program Management', 'Acquisitions', 'MS Office', 'Consulting','Teaching', 'Management']
+                    },
+                    {
+                        BULLET: 'Manages collaboration through milSuite.mil; develops custom web interactions and products',
+                        SKILLS: ['HTML5', 'JavaScript', 'MS Office', 'SharePoint', 'Management']
+                    },
+                    {
+                        BULLET:  'Managed Information and Knowledge Management Operations for HQ Resolute Support (NATO)',
+                        SKILLS: ['HTML5', 'JavaScript', 'MS Office', 'SharePoint']
+                    },
+                    {
+                        BULLET:  'Managed SharePoint 2007/2013 intranet sites; design custom web parts, managed permissions',
+                        SKILLS: ['HTML5', 'JavaScript', 'MS Office', 'SharePoint']
+                    }    
                 ],
                 EMPLOYER: 'USAF',
                 DATES: '2015-Present',
                 LOCATION: 'Wright-Patterson AFB, OH, USA'
-            }, {
-                TITLE: 'Adjunct Faculty - Undergraduate Computer Science',
+            },   {
+                TITLE: 'Adjunct Faculty',
                 DESCRIPTION: [
-                    'Instructor for undergraduate Computer Science curriculum: Web Programming I (CS 321) and Computer Architecture (CS 220)',
+                    'Instructor for six different undergraduate computer science courses',
+                    'Teaches introductory programming, pseudo-code, Java syntax, and Object-Oriented concepts',
                     'Teaches core programming concepts on client-side technologies: HTML, CSS, and JavaScript',
-                    'Teaches fundamental computer architecture topics data : number systems, Boolean algebra, combinational logic, sequential logic, CPU layout, registers, adders, buses, and memory devices',
-                    'Develops and implements lectures and active-learning content for student classroom engagement',
+                    'Teaches computer architecture topics including combinational/sequential logic and CPU concepts',
+                    'Develops and implements lectures and active-learning content for classroom engagement',
                     'Develops and manages class syllabi; ensures department and college standards are met',
                     'Assesses student grades based on performance, participation, assignments and examinations'
-
+                ],
+                SKILLBULLET:[
+                    {
+                        BULLET: 'Instructs avionics cyber vulnerability assessment processes for system program managers',
+                        SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management']
+                    }
                 ],
                 EMPLOYER: 'Park University',
                 DATES: '2016-Present',
-                LOCATION: 'Dayton, OH, USA'
-            },
+                LOCATION: 'Wright-Patterson AFB, OH, USA'
+            }, 
             {
                 TITLE: 'Branch Chief, Network Infrastructure / Plans & Programs Division Chief',
                 DESCRIPTION: [
@@ -176,43 +212,72 @@ var model = {
         ONLINE: [
             {
                 SCHOOL: 'Udacity',
-                TITLE: 'Nano-degree: Android Development',
-                DATES: '2016-Present',
+                TITLE: 'Nano-degree: Deep Learning Fundamentals',
+                DATES: '2017-Present',
+                TOPIC: 'Neural , Convolutional, Recurrent, and Generative Adversarial Networks, ' +
+                        'Keras, Tensorflow, Python',
                 URL: 'http://www.udacity.com'
             },
             {
                 SCHOOL: 'Udacity',
                 TITLE: 'Nano-degree: Front-end Web Development',
                 DATES: 'June 2015- Jan 2016',
+                TOPIC: 'HTML5, CSS3, JavaScript, Responsive Design, Website Optimization, Version Control',
                 URL: 'http://www.udacity.com'
+            },
+            {
+                SCHOOL: 'AFIT',
+                TITLE: 'Cyber 200',
+                DATES: 'Sep 2015',
+                TOPIC: 'Network defense and exploitation, security appliances and tools, national policy',
+                URL: 'http://www.afit.edu'
+            },
+            {
+                SCHOOL: 'AFIT',
+                TITLE: 'Instructor Certification Course ',
+                DATES: 'June 2015',
+                TOPIC: '(40 Hours) Instructional System Design, Active Learning methods, presentation techniques',
+                URL: 'http://www.afit.edu'
             },
             {
                 SCHOOL: 'Comptia',
                 TITLE: 'Security+ Certification',
                 DATES: 'Valid: Jul 2013 - Present',
+                TOPIC: 'Security, netowork controls, physical controls, cybersecurity concepts, encryption, continuity planning',
                 URL: 'https://certification.comptia.org'
             }, {
                 SCHOOL: 'Air Force Training Command',
-                TITLE: 'Cyberspace Officer Network Training (CCNA based) - (117 Hours)',
+                TITLE: 'Cyberspace Officer Network Training (CCNA based)',
                 DATES: 'Apr 2012',
+                TOPIC: '(117 Hours) IPv4 Network training, Cisco switch & router configuration',
                 URL: '#'
             },
             {
                 SCHOOL: 'Air Force Training Command',
-                TITLE: 'Basic Communications Officer Training - (208 Hours)',
+                TITLE: 'Basic Communications Officer Training ',
                 DATES: 'May 2009',
+                TOPIC: '(208 Hours) Satellite Communications, Large Scale Networks, Net-Ops, Cyber Defense',
+                URL: '#'
+            },
+            {
+                SCHOOL: 'Air Education & Training Command',
+                TITLE: 'Officer Training School',
+                DATES: 'Sep-Nov 2008',
+                TOPIC: 'Management, Leadership, Air and Space Military Doctrine, Critical Thinking',
                 URL: '#'
             },
             {
                 SCHOOL: 'Aviation and Electronic Schools of America',
                 TITLE: 'FCC General Radiotelephone Operator\'s License \\w Radar Endorsement',
                 DATES: 'Nov 2002',
+                TOPIC: 'Electronic/RF theory, analog/digital circuitry, computing principles',
                 URL: '#'
             },
             {
                 SCHOOL: 'Air Force Training Command',
-                TITLE: 'Electronic Principles - (504 Hours)',
-                DATES: 'Apr 1998',
+                TITLE: 'Electronic Principles',
+                DATES: 'Jan-Apr 1998',
+                TOPIC: '(504 Hours) Electronic/RF theory, analog/digital circuitry, computing principles',
                 URL: '#'
             }
 
@@ -251,13 +316,28 @@ var model = {
     PROJECTS: {
         PROJECTS: [
             {
-                TITLE: 'Theory of Constraints Simulation',
+                TITLE: 'ToC Sim v2',
+                DATES: '2017',
+                DESCRIPTION: [
+                    'Reworked version of Theory of Constraints Simulation v1 (below)',
+                    'Implemented Unit Tests through Extensive use of Jasmin Testing Framework',
+                    'Test Script can be run at https://www.gamisweb.com/toc2/test/SpecRunner.html',
+                    'Unit tests can be viewed in github repository'
+                    ],
+                URL: 'http://www.gamisweb.com/toc2',
+                GITURL: 'https://github.com/corigami/TOC-Sim-2',
+                IMAGES: [
+                    'images/toc2_1.JPG',
+                    'images/toc2_2.JPG'
+                ]
+            },{
+                TITLE: 'Theory of Constraints Simulation v1',
                 DATES: '2016',
-                DESCRIPTION: 'This is an on-going project that I\'m working on for a fellow instructor who teaches ' +
-                    'Theory of Constraints and Critical Chain theory for logistics management.  The simulator makes use ' +
-                    'of the Chart.js library to dynamicly build graphs based on simulation data.  It also makes use of jQuery ' +
-                    'to ease managment of input data.  The design of the GUI has not been a priority to this point as the focus ' +
-                    'has been on the underlying algorithms and data structures.',
+                DESCRIPTION: [
+                    'Theory of Constraints and Critical Chain theory for logistics management',
+                    'Makes use of the Chart.js to dynamicly build graphs based on simulation data',
+                    'Uses jQuery to ease managment of input data'
+                ],
                 URL: 'http://www.gamisweb.com/toc',
                 GITURL: 'https://github.com/corigami/ToC-Sim',
                 IMAGES: [
@@ -267,40 +347,55 @@ var model = {
             {
                 TITLE: 'RSS Feed - Test Driven Development Using Jasmine',
                 DATES: '2016',
-                DESCRIPTION: 'This project highlights the use of Jasmine to conduct unit tests on a basic web application.  ' +
-                    'Tests for functionality of have certain functions have been implemented.  Additionally, tests have been created ' +
-                    'for functions that do not yet exist, highlighting the red-green-refactor approach to development.',
+                DESCRIPTION: [
+                    'Uses Jasmine JavaScript Testing Framework to conduct unit tests on a basic web application',
+                    'Tests for functionality of have certain functions have been implemented',  
+                    'Developed using red-green-refactor Test Driven Development methodology'
+                ],
                 URL: 'http://www.gamisweb.com/tdd',
                 GITURL: 'https://github.com/corigami/FEND-feedreader-testing',
                 IMAGES: [
-                    'images/rss_500.JPG'
+                    'images/rss.JPG'
                 ]
             },
 
             {
                 TITLE: 'Neighborhod Map',
                 DATES: '2016',
-                DESCRIPTION: 'This project displays multiple lessons learned throughout my Udacity Nanodegree program.  ' +
-                    'It encompasses responsive design, asynchronous third-party API calls, error-handling, jQuery, and ' +
-                    'separation of concerns, leveraging MVVM and the Knockout.js library.  You can use the filter box to ' +
-                    'narrow down number of entries.  Clicking on either the side menu or a pin will display additional ' +
-                    ' information from Wikipedia if available.',
+                DESCRIPTION: [
+                    'Responsive design, asynchronous third-party API calls to Google and Wikipedia',
+                    'Encorperates error-handling, separation of concerns,and MVVM design pattern',
+                    'Utilizes jQuery and Knockout.js frameworks to support interface requirements'
+                ],
                 URL: 'http://www.gamisweb.com/map',
                 GITURL: 'https://github.com/corigami/FEND-neighborhood-map',
                 IMAGES: [
-                    'images/map_300.JPG'
+                    'images/map.JPG'
+                ]
+            },
+            {
+                TITLE: 'Arcade Game Clone',
+                DATES: '2015',
+                DESCRIPTION: [
+                    'Demonstrates Object Oriented Programming in JavaScript',
+                    'Implements working movement controller, collision detection with enemies and obstacles and level progression.'],
+                URL: 'http://www.gamisweb.com/frogger',
+                GITURL: 'https://github.com/corigami/frontend-nanodegree-arcade-game',
+                IMAGES: [
+                    'images/frogger.JPG'
                 ]
             },
             {
                 TITLE: 'OMNet++ UAV P2P File Replication Simulation',
                 DATES: '2015',
-                DESCRIPTION: 'This is the simulation that was produced as part of my Master\'s Thesis examining ' +
-                    'the impact of file replication in a UAV swarm utilizing reactive MANET protocols. The simulation was ' +
-                    'produced utilizing OMNeT++ v4.6 and is written in C++. It simulates a swarm of UAVs generating files at ' +
-                    'a variable rate and replicates them using a implementation of the ORION transfer protocol for MANETs. ' +
-                    'A master node then queries the swarm for random files and logs the data.' +
-                    'Results were analyzed with R, and documented in my thesis which was generated using Latex.' +
-                    'Thesis can viewed at the Defense Technical Information Center by clicking on the Title link.',
+                DESCRIPTION: [
+                    'Master\'s Thesis project, examining impact of file replication in a UAV swarm utilizing reactive MANET protocols',
+                    'Produced utilizing OMNeT++ v4.6 and is written in C++',
+                    'Simulates a swarm of UAVs generating files at variable rates',
+                    'Implmented custom variation of ORION transfer protocol for MANETs ',
+                    'Results were analyzed with and documented utilizing custom R scripts and Latex.',
+                    'Full Thesis can viewed at the Defense Technical Information Center by clicking on the Title link'
+                ],
                 URL: 'http://www.dtic.mil/docs/citations/ADA615415',
                 EMBED: '<iframe src="https://mix.office.com/embed/zvbylas7wt19" frameborder="0" allowfullscreen></iframe>',
                 GITURL: 'https://github.com/corigami/thesis_orion_omnet',
@@ -311,12 +406,12 @@ var model = {
             {
                 TITLE: 'Unity 3D Ant Colony Optimization',
                 DATES: '2014',
-                DESCRIPTION: 'This is a project that I worked on for my advanced algorithms class. It was creates created ' +
-                    'in Unity 3d and written with C#. It demonstrates the usage of an Ad hoc On-demand Distance Vector (AODV) ' +
-                    'routing protocol, as well as an Ant Colony Optimization and Genetic algorithm to produce a minimally connected ' +
-                    'dominated set (MCDS) of nodes to be utilized in a mobile ad-hoc network. Network traffic is notional, and is ' +
-                    'abstracted to just send/receive mechanics (no OSI stack, headers, etc).  As a part of the project, I engineered ' +
-                    'the project to be extendable to use different mobility and network models in an attempt to implement SOLID design principles.',
+                DESCRIPTION: [
+                    'Written in C# utilizing Unity 3d game environment',
+                    'Implementes Ad hoc On-demand Distance Vector (AODV) routing protocol',
+                    'Demonstrates Ant Colony Optimization and Genetic algorithm to produce a minimally connected dominated set (MCDS)',
+                    'Extendable to use different mobility and network models due to implemention using SOLID design principles'
+                ],
                 URL: 'https://github.com/corigami/Simulator',
                 EMBED: '<iframe src="https://mix.office.com/embed/ts3kisoddce5" frameborder="0" allowfullscreen></iframe>',
                 GITURL: 'https://github.com/corigami/Simulator',
@@ -326,27 +421,14 @@ var model = {
                 ]
             },
             {
-                TITLE: 'Arcade Game Clone',
-                DATES: '2015',
-                DESCRIPTION: 'This was an assignment for the Udacity Front-End Web Developemnt Nanodegree. ' +
-                    ' The purpose was to showcase Object Oriented Programming in JavaScript. It was useful to see' +
-                    ' how OOP worked in JavaScript versus other languages that I was used to such as C++ and Java.' +
-                    ' Hopefully I\'ll get around to adding more functionality as time permits, but in its current state' +
-                    ' it has a working movement controller, collision detection with enemies and obstacles and level progression.',
-                URL: 'http://www.gamisweb.com/frogger',
-                GITURL: 'https://github.com/corigami/frontend-nanodegree-arcade-game',
-                IMAGES: [
-                    'images/frogger_sq_300.jpg'
-                ]
-            },
-            {
                 TITLE: 'Career Development Course Tester',
                 DATES: '2005ish',
-                DESCRIPTION: 'If you want an example of bad code, look no further! This was written in my early undergraduate ' +
-                    'days before I had any clue what I was doing. I did manage to produce a text parser to read in pre-formated text to ' +
-                    'populate the question database. Sadly, after 10 years of use, this program is still being used by some workcenters ' +
-                    'in my old Avionics career field. It implements random ordering of questions and answers and produces a text report output.',
-                GITURL: 'https://github.com/corigami/gamitester',
+                DESCRIPTION: [
+                    'Implements Java Swing libaray for UI elements',
+                    'Created and integrated text parser to load data from from external files',
+                    'Created before completing undergradute degree' 
+             ],
+              GITURL: 'https://github.com/corigami/gamitester',
                 URL: 'https://github.com/corigami/gamitester',
                 IMAGES: [
                     'images/cdcTester_sq_300.jpg',
