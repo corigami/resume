@@ -459,7 +459,7 @@ var model = {
                 URL: 'https://www.gamisweb.com',
                 GITURL: 'https://github.com/corigami/resume',
                 IMAGES: [
-                    'images/resume.jpg'
+                    'images/resume.JPG'
                 ],
                 SKILLS: ['Software Engineering', 'JavaScript', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Critical Thinking']
             },
