@@ -12,9 +12,11 @@ var helperVar = {
     HTMLlocation: '<li class="flex-item"><span class="lt-green-text">location</span><span class="lt-blue-text">%data%</span></li>',
     HTMLbioPic: '<img src="%data%" class="biopic">',
     HTMLwelcomeMsg: '<span class="welcome-message">%data%</span>',
-    HTMLskillsStart: '<h3 id="skills-h3" class="skills-start">Skills at a Glance:</h3><ul id="skills" class="header-flex-box"></ul>',
-    //HTMLskills: '<li class="flex-item"><span class="lt-blue-text">%data%</span></li>',
-    HTMLskills: '<span class="lt-blue-text skill-item skill-color">%data%</span>',
+    HTMLskillsStart: '<h3 id="skills-h3" class="skills-header">Skills -  <span class="note">click a type or individual skill to ' +
+                    'filter experience bullets</span></h3><div id="skill-group"></div>',
+    HTMLskillsGroupHeader: '<h4 class="skills-header show">%data%</h4>',
+    HTMLskillsGroupStart: '<div class="skills header-flex-box"></div>',
+    HTMLskills: '<span class="lt-blue-text skill-item skill-color %type%">%data%</span>',
 
     //helper variables for WORK block of resumeBuilder.js
     HTMLworkStart: '<div class="work-entry lt-gray shadow"></div>',

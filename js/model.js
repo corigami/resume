@@ -11,26 +11,49 @@ var model = {
         PICTURE: 'images/me.jpg',
         WELCOME_MSG: '',
         SKILLS: [
-            'Software Engineering',
-            'Object-Oriented',
-            'Java',
-            'HTML5',
-            'JavaScript',
-            'C++',
-            'R',
-            'Python',
-            'Security+',
-            'CyberSecurity',
-            'Education',
-            'Networking',
-            'Acquisitions',
-            'Consulting',
-            'Program Management',
-            'Avionic Systems',
-            'Electronic Priniciples',
-            'Management',
-            'SharePoint',
-            'MS Office',
+            {
+                TYPE: 'Technical',
+                SKILL: [
+                    'Agile',
+                    'Avionic Systems',
+                    'C++',
+                    'Cyber Security',
+                    'Electronic Priniciples',
+                    'HTML5',
+                    'Software Engineering',
+                    'Object-Oriented',
+                    'Java',
+                    'JavaScript',
+                    'JUnit',
+                    'Networking', 
+                    'Programming',
+                    'Python',
+                    'R',
+                    'Security+',
+                    'Testing',
+                    'Trouble-shooting',
+                    'Visual Studio'                    
+                ]
+            },{
+                TYPE: 'Non-Technical',
+                SKILL: [
+                    'Acquisitions',
+                    'Consulting',
+                    'Communication',
+                    'Customer Service',
+                    'Critical Thinking',
+                    'IT Management',
+                    'Leadership',
+                    'Management',
+                    'Program Management',
+                    'Quality Assurance',
+                    'Requirements',
+                    'SharePoint',
+                    'Strategic Planning',
+                    'Teaching',
+                    'Training'
+                ]
+            }
         ]
     },
 
@@ -38,157 +61,286 @@ var model = {
         JOBS: [
             {
                 TITLE: 'Course Director, Avionics Cyber Vulnerability, Mitigation, and Protection',
-                DESCRIPTION: [
-                    
-                ],
                 SKILLBULLET:[
                     {
                         BULLET: 'Instructs avionics cyber vulnerability assessment processes for system program managers',
-                        SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management']
+                        SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management','Communication','Critical Thinking']
                     },
                      {
                         BULLET: 'Developed/taught distance learning on software engineering & management topics',
-                        SKILLS: ['Software Engineering', 'Teaching', 'Program Management', 'Education','Object-Oriented', 'Management']
+                        SKILLS: ['Software Engineering', 'Agile','Teaching', 'Program Management', 'Education','Object-Oriented', 'Management','Critical Thinking','Communication']
                     },
                     {
                         BULLET: 'Coordinates with senior DoD and USAF officials to ensure software education needs are met',
-                        SKILLS: ['Software Engineering', 'Consulting', 'Teaching', 'Program Management', 'Acquisitions', 'Management']
+                        SKILLS: ['Software Engineering', 'Consulting', 'Critical Thinking','Teaching', 'Program Management', 'Acquisitions', 'Management','Leadership','Communication']
                     },
                     {
                         BULLET: 'Consulting to DoD and USAF cyber, software programs & systems engineering functions',
-                        SKILLS: ['Software Engineering', 'Consulting', 'Program Management', 'Acquisitions', 'CyberSecurity', 'Management']
-                    }
-                    ,
+                        SKILLS: ['Software Engineering', 'Consulting', 'Program Management', 'Acquisitions', 'Cyber Security', 'Management','Leadership','Communication']
+                    },
+                    {
+                        BULLET: 'Developed video lesson on Test-Driven Development using Jasmine unit test library',
+                        SKILLS: ['Software Engineering', 'Agile','Testing','Teaching', 'Education', ,'Critical Thinking','Communication','Programming']
+                    },
                     {
                         BULLET: 'Develops course content through ISD processes and creative delivery techniques',
-                        SKILLS: ['Teaching', 'Program Management', 'Acquisitions', 'MS Office', 'Consulting','Teaching', 'Management']
+                        SKILLS: ['Teaching', 'Program Management', 'Critical Thinking','Acquisitions', 'MS Office', 'Consulting','Teaching', 'Management','Communication']
                     },
                     {
                         BULLET: 'Manages collaboration through milSuite.mil; develops custom web interactions and products',
-                        SKILLS: ['HTML5', 'JavaScript', 'MS Office', 'SharePoint', 'Management']
+                        SKILLS: ['HTML5', 'JavaScript', 'MS Office', 'SharePoint', 'Management','Leadership','Communication','Programming']
+                    },{
+                        BULLET: 'Developed HTML5/JavaScript utility to close caption video files to assist with Section 508 Compliance',
+                        SKILLS: ['Critical Thinking','JavaScript','HTML5','Programming']
                     },
                     {
-                        BULLET:  'Managed Information and Knowledge Management Operations for HQ Resolute Support (NATO)',
-                        SKILLS: ['HTML5', 'JavaScript', 'MS Office', 'SharePoint']
+                        BULLET: 'Developed custom HTML5/JavaScript video player-leveraged AJAX requests to pull caption data from other websites',
+                        SKILLS: ['Critical Thinking','JavaScript','HTML5','Programming']
+                    },
+                    {
+                        BULLET:  'Managed Information and Knowledge Management Operations for large Headquarters (NATO)',
+                        SKILLS: ['HTML5', 'JavaScript', 'MS Office', 'SharePoint','Management','Leadership','Communication']
                     },
                     {
                         BULLET:  'Managed SharePoint 2007/2013 intranet sites; design custom web parts, managed permissions',
-                        SKILLS: ['HTML5', 'JavaScript', 'MS Office', 'SharePoint']
+                        SKILLS: ['HTML5', 'JavaScript', 'MS Office', 'SharePoint','Management','Programming']
                     }    
                 ],
                 EMPLOYER: 'USAF',
                 DATES: '2015-Present',
-                LOCATION: 'Wright-Patterson AFB, OH, USA'
+                LOCATION: 'Wright-Patterson AFB, OH, USA',
+                URL: 'https://www.afit.edu'
             },   {
                 TITLE: 'Adjunct Faculty',
-                DESCRIPTION: [
-                    'Instructor for six different undergraduate computer science courses',
-                    'Teaches introductory programming, pseudo-code, Java syntax, and Object-Oriented concepts',
-                    'Teaches core programming concepts on client-side technologies: HTML, CSS, and JavaScript',
-                    'Teaches computer architecture topics including combinational/sequential logic and CPU concepts',
-                    'Develops and implements lectures and active-learning content for classroom engagement',
-                    'Develops and manages class syllabi; ensures department and college standards are met',
-                    'Assesses student grades based on performance, participation, assignments and examinations'
-                ],
                 SKILLBULLET:[
                     {
-                        BULLET: 'Instructs avionics cyber vulnerability assessment processes for system program managers',
-                        SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management']
+                        BULLET: 'Teaches programming: pseudo-code, Java, C++, HTML, CSS, JavaScript',
+                        SKILLS: ['Software Engineering', 'Teaching',  'Java', 'JUnit','C++', 'HTML5', 'CSS', 'JavaScript','Communication','Programming']
+                    },
+                    {
+                        BULLET: 'Demonstrates Object-Oriented concepts - program design, tracing, debugging, composition, inheritance',
+                        SKILLS: ['Software Engineering', 'Teaching', 'Critical Thinking', 'Java', 'C++', 'HTML5', 'CSS', 'JavaScript','Communication','Programming']
+                    },
+                    {
+                        BULLET:  'Teaches introductory computer architecture topics: combinational/sequential logic and CPU concepts',
+                        SKILLS: ['Software Engineering', 'Teaching',  'Avionic Systems', 'Electronic Principles', 'Hardware']
+                    },
+                    {
+                        BULLET: 'Develops and implements class syllabi, lectures, coding exercises; ensures standards are met on time',
+                        SKILLS: ['Teaching', 'Program Management','Critical Thinking', 'Education','Leadership','Communication']
+                    },
+                    {
+                        BULLET: 'Assesses student grades based on performance, participation, assignments and examinations',
+                        SKILLS: ['Teaching', 'Program Management', 'Education','Management']
                     }
                 ],
                 EMPLOYER: 'Park University',
                 DATES: '2016-Present',
-                LOCATION: 'Wright-Patterson AFB, OH, USA'
+                LOCATION: 'Wright-Patterson AFB, OH, USA',
+                URL: 'https://military.park.edu/location/park-university-at-wright-patterson-afb-in-dayton-oh/'
             }, 
             {
                 TITLE: 'Branch Chief, Network Infrastructure / Plans & Programs Division Chief',
-                DESCRIPTION: [
-                    'Led 9 civ/mil personnel in Plans & Prog., budget, and Information Assurance',
-                    'Managed $1 Mil budget, established processes, reviewed IT requirements',
-                    'Directed and managed .edu network Certification and Accreditation',
-                    'Managed educational network infrastructure, including VoIP',
-                    'Installed/configured/managed CISCO TelePresence VTC system'
+                SKILLBULLET:[
+                    {
+                        BULLET: 'Led 9 civ/mil personnel in Plans & Programming, Budget, and Information Assurance',
+                        SKILLS: ['Leadership','Management','Strategic Planning','Information Technology','Acquisitions',
+                        'Cyber Security','Security+','Program Management','Requirements']
+                    },
+                    {
+                        BULLET: 'Managed $1 Mil budget, established purchase processes, reviewed/approved IT requirements',
+                        SKILLS:['Leadership','Management','Strategic Planning','Information Technology','Acquisitions',
+                        'Cyber Security','Program Management','Requirements','Critical Thinking',]
+                    },
+                    {
+                        BULLET:  'Directed/managed Air Force Institute of Technology Network Certification and Accreditation process',
+                        SKILLS: ['Leadership','Management','Strategic Planning','Critical Thinking','Information Technology','Cyber Security','Program Management','Requirements']
+                    },
+                    {
+                        BULLET: 'Managed CISCO network infrastructure, VoIP, Video Conferencing System',
+                        SKILLS:  ['Leadership','Management','Strategic Planning','Information Technology','Cyber Security','Program Management','Networking']
+                    }
                 ],
                 EMPLOYER: 'USAF',
                 DATES: '2011-2013',
-                LOCATION: 'Wright-Patterson AFB, OH, USA'
+                LOCATION: 'Wright-Patterson AFB, OH, USA',
+                URL: 'https://www.afit.edu'
             }, {
                 TITLE: 'Officer in Charge, Client Systems Branch / Project Manager',
                 DESCRIPTION: [
-                    'Led 90 mil/civilian personnel in Client Support, Land Mobile Radio, and Plans and Programs work centers',
-                    'Coordinated network maintenance actions, outages, and upgrades',
-                    'Managed Special Operations Forces Air Joint Operations Help Desk, VTC support of Iraq, Afghanistan Theater',
-                    'Managed $25 Million in Wing IT assets'
+                   
+                ],
+                SKILLBULLET:[
+                    {
+                        BULLET: 'Led 90 mil/civilian personnel in help desk, Land Mobile Radio, Plans and Programs and Quality Assurance work centers',
+                        SKILLS: ['Leadership','Management','Strategic Planning','Information Technology','Customer Service', 'Communication',' Customer Service',
+                        ,'Program Management','Requirements','Quality Assurance']
+                    },
+                    {
+                        BULLET:  'Coordinated critical network infrastructure and airfield maintenance actions, outages, and upgrades',
+                        SKILLS: ['Leadership','Management','Strategic Planning','Information Technology',
+                        ,'Program Management','Requirements','Quality Assurance']
+                    },
+                    {
+                        BULLET:  'Directed network infrastructure, VoIP, VTC, and satellite communications systems for deployed Special Operations',
+                        SKILLS: ['Leadership','Management','Strategic Planning','Information Technology',
+                        ,'Program Management','Requirements','Quality Assurance']
+                    },
+                    {
+                        BULLET: 'Lead vulnerability remediation efforts; 3000 computers/printers--earned excellent on HQ Cyber Readiness inspection ',
+                        SKILLS: ['Leadership','Management','Strategic Planning','Information Technology',
+                        ,'Program Management','Requirements','Cyber Security','Security+','SharePoint']
+                    },
+                    {
+                        BULLET: 'Managed procurement, tracking and distribution of $25 Million in installation IT assets',
+                        SKILLS: ['Leadership','Management','Strategic Planning','Information Technology',
+                        ,'Program Management','Requirements','Quality Assurance']
+                    },
                 ],
                 EMPLOYER: 'USAF',
                 DATES: '2007-2008',
-                LOCATION: 'Hurlburt Field, FL, USA'
+                LOCATION: 'Hurlburt Field, FL, USA',
+                URL: 'http://www.hurlburt.af.mil/About-Us/Fact-Sheets/Fact-Sheets/Article/204544/1st-special-operations-communications-squadron/'
             }, {
                 TITLE: 'Wing Equipment Control Officer',
-                DESCRIPTION: [
-                    'Managed 105 IT Equipment Custodians, spanning 54 accounts',
-                    'Procured IT assets for the wing through purchasing channels and no-cost lateral resources',
-                    'Ensured compliance with federal and Air Force mandates for software managemen',
-                    'Coordinated telecommunication action requests with host base unit',
-                    'Managed $5 million in Wing IT assets'
-                ],
-                EMPLOYER: 'USAF',
+                SKILLBULLET:[
+                    {
+                        BULLET: 'Managed 105 IT Equipment Custodians, spanning 54 accounts',
+                        SKILLS: ['Leadership','Management','Information Technology',
+                        ,'Program Management','Requirements' ]
+                    }, {
+                        BULLET:'Procured IT assets for the wing through purchasing channels and no-cost lateral resources',
+                        SKILLS: [ 'Management','Strategic Planning','Information Technology',
+                        ,'Program Management','Requirements','IT Management','Acquisitions']
+                    }, {
+                        BULLET: 'Ensured compliance with federal and Air Force mandates for software management',
+                        SKILLS: ['Leadership','Management','Strategic Planning','Information Technology',
+                        ,'Program Management','Requirements','Quality Assurance','Program Management','IT Management']
+                    }, {
+                        BULLET: 'Coordinated IT service requests with higher divisions',
+                        SKILLS: ['Management','Strategic Planning','Information Technology',
+                        ,'Program Management','Requirements','Quality Assurance','Communication','IT Management']
+                    }, {
+                        BULLET:  'Managed $5 million in Wing IT assets',
+                        SKILLS: ['Leadership','Management','Strategic Planning','Information Technology',
+                        ,'Program Management','Requirements','Quality Assurance' ]
+                    }
+                ], EMPLOYER: 'USAF',
                 DATES: '2012-2013',
-                LOCATION: 'Hill AFB, UT, USA'
+                LOCATION: 'Hill AFB, UT, USA',
+                URL: 'http://www.388fw.acc.af.mil/'
             }, {
                 TITLE: 'Automated Test Station Production Supervisor',
-                DESCRIPTION: [
-                    'Supervised maintenance actions of 42 personnel on Improved Avionics Test Station and ' +
-                    'F-16 Line Replaceable Units for 66 assigned aircraft',
-                    'Provided extensive troubleshooting knowledge and training for complex malfunctions',
-                    'Established work methods, production controls, and performance standards',
-                    'Ensured section compliance with safety, environmental, and security programs',
-                    'Evaluated team leader and team member production skills, aptitude, and proficiency',
-                    'Managed squadron and section level Data Integrity Team program for maintenance documentation accuracy',
-                    'Managed $18 million of test and support equipment'
+                SKILLBULLET:[
+                    {
+                        BULLET: 'Supervised maintenance actions of 42 personnel on three Avionics Test Station and ' +
+                        'F-16 Line Replaceable Units for 66 assigned aircraft',
+                        SKILLS: ['Leadership','Management','Avionic Systems','Trouble-shooting','Electronic Priniciples']
+                    }, {
+                        BULLET: 'Provided extensive troubleshooting knowledge and training for complex malfunctions',
+                        SKILLS: ['Leadership','Management','Avionic Systems','Trouble-shooting','Electronic Priniciples']
+                    },{
+                        BULLET: 'Ensured section compliance with safety, environmental, and security programs',
+                        SKILLS: ['Management', 'Quality Assuance','Program Management',]
+                    }, {
+                        BULLET:  'Evaluated team leader and team member production skills, aptitude, and proficiency',
+                        SKILLS: ['Leadership','Management','Avionic Systems','Trouble-shooting','Electronic Priniciples','Quality Assurance', 'Training']
+                    }, {
+                        BULLET:  'Managed squadron and section level Data Integrity Team program for maintenance documentation accuracy',
+                        SKILLS: ['Management','Trouble-shooting', 'Quality Assurance']
+                    }, {
+                        BULLET:  'Managed $18 million of test and support equipment',
+                        SKILLS: ['Management','Avionic Systems']
+                    },{
+                        BULLET: 'Developed and maintained 50 user MS Access Database - tracked production data for all maintenance actions',
+                        SKILLS: [,'Management','Trouble-shooting','Quality Assurance', 'Programming', 'Critical Thinking']
+                    }
                 ],
                 EMPLOYER: 'USAF',
                 DATES: '2005-2007',
-                LOCATION: 'Hill AFB, UT, USA'
+                LOCATION: 'Hill AFB, UT, USA',
+                URL: 'http://www.388fw.acc.af.mil/'
             }, {
                 TITLE: 'Avionics Intermediate Section Production Supervisor',
-                DESCRIPTION: [
-                    'Led maintenance actions of 11 personnel on Improved Avionics Test Station, A-10 and F-16 Line Replaceable units',
-                    'Established work methods, production controls and performance standards for assigned tasks',
-                    'Ensured compliance with safety, environmental, and security programs',
-                    'Managed $5.2 million of test and support equipment',
-                    'Led flight control center during exercise and contingency operations'
+                SKILLBULLET:[
+                    {
+                        BULLET: 'Led maintenance actions of 11 personnel on Improved Avionics Test Station, A-10 and F-16 Line Replaceable units',
+                        SKILLS: ['Leadership','Management','Avionic Systems','Trouble-shooting','Electronic Priniciples']
+                    }, {
+                        BULLET:  'Established work methods, production controls and performance standards for assigned tasks',
+                        SKILLS: ['Leadership','Management','Avionic Systems','Trouble-shooting','Electronic Priniciples', 'Quality Assurance']
+                    }, {
+                        BULLET:  'Ensured compliance with safety, environmental, training, equipment account and security programs',
+                        SKILLS: ['Leadership','Management','Avionic Systems','Trouble-shooting','Electronic Priniciples','Program Management',]
+                    }, {
+                        BULLET:  'Managed $5.2 million of test and support equipment',
+                        SKILLS: ['Management', 'Quality Assuance','Program Management',]
+                    },{
+                        BULLET: 'Maintained 65 user MS Access Database - tracked production data for all maintenance actions',
+                        SKILLS: [,'Management','Trouble-shooting','Quality Assurance', 'Programming', 'Critical Thinking']
+                    },{
+                        BULLET:  'Led flight control center during exercise and contingency operations',
+                        SKILLS: ['Leadership','Training', 'Critical Thinking', ]
+                    }
                 ],
                 EMPLOYER: 'USAF',
                 DATES: '2004-2005',
-                LOCATION: 'Osan AB, South Korea'
+                LOCATION: 'Osan AB, South Korea',
+                URL: 'http://www.osan.af.mil/'
             }, {
                 TITLE: 'Avionics Intermediate Shop Team Leader',
-                DESCRIPTION: [
-                    'Ensured four repair team members were qualified to perform assigned tasks',
-                    'Managed and directed work effort of the repair team; was responsible for the quality of maintenance actions',
-                    'Ensured assigned equipment was properly maintained, repaired and calibrated',
-                    'Maintained, programmed and performed Time Compliant Technical Orders on avionic components ' +
-                    'specific to assigned test stations and support equipment'
-                ],
+                SKILLBULLET:[
+                    {
+                        BULLET: 'Ensured four repair team members were qualified to perform assigned tasks',
+                        SKILLS: ['Leadership','Management','Avionic Systems','Trouble-shooting','Electronic Priniciples']
+                    }, {
+                        BULLET: 'Managed and directed work effort of the repair team; was responsible for the quality of maintenance actions',
+                        SKILLS: ['Leadership','Management','Avionic Systems','Trouble-shooting','Electronic Priniciples', 'Quality Assurance']
+                    }, {
+                        BULLET: 'Ensured assigned equipment was properly maintained, repaired and calibrated to published standards',
+                        SKILLS: ['Leadership','Management','Avionic Systems','Trouble-shooting','Electronic Priniciples','Program Management',]
+                    }, {
+                        BULLET: 'Maintained, programmed and performed time critical updates on avionic components, test stations and support equipment',
+                        SKILLS: ['Management', 'Quality Assuance','Program Management', 'Critical Thinking','Trouble-shooting']
+                    }, {
+                        BULLET: 'Wrote Career Development Course Tester program in Java - helped 40+ maintainers pass qualification tests',
+                        SKILLS: ['Java', 'Programming', 'Object-Oriented', 'Critical Thinking','Trouble-shooting']
+                    }
+                ], 
                 EMPLOYER: 'USAF',
                 DATES: '2001-2004',
-                LOCATION: 'Luke AFB, AZ, USA'
+                LOCATION: 'Luke AFB, AZ, USA',
+                URL: 'http://www.luke.af.mil/'
+                
             }, {
                 TITLE: 'Avionics Intermediate Shop Team Member',
-                DESCRIPTION: [
-                    'Operated, troubleshoot, repaired, inspected, and calibrated three Radar Electronic Warfare and ' +
-                    'two Digital, Analog and Video (DAV) test stations',
-                    'Performed maintenance, calibration, and operation checkout on Line Replaceable Units for 31 assigned B-1B aircraft',
-                    'Managed DAV section Electronic Static Discharge program',
-                    'Operated $8.1 million of test and support equipment'
+                SKILLBULLET:[
+                    {
+                        BULLET: 'Operated, troubleshoot, repaired, inspected, and calibrated three Radar/Electronic Warfare Avionic Test Stations',
+                        SKILLS: ['Avionic Systems','Trouble-shooting','Electronic Priniciples']
+                    }, {
+                        BULLET: 'Performed maintenance, calibration, and operation checkout on Line Replaceable Units for 31 assigned B-1B aircraft',
+                        SKILLS: ['Avionic Systems','Trouble-shooting','Electronic Priniciples', 'Quality Assurance']
+                    }, {
+                        BULLET: 'Managed work center section Electronic Static Discharge program, ensured standards were met or exceeded - zero defects',
+                        SKILLS: ['Management','Electronic Priniciples','Program Management',]
+                    },{
+                        BULLET: 'Developed scripts for terminal emulation program to automate maintenance logging and processing procedures',
+                        SKILLS: ['Trouble-shooting','Critical Thinking','Programming']
+                    },{
+                        BULLET: 'Maintained, programmed and performed time critical updates on avionic components, test stations and support equipment',
+                        SKILLS: ['Management', 'Quality Assuance','Program Management', 'Critical Thinking','Trouble-shooting']
+                    },{
+                    BULLET:  'Managed $8.1 million of test and support equipment',
+                    SKILLS: ['Management', 'Quality Assuance','Program Management',]
+                }
                 ],
                 EMPLOYER: 'USAF',
                 DATES: '1998-2001',
-                LOCATION: 'Ellsworth AFB, SD, USA'
+                LOCATION: 'Ellsworth AFB, SD, USA',
+                URL: 'http://www.ellsworth.af.mil/'
             }
         ]
-
     },
 
     EDUCATION: {
@@ -243,7 +395,7 @@ var model = {
                 SCHOOL: 'Comptia',
                 TITLE: 'Security+ Certification',
                 DATES: 'Valid: Jul 2013 - Present',
-                TOPIC: 'Security, netowork controls, physical controls, cybersecurity concepts, encryption, continuity planning',
+                TOPIC: 'Security, netowork controls, physical controls, Cyber Security concepts, encryption, continuity planning',
                 URL: 'https://certification.comptia.org'
             }, {
                 SCHOOL: 'Air Force Training Command',

@@ -10,29 +10,9 @@ var view = {
         view.displayWork();
         view.displayEducation();
         view.displayProjects();
-
-        if (document.getElementsByClassName('flex-item').length === 0) {
-            document.getElementById('topContacts').style.display = 'none';
-        }
-        if (document.getElementsByTagName('h1').length === 0) {
-            document.getElementById('header').style.backgroundColor = "black";
-        }
-        if (document.getElementsByClassName('work-entry').length === 0) {
-            document.getElementById('experience').style.backgroundColor = "black";
-        }
-        if (document.getElementsByClassName('project-entry').length === 0) {
-            document.getElementById('projects').style.backgroundColor = "black";
-        }
-        if (document.getElementsByClassName('education-entry').length === 0) {
-            document.getElementById('education').style.backgroundColor = "black";
-        }
-        if (document.getElementsByClassName('flex-item').length === 0) {
-            document.getElementById('lets-connect').style.display = 'none';
-        }
-        if (document.getElementById('map') === null) {
-            document.getElementById('map-div').style.display = 'none';
-        }
     },
+
+    // Display Menu - creates 'tabs' to display 
     displayMenu: function () {
         'use strict';
         var menu = $('#menu'),
@@ -57,6 +37,8 @@ var view = {
             });
         });
     },
+
+    //displayBio- creates 'tabs' to display 
     displayBio: function (section) {
         'use strict';
         var BIO = controller.getBio(),
@@ -68,44 +50,85 @@ var view = {
             FORMATTED_NAME = helperVar.HTMLheaderName.replace('%data%', BIO.NAME),
             FORMATTED_BIOPIC = helperVar.HTMLbioPic.replace('%data%', BIO.PICTURE);
 
+        //add elements to header, we'll reuse them later for the footer   
         if (section === '#header') {
             contactLoc = '#topContacts';
             $(section).prepend(FORMATTED_BIOPIC);
             $(section).prepend(FORMATTED_ROLE);
             $(section).prepend(FORMATTED_NAME);
+            $(contactLoc).append(FORMATTED_EMAIL);
+            $(contactLoc).append(FORMATTED_GITHUB);
+            $(contactLoc).append(FORMATED_LOCATION);
 
-            //    $(section).append(FORMATTED_WELCOME_MSG);
+            // Add skills section to the bio
             $(section).append(helperVar.HTMLskillsStart);
-            BIO.SKILLS.forEach(function (skill) {
-                var el = $(helperVar.HTMLskills.replace('%data%', skill));
-                var trimmedSkill = skill.replace(' ', '');
-                view.skillsToShow.push(trimmedSkill);
-                
-                el.click(function () {
-                    if (el.hasClass('skill-color')) {
-                        var ind = view.skillsToShow.indexOf(trimmedSkill);
-                        view.skillsToShow.splice(ind, 1);
-                    } else {
+
+            //Add header and toggle functionality for each skill group
+            BIO.SKILLS.forEach(function (skillType) {
+                var groupHeader= $(helperVar.HTMLskillsGroupHeader.replace('%data%', skillType.TYPE));
+                groupHeader.css('cursor', 'pointer');
+                $('#skill-group').append(groupHeader);
+
+                groupHeader.click(function(){
+                    if(groupHeader.hasClass('show')){
+                        $('.'+ skillType.TYPE).each(function(){
+                            view.toggleShow($(this), 'hide');
+                          });
+                    }else{
+                        $('.'+ skillType.TYPE).each(function(){
+                            view.toggleShow($(this), 'show');
+                          });
+                    }
+                    groupHeader.toggleClass('show');
+                });
+
+                //Add skills and toggle functionality to each group
+                $('#skill-group').append($(helperVar.HTMLskillsGroupStart));
+                skillType.SKILL.forEach(function(skill){
+                    var el = $(helperVar.HTMLskills.replace('%data%', skill).replace('%type%', skillType.TYPE));
+                    el.css('cursor', 'pointer');
+                    var trimmedSkill = skill.replace(' ', '');
+                    view.skillsToShow.push(trimmedSkill);
+                    
+                    el.click(function () {
+                        view.toggleShow(el);
+                    });
+        
+                    if (!view.skillsToShow.includes(trimmedSkill)) {
                         view.skillsToShow.push(trimmedSkill);
                     }
-                    el.toggleClass('skill-color');
-                    $('.work-bullet').hide();
-                    view.skillsToShow.forEach(function (skill) {
-                        $('.' + skill).show();
-                    });
-                })
-
-
-                if (!view.skillsToShow.includes(trimmedSkill)) {
-                    view.skillsToShow.push(trimmedSkill);
-                }
-                $('#skills').append(el);
+                    $('.skills:last').append(el);
+                });
             });
         }
-        $(contactLoc).append(FORMATTED_EMAIL);
-        $(contactLoc).append(FORMATTED_GITHUB);
-        $(contactLoc).append(FORMATED_LOCATION);
     },
+    //toggleShow - toggles bullets on and off based
+    toggleShow: function(element, action){
+        var trimmedSkill =  element.text().replace(" ","");
+        if(action == 'show'){
+            view.skillsToShow.push(trimmedSkill);
+            element.addClass('skill-color');
+        }else if(action == 'hide'){
+            var ind = view.skillsToShow.indexOf(element.text().trimmedSkill);
+            view.skillsToShow.splice(ind, 1);
+            element.removeClass('skill-color');
+        }else{
+            if (element.hasClass('skill-color')) {
+                var ind = view.skillsToShow.indexOf(element.text().trimmedSkill);
+                view.skillsToShow.splice(ind, 1);
+            } else {
+                view.skillsToShow.push(trimmedSkill);
+            }
+            element.toggleClass('skill-color');
+        }
+
+        $('.work-bullet').hide();
+        view.skillsToShow.forEach(function (skill) {
+            $('.' + skill).show();
+        });
+    },
+    
+    //displayWork - displays experience tab when menu item is selected
     displayWork: function () {
         'use strict';
         var WORK = controller.getWork();
@@ -121,12 +144,13 @@ var view = {
                 $('.work-entry:last').append(FORMATTED_JOB_DATES);
                 $('.work-entry:last').append(FORMATTED_JOB_LOC);
                 $('.work-entry:last').append(helperVar.HTMLworkDescStart);
-                job.DESCRIPTION.forEach(function (bullet) {
-                    var FORMATTED_JOB_DESC = helperVar.HTMLworkDescription.replace('%data%', bullet);
-                    $('.workDesc-entry:last').append(FORMATTED_JOB_DESC);
-                });
+                if(job.DESCRIPTION){
+                    job.DESCRIPTION.forEach(function (bullet) {
+                        var FORMATTED_JOB_DESC = helperVar.HTMLworkDescription.replace('%data%', bullet);
+                        $('.workDesc-entry:last').append(FORMATTED_JOB_DESC);
+                    });
+                }
 
-                //*************************************************
                 if (job.SKILLBULLET) {
                     job.SKILLBULLET.forEach(function (skillbullet) {
                         var el = $(helperVar.HTMLskillBullet.replace('%data%', skillbullet.BULLET));
@@ -137,12 +161,12 @@ var view = {
                         $('.work-entry:last').append(el);
                     });
                 }
-                // ********************************************************
             });
             $('.workDesc-entry:last').append(helperVar.HTMLworkDescEnd);
         }
         $('#experience').hide();
     },
+    //displayEducation - displays education tab when selected from the menu
     displayEducation: function () {
         'use strict';
         var EDUCATION = controller.getEd();
@@ -183,6 +207,7 @@ var view = {
         $('#education').hide();
 
     },
+     //displayProjects - displays Project tab when selected from the menu
     displayProjects: function () {
         'use strict';
         var PROJECTS = controller.getProjects();
