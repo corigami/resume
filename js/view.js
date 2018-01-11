@@ -88,7 +88,7 @@ var view = {
                 $('#skill-group').append($(helperVar.HTMLskillsGroupStart));
                 skillType.SKILL.forEach(function (skill) {
                     var el = $(helperVar.HTMLskills.replace('%data%', skill).replace('%type%', skillType.TYPE)),
-                        trimmedSkill = skill.replace(' ', '');
+                        trimmedSkill = skill.replace(' ', '').toLowerCase();
                     el.css('cursor', 'pointer');
                     view.skillsToShow.push(trimmedSkill);
 
@@ -107,7 +107,7 @@ var view = {
     //toggleShow - toggles bullets on and off based
     toggleShow: function (element, action) {
         'use strict';
-        var trimmedSkill = element.text().replace(" ", ""),
+        var trimmedSkill = element.text().replace(" ", "").toLowerCase(),
             ind = view.skillsToShow.indexOf(element.text().trimmedSkill);
 
         if (action === 'show') {
@@ -164,7 +164,7 @@ var view = {
                         var el = $(helperVar.HTMLskillBullet.replace('%data%', skillbullet.BULLET));
 
                         skillbullet.SKILLS.forEach(function (skill) {
-                            el.addClass(skill.replace(' ', ''));
+                            el.addClass(skill.replace(' ', '').toLowerCase());
                         });
                         $('.work-entry:last').append(el);
                     });
@@ -192,7 +192,7 @@ var view = {
 
             if (school.SKILLS) {
                 school.SKILLS.forEach(function (skill) {
-                    edElement.addClass(skill.replace(' ', ''));
+                    edElement.addClass(skill.replace(' ', '').toLowerCase());
                 });
             }
 
@@ -217,7 +217,7 @@ var view = {
 
             if (online.SKILLS) {
                 online.SKILLS.forEach(function (skill) {
-                    onlineElement.addClass(skill.replace(' ', ''));
+                    onlineElement.addClass(skill.replace(' ', '').toLowerCase());
                 });
             }
 
@@ -246,7 +246,7 @@ var view = {
 
             if (project.SKILLS) {
                 project.SKILLS.forEach(function (skill) {
-                    projectElement.addClass(skill.replace(' ', ''));
+                    projectElement.addClass(skill.replace(' ', '').toLowerCase());
                 });
             }
 

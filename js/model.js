@@ -19,6 +19,7 @@ var model = {
                     'Avionic Systems',
                     'C++',
                     'Cyber Security',
+                    'Deep Learning',
                     'Electronic Priniciples',
                     'GIT',
                     'HTML5',
@@ -47,6 +48,7 @@ var model = {
                     'IT Management',
                     'Leadership',
                     'Management',
+                    'Problem Solving',
                     'Program Management',
                     'Quality Assurance',
                     'Requirements',
@@ -346,8 +348,7 @@ var model = {
                 DATES: '2013 - 2015',
                 LOCATION: 'Wright-Patterson AFB, OH, USA',
                 URL: 'http://www.afit.edu',
-                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
-
+                SKILLS: ['Software Engineering', 'Cyber Security', 'Management', 'Communication', 'Critical Thinking', 'R', 'Java', 'C++', 'Object-Oriented', 'Testing', 'Visual Studio', 'Agile', 'Problem Solving']
             }, {
                 NAME: 'Park University',
                 DEGREE: 'Bachelors (Summa Cum Laude)',
@@ -355,7 +356,7 @@ var model = {
                 DATES: '2002 - 2007',
                 LOCATION: 'Hill AFB, UT',
                 URL: 'http://www.park.edu',
-                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
+                SKILLS: ['Java', 'C++', 'Object-Oriented', 'Programming', 'Visual Studio', 'Critical Thinking', 'Problem Solving']
             }
         ],
         ONLINE: [
@@ -366,7 +367,7 @@ var model = {
                 TOPIC: 'Neural , Convolutional, Recurrent, and Generative Adversarial Networks, ' +
                     'Keras, Tensorflow, Python',
                 URL: 'http://www.udacity.com',
-                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
+                SKILLS: ['Software Engineering', 'Python', 'Deep Learning', 'Critcal Thinking', 'Programming', 'Problem Solving']
             },
             {
                 SCHOOL: 'Udacity',
@@ -375,7 +376,7 @@ var model = {
                 TOPIC: 'HTML5, CSS3, JavaScript, Responsive Design, Website Optimization, Version Control',
                 URL: 'http://www.udacity.com',
 
-                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
+                SKILLS: ['Software Engineering', 'Critical Thinking', 'JavaScript', 'HTML5', 'JUnit', 'Agile', 'Communication', 'Problem Solving']
             },
             {
                 SCHOOL: 'AFIT',
@@ -383,7 +384,7 @@ var model = {
                 DATES: 'Sep 2015',
                 TOPIC: 'Network defense and exploitation, security appliances and tools, national policy',
                 URL: 'http://www.afit.edu',
-                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
+                SKILLS: ['Cyber Security', 'Security+', 'Critical Thinking', 'Networking', 'Strategic Thinking', 'Communication', 'Problem Solving']
             },
             {
                 SCHOOL: 'AFIT',
@@ -391,7 +392,7 @@ var model = {
                 DATES: 'June 2015',
                 TOPIC: '(40 Hours) Instructional System Design, Active Learning methods, presentation techniques',
                 URL: 'http://www.afit.edu',
-                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
+                SKILLS: ['Teaching', 'Program Management', 'Management', 'Communication', 'Critical Thinking']
             },
             {
                 SCHOOL: 'Comptia',
@@ -399,14 +400,14 @@ var model = {
                 DATES: 'Valid: Jul 2013 - Present',
                 TOPIC: 'Security, netowork controls, physical controls, Cyber Security concepts, encryption, continuity planning',
                 URL: 'https://certification.comptia.org',
-                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
+                SKILLS: ['Cyber Security', 'Security+', 'Critical Thinking']
             }, {
                 SCHOOL: 'Air Force Training Command',
                 TITLE: 'Cyberspace Officer Network Training (CCNA based)',
                 DATES: 'Apr 2012',
                 TOPIC: '(117 Hours) IPv4 Network training, Cisco switch & router configuration',
                 URL: '#',
-                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
+                SKILLS: ['Cyber Security', 'Security+', 'Networking', 'Critical Thinking']
             },
             {
                 SCHOOL: 'Air Force Training Command',
@@ -414,7 +415,7 @@ var model = {
                 DATES: 'May 2009',
                 TOPIC: '(208 Hours) Satellite Communications, Large Scale Networks, Net-Ops, Cyber Defense',
                 URL: '#',
-                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
+                SKILLS: ['Leadership', 'Management', 'Communication', 'Critical Thinking', 'IT Managagement', 'Networking', 'Strategic Planning']
             },
             {
                 SCHOOL: 'Air Education & Training Command',
@@ -422,7 +423,7 @@ var model = {
                 DATES: 'Sep-Nov 2008',
                 TOPIC: 'Management, Leadership, Air and Space Military Doctrine, Critical Thinking',
                 URL: '#',
-                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
+                SKILLS: ['Leadership', 'Management', 'Communication', 'Critical Thinking', 'Strategic Planning', 'Problem Solving']
             },
             {
                 SCHOOL: 'Aviation and Electronic Schools of America',
@@ -430,7 +431,7 @@ var model = {
                 DATES: 'Nov 2002',
                 TOPIC: 'Electronic/RF theory, analog/digital circuitry, computing principles',
                 URL: '#',
-                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
+                SKILLS: ['Electronic Principles', 'Avionic Systems', 'Critical Thinking']
             },
             {
                 SCHOOL: 'Air Force Training Command',
@@ -438,7 +439,7 @@ var model = {
                 DATES: 'Jan-Apr 1998',
                 TOPIC: '(504 Hours) Electronic/RF theory, analog/digital circuitry, computing principles',
                 URL: '#',
-                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
+                SKILLS: ['Electronic Principles', 'Avionic Systems']
             }
 
 
@@ -460,7 +461,7 @@ var model = {
                 IMAGES: [
                     'images/resume.jpg'
                 ],
-                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
+                SKILLS: ['Software Engineering', 'JavaScript', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Critical Thinking']
             },
             {
                 TITLE: 'ToC Sim v2',
@@ -477,7 +478,7 @@ var model = {
                     'images/toc2_1.JPG',
                     'images/toc2_2.JPG'
                 ],
-                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
+                SKILLS: ['Software Engineering', 'JavaScript', 'HTML5', 'Testing', 'Agile', 'Programming', 'GIT', 'Communication', 'Critical Thinking']
             }, {
                 TITLE: 'Theory of Constraints Simulation v1',
                 DATES: '2016',
@@ -491,7 +492,7 @@ var model = {
                 IMAGES: [
                     'images/toc_500.JPG'
                 ],
-                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
+                SKILLS: ['Software Engineering', 'JavaScript', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Critical Thinking']
             },
             {
                 TITLE: 'RSS Feed - Test Driven Development Using Jasmine',
@@ -506,7 +507,7 @@ var model = {
                 IMAGES: [
                     'images/rss.JPG'
                 ],
-                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
+                SKILLS: ['Software Engineering', 'JavaScript', 'Testing', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Critical Thinking']
             },
 
             {
@@ -522,7 +523,7 @@ var model = {
                 IMAGES: [
                     'images/map.JPG'
                 ],
-                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
+                SKILLS: ['Software Engineering', 'JavaScript', 'Testing', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Critical Thinking']
             },
             {
                 TITLE: 'Arcade Game Clone',
@@ -535,7 +536,7 @@ var model = {
                 IMAGES: [
                     'images/frogger.JPG'
                 ],
-                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
+                SKILLS: ['Software Engineering', 'JavaScript', 'Testing', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Problem Solving', 'Critical Thinking']
             },
             {
                 TITLE: 'OMNet++ UAV P2P File Replication Simulation',
@@ -554,7 +555,7 @@ var model = {
                 IMAGES: [
                     'images/omnet.jpg'
                 ],
-                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
+                SKILLS: ['Software Engineering', 'JavaScript', 'Testing', 'HTML5', 'Agile', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
             },
             {
                 TITLE: 'Unity 3D Ant Colony Optimization',
@@ -572,7 +573,7 @@ var model = {
                     'images/unityACO_sq_300.jpg',
                     'images/unityACO_300_b.jpg'
                 ],
-                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
+                SKILLS:  ['Software Engineering', 'JavaScript', 'Testing', 'HTML5', 'Agile', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
             },
             {
                 TITLE: 'Career Development Course Tester',
@@ -589,7 +590,7 @@ var model = {
                     'images/cdcTester_sq_300b.jpg',
                     'images/cdcTester_sq_300c.jpg'
                 ],
-                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
+                SKILLS: ['Programming', 'JavaScript', 'Testing', 'HTML5', 'Agile', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
             }
         ]
     }
