@@ -13,7 +13,7 @@ var helperVar = {
     HTMLbioPic: '<img src="%data%" class="biopic">',
     HTMLwelcomeMsg: '<span class="welcome-message">%data%</span>',
     HTMLskillsStart: '<h3 id="skills-h3" class="skills-header">Skills -  <span class="note">click a type or individual skill to ' +
-                    'filter experience bullets</span></h3><div id="skill-group"></div>',
+        'filter experience bullets</span></h3><div id="skill-group"></div>',
     HTMLskillsGroupHeader: '<h4 class="skills-header show">%data%</h4>',
     HTMLskillsGroupStart: '<div class="skills header-flex-box"></div>',
     HTMLskills: '<span class="lt-blue-text skill-item skill-color %type%">%data%</span>',
@@ -37,7 +37,7 @@ var helperVar = {
     HTMLschoolDates: '<div class="date-text">%data%</div>',
     HTMLschoolLocation: '<div class="location-text">%data%</div>',
     HTMLschoolMajor: '<em><br>Major: %data%</em>',
-    
+
     //helper variable for online portion of EDUCATION block
     HTMLonlineSchoolStart: '<h4 class="online-entry ed-header">Certificates and Other Relevent Courses<br></h4>',
     HTMLonlineStart: '<div class="online-entry lt-gray"></div>',
@@ -45,7 +45,7 @@ var helperVar = {
     HTMLonlineSchool: '<p>%data%</p>',
     HTMLonlineDates: '<div class="date-text">%data%</div><br>',
     HTMLonlineTopic: '--<span class="ed-topic">%data%</span><br>',
- 
+
     //Test variables for new Cards
     HTMLedContainer: '<div id="edFlex" class="flex-box"></div>',
     HTMLschoolContainer: '<div class="education-entry ed-flex-item shadow"></div>',
@@ -83,7 +83,7 @@ function initializeMap() {
     function locationFinder() {
         var locations = [],
             BIO = controller.getBio(),
-         //   EDUCATION = controller.getEd(),
+            //   EDUCATION = controller.getEd(),
             WORK = controller.getWork();
         //adds the single location property from BIO to the locations array
 
@@ -92,13 +92,8 @@ function initializeMap() {
         // iterates through school and work locations and appends each location to
         // the locations array.  Since Google textSearch api's limits response to 10 values,
         // logic has been added to not add duplicates
-        /*
-        EDUCATION.SCHOOLS.forEach(function (school) {
-            if (locations.indexOf(school.LOCATION) === -1) {
-                locations.push(school.LOCATION);
-            }
-        });*/
-        
+
+
         WORK.JOBS.forEach(function (job) {
             //        if (locations.indexOf(job.LOCATION) === -1) {
             locations.push(job.LOCATION);
