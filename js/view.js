@@ -126,7 +126,11 @@ var view = {
             element.toggleClass('skill-color');
         }
 
+        //Hide all entries and only show items that apply to current filter
         $('.work-bullet').hide();
+        $('.project-entry').hide();
+        $('.education-entry').hide();
+        $('.online-entry').hide();
         view.skillsToShow.forEach(function (skill) {
             $('.' + skill).show();
         });
@@ -182,9 +186,17 @@ var view = {
                 FORMATTED_DEGREE = helperVar.HTMLschoolDegree.replace('%data%', school.DEGREE),
                 FORMATTED_MAJOR = helperVar.HTMLschoolMajor.replace('%data%', school.MAJOR),
                 FORMATTED_DATES = helperVar.HTMLschoolDates.replace('%data%', school.DATES),
-                FORMATTED_LOCATION = helperVar.HTMLschoolLocation.replace('%data%', school.LOCATION);
+                FORMATTED_LOCATION = helperVar.HTMLschoolLocation.replace('%data%', school.LOCATION),
+                edElement = $(helperVar.HTMLschoolContainer);
             FORMATTED_NAME = FORMATTED_NAME.replace('%url%', school.URL);
-            $('#edFlex').append(helperVar.HTMLschoolContainer);
+
+            if (school.SKILLS) {
+                school.SKILLS.forEach(function (skill) {
+                    edElement.addClass(skill.replace(' ', ''));
+                });
+            }
+
+            $('#edFlex').append(edElement);
             $('.education-entry:last').append(FORMATTED_NAME);
             $('.education-entry:last').append(FORMATTED_DATES);
             $('.education-entry:last').append(FORMATTED_LOCATION);
@@ -199,9 +211,17 @@ var view = {
             var FORMATTED_SCHOOL = helperVar.HTMLonlineSchool.replace('%data%', online.SCHOOL),
                 FORMATTED_TITLE = helperVar.HTMLonlineTitle.replace('%data%', online.TITLE),
                 FORMATTED_DATES = helperVar.HTMLonlineDates.replace('%data%', online.DATES),
-                FORMATTED_TOPIC = helperVar.HTMLonlineTopic.replace('%data%', online.TOPIC);
+                FORMATTED_TOPIC = helperVar.HTMLonlineTopic.replace('%data%', online.TOPIC),
+                onlineElement = $(helperVar.HTMLonlineSchoolContainer);
             FORMATTED_SCHOOL = FORMATTED_SCHOOL.replace('%url%', online.URL);
-            $('#onlineFlex').append(helperVar.HTMLonlineSchoolContainer);
+
+            if (online.SKILLS) {
+                online.SKILLS.forEach(function (skill) {
+                    onlineElement.addClass(skill.replace(' ', ''));
+                });
+            }
+
+            $('#onlineFlex').append(onlineElement);
             $('.online-entry:last').append(FORMATTED_TITLE);
             $('.online-entry:last').append(FORMATTED_SCHOOL);
             $('.online-entry:last').append(FORMATTED_DATES);
@@ -219,10 +239,18 @@ var view = {
         PROJECTS.PROJECTS.forEach(function (project) {
             var FORMATTED_TITLE = helperVar.HTMLprojectTitle.replace('%url%', project.URL),
                 FORMATTED_DATES = helperVar.HTMLprojectDates.replace('%data%', project.DATES),
-                FORMATTED_GITURL = helperVar.HTMLprojectGiturl.replace('%data%', project.GITURL);
+                FORMATTED_GITURL = helperVar.HTMLprojectGiturl.replace('%data%', project.GITURL),
+                projectElement = $(helperVar.HTMLprojectStart);
             FORMATTED_GITURL = FORMATTED_GITURL.replace('#2', project.GITURL);
             FORMATTED_TITLE = FORMATTED_TITLE.replace('%data%', project.TITLE);
-            $('#projects').append(helperVar.HTMLprojectStart);
+
+            if (project.SKILLS) {
+                project.SKILLS.forEach(function (skill) {
+                    projectElement.addClass(skill.replace(' ', ''));
+                });
+            }
+
+            $('#projects').append(projectElement);
             $('.project-entry:last').append(FORMATTED_TITLE);
             $('.project-entry:last').append(FORMATTED_DATES);
             $('.project-entry:last').append(helperVar.HTMLprojDescStart);
@@ -238,6 +266,7 @@ var view = {
             $('.project-entry:last').append(FORMATTED_GITURL);
             $('.project-entry:last').append('<hr>');
             $('#projects').hide();
+
 
         });
     },

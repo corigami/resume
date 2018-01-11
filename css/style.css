@@ -318,8 +318,11 @@ span {
 
 .ed-header{
    margin-bottom: 0;
-    background-color: #BBB;
+    background-color: #999;
     padding:4px;
+    margin: 0 auto;
+    width:85%;
+    margin-top: 5px;
 }
 
 .ed-topic {

@@ -448,6 +448,21 @@ var model = {
     PROJECTS: {
         PROJECTS: [
             {
+                TITLE: 'Personal Resume Site',
+                DATES: '2016 - Present',
+                DESCRIPTION: [
+                    'Implements Responsive Design using JavaScript, jQuery, async API calls to Google Maps, MVC Design Pattern',
+                    'Interactive components - filters display by on selected skills',
+                    'Hosted on personally managed/controlled domain using SFTP, remote admin'
+                ],
+                URL: 'https://www.gamisweb.com',
+                GITURL: 'https://github.com/corigami/resume',
+                IMAGES: [
+                    'images/resume.jpg'
+                ],
+                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
+            },
+            {
                 TITLE: 'ToC Sim v2',
                 DATES: '2017',
                 DESCRIPTION: [
@@ -456,12 +471,13 @@ var model = {
                     'Test Script can be run at https://www.gamisweb.com/toc2/test/SpecRunner.html',
                     'Unit tests can be viewed in github repository'
                 ],
-                URL: 'http://www.gamisweb.com/toc2',
+                URL: 'https://www.gamisweb.com/toc2',
                 GITURL: 'https://github.com/corigami/TOC-Sim-2',
                 IMAGES: [
                     'images/toc2_1.JPG',
                     'images/toc2_2.JPG'
-                ]
+                ],
+                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
             }, {
                 TITLE: 'Theory of Constraints Simulation v1',
                 DATES: '2016',
@@ -474,7 +490,8 @@ var model = {
                 GITURL: 'https://github.com/corigami/ToC-Sim',
                 IMAGES: [
                     'images/toc_500.JPG'
-                ]
+                ],
+                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
             },
             {
                 TITLE: 'RSS Feed - Test Driven Development Using Jasmine',
@@ -488,7 +505,8 @@ var model = {
                 GITURL: 'https://github.com/corigami/FEND-feedreader-testing',
                 IMAGES: [
                     'images/rss.JPG'
-                ]
+                ],
+                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
             },
 
             {
@@ -503,7 +521,8 @@ var model = {
                 GITURL: 'https://github.com/corigami/FEND-neighborhood-map',
                 IMAGES: [
                     'images/map.JPG'
-                ]
+                ],
+                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
             },
             {
                 TITLE: 'Arcade Game Clone',
@@ -515,7 +534,8 @@ var model = {
                 GITURL: 'https://github.com/corigami/frontend-nanodegree-arcade-game',
                 IMAGES: [
                     'images/frogger.JPG'
-                ]
+                ],
+                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
             },
             {
                 TITLE: 'OMNet++ UAV P2P File Replication Simulation',
@@ -533,7 +553,8 @@ var model = {
                 GITURL: 'https://github.com/corigami/thesis_orion_omnet',
                 IMAGES: [
                     'images/omnet.jpg'
-                ]
+                ],
+                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
             },
             {
                 TITLE: 'Unity 3D Ant Colony Optimization',
@@ -550,7 +571,8 @@ var model = {
                 IMAGES: [
                     'images/unityACO_sq_300.jpg',
                     'images/unityACO_300_b.jpg'
-                ]
+                ],
+                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
             },
             {
                 TITLE: 'Career Development Course Tester',
@@ -566,7 +588,8 @@ var model = {
                     'images/cdcTester_sq_300.jpg',
                     'images/cdcTester_sq_300b.jpg',
                     'images/cdcTester_sq_300c.jpg'
-                ]
+                ],
+                SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
             }
         ]
     }

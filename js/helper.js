@@ -30,7 +30,7 @@ var helperVar = {
     HTMLworkDescEnd: '</UL></div>',
 
     //helper variables for EDUCATION block of resumeBuilder.js
-    HTMLschoolFormalStart: '<h3 class="education-entry ed-header">Formal Education<br></h3>',
+    HTMLschoolFormalStart: '<h3 class="ed-header">Formal Education<br></h3>',
     HTMLschoolStart: '<div class="education-entry lt-gray"></div>',
     HTMLschoolName: '<a class="title-link" href="%url%">%data%',
     HTMLschoolDegree: ' -- %data%</a>',
@@ -39,7 +39,7 @@ var helperVar = {
     HTMLschoolMajor: '<em><br>Major: %data%</em>',
 
     //helper variable for online portion of EDUCATION block
-    HTMLonlineSchoolStart: '<h4 class="online-entry ed-header">Certificates and Other Relevent Courses<br></h4>',
+    HTMLonlineSchoolStart: '<h4 class="ed-header">Certificates and Other Relevent Courses<br></h4>',
     HTMLonlineStart: '<div class="online-entry lt-gray"></div>',
     HTMLonlineTitle: '<a class="title-link" href="%url%">%data%</a>',
     HTMLonlineSchool: '<p>%data%</p>',
