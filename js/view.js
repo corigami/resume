@@ -240,8 +240,8 @@ var view = {
             var FORMATTED_TITLE = helperVar.HTMLprojectTitle.replace('%url%', project.URL),
                 FORMATTED_DATES = helperVar.HTMLprojectDates.replace('%data%', project.DATES),
                 FORMATTED_GITURL = helperVar.HTMLprojectGiturl.replace('%data%', project.GITURL),
-                projectElement = $(helperVar.HTMLprojectStart);
-            FORMATTED_GITURL = FORMATTED_GITURL.replace('#2', project.GITURL);
+                FORMATTED_ID = project.TITLE.replace(/ /g, "-"),
+                projectElement = $(helperVar.HTMLprojectStart.replace("%id%",FORMATTED_ID));
             FORMATTED_TITLE = FORMATTED_TITLE.replace('%data%', project.TITLE);
 
             if (project.SKILLS) {
@@ -263,7 +263,10 @@ var view = {
                 var FORMATTED_IMAGE = helperVar.HTMLprojectImage.replace('%data%', image);
                 $('.projectImg-entry:last').append(FORMATTED_IMAGE);
             });
-            $('.project-entry:last').append(FORMATTED_GITURL);
+            if(project.GITURL){
+                FORMATTED_GITURL = FORMATTED_GITURL.replace('#2', project.GITURL);
+                $('.project-entry:last').append(FORMATTED_GITURL);
+            }
             $('.project-entry:last').append('<hr>');
             $('#projects').hide();
 

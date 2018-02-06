@@ -16,10 +16,12 @@ var model = {
                 TYPE: 'Technical',
                 SKILL: [
                     'Agile',
-                    'Avionic Systems',
+                    'Avionics',
                     'C++',
+                    'CSS',
                     'Cyber Security',
                     'Deep Learning',
+                    'Design Patterns',
                     'Electronic Priniciples',
                     'GIT',
                     'HTML5',
@@ -29,11 +31,9 @@ var model = {
                     'Networking',
                     'Object-Oriented',
                     'Programming',
-                    'Python',
-                    'R',
                     'Security+',
                     'Software Engineering',
-                    'Testing',
+                    'Software Testing',
                     'Trouble-shooting',
                     'Visual Studio'
                 ]
@@ -83,8 +83,12 @@ var model = {
                         SKILLS: ['Software Engineering', 'Consulting', 'Program Management', 'Acquisitions', 'Cyber Security', 'Management', 'Leadership', 'Communication']
                     },
                     {
+                        BULLET: 'Provides programming and software design advice to local courseware developers for web based courses',
+                        SKILLS: ['Software Engineering', 'Consulting', 'JavaScript', 'CSS', 'HTML5']
+                    },
+                    {
                         BULLET: 'Developed video lesson on Test-Driven Development using Jasmine unit test library',
-                        SKILLS: ['Software Engineering', 'Agile', 'Testing', 'Teaching', 'Education', 'Critical Thinking', 'Communication', 'Programming']
+                        SKILLS: ['Software Engineering', 'Agile', 'Software Testing', 'Teaching', 'Education', 'Critical Thinking', 'Communication', 'Programming']
                     },
                     {
                         BULLET: 'Develops course content through ISD processes and creative delivery techniques',
@@ -92,7 +96,7 @@ var model = {
                     },
                     {
                         BULLET: 'Manages collaboration through milSuite.mil; develops custom web interactions and products',
-                        SKILLS: ['HTML5', 'JavaScript', 'MS Office', 'SharePoint', 'Management', 'Leadership', 'Communication', 'Programming']
+                        SKILLS: ['HTML5', 'CSS', 'JavaScript', 'MS Office', 'SharePoint', 'Management', 'Leadership', 'Communication', 'Programming']
                     }, {
                         BULLET: 'Developed HTML5/JavaScript utility to close caption video files to assist with Section 508 Compliance',
                         SKILLS: ['Critical Thinking', 'JavaScript', 'HTML5', 'Programming']
@@ -127,7 +131,7 @@ var model = {
                     },
                     {
                         BULLET: 'Teaches introductory computer architecture topics: combinational/sequential logic and CPU concepts',
-                        SKILLS: ['Software Engineering', 'Teaching', 'Avionic Systems', 'Electronic Principles', 'Hardware']
+                        SKILLS: ['Software Engineering', 'Teaching', 'Avionics', 'Electronic Principles', 'Hardware']
                     },
                     {
                         BULLET: 'Develops and implements class syllabi, lectures, coding exercises; ensures standards are met on time',
@@ -231,22 +235,22 @@ var model = {
                     {
                         BULLET: 'Supervised maintenance actions of 42 personnel on three Avionics Test Station and ' +
                             'F-16 Line Replaceable Units for 66 assigned aircraft',
-                        SKILLS: ['Leadership', 'Management', 'Avionic Systems', 'Trouble-shooting', 'Electronic Priniciples']
+                        SKILLS: ['Leadership', 'Management', 'Avionics', 'Trouble-shooting', 'Electronic Priniciples']
                     }, {
                         BULLET: 'Provided extensive troubleshooting knowledge and training for complex malfunctions',
-                        SKILLS: ['Leadership', 'Management', 'Avionic Systems', 'Trouble-shooting', 'Electronic Priniciples']
+                        SKILLS: ['Leadership', 'Management', 'Avionics', 'Trouble-shooting', 'Electronic Priniciples']
                     }, {
                         BULLET: 'Ensured section compliance with safety, environmental, and security programs',
                         SKILLS: ['Management', 'Quality Assuance', 'Program Management']
                     }, {
                         BULLET: 'Evaluated team leader and team member production skills, aptitude, and proficiency',
-                        SKILLS: ['Leadership', 'Management', 'Avionic Systems', 'Trouble-shooting', 'Electronic Priniciples', 'Quality Assurance', 'Training']
+                        SKILLS: ['Leadership', 'Management', 'Avionics', 'Trouble-shooting', 'Electronic Priniciples', 'Quality Assurance', 'Training']
                     }, {
                         BULLET: 'Managed squadron and section level Data Integrity Team program for maintenance documentation accuracy',
                         SKILLS: ['Management', 'Trouble-shooting', 'Quality Assurance']
                     }, {
                         BULLET: 'Managed $18 million of test and support equipment',
-                        SKILLS: ['Management', 'Avionic Systems']
+                        SKILLS: ['Management', 'Avionics']
                     }, {
                         BULLET: 'Developed and maintained 50 user MS Access Database - tracked production data for all maintenance actions',
                         SKILLS: ['Management', 'Trouble-shooting', 'Quality Assurance', 'Programming', 'Critical Thinking']
@@ -261,13 +265,13 @@ var model = {
                 SKILLBULLET: [
                     {
                         BULLET: 'Led maintenance actions of 11 personnel on Improved Avionics Test Station, A-10 and F-16 Line Replaceable units',
-                        SKILLS: ['Leadership', 'Management', 'Avionic Systems', 'Trouble-shooting', 'Electronic Priniciples']
+                        SKILLS: ['Leadership', 'Management', 'Avionics', 'Trouble-shooting', 'Electronic Priniciples']
                     }, {
                         BULLET: 'Established work methods, production controls and performance standards for assigned tasks',
-                        SKILLS: ['Leadership', 'Management', 'Avionic Systems', 'Trouble-shooting', 'Electronic Priniciples', 'Quality Assurance']
+                        SKILLS: ['Leadership', 'Management', 'Avionics', 'Trouble-shooting', 'Electronic Priniciples', 'Quality Assurance']
                     }, {
                         BULLET: 'Ensured compliance with safety, environmental, training, equipment account and security programs',
-                        SKILLS: ['Leadership', 'Management', 'Avionic Systems', 'Trouble-shooting', 'Electronic Priniciples', 'Program Management']
+                        SKILLS: ['Leadership', 'Management', 'Avionics', 'Trouble-shooting', 'Electronic Priniciples', 'Program Management']
                     }, {
                         BULLET: 'Managed $5.2 million of test and support equipment',
                         SKILLS: ['Management', 'Quality Assuance', 'Program Management']
@@ -288,13 +292,13 @@ var model = {
                 SKILLBULLET: [
                     {
                         BULLET: 'Ensured four repair team members were qualified to perform assigned tasks',
-                        SKILLS: ['Leadership', 'Management', 'Avionic Systems', 'Trouble-shooting', 'Electronic Priniciples']
+                        SKILLS: ['Leadership', 'Management', 'Avionics', 'Trouble-shooting', 'Electronic Priniciples']
                     }, {
                         BULLET: 'Managed and directed work effort of the repair team; was responsible for the quality of maintenance actions',
-                        SKILLS: ['Leadership', 'Management', 'Avionic Systems', 'Trouble-shooting', 'Electronic Priniciples', 'Quality Assurance']
+                        SKILLS: ['Leadership', 'Management', 'Avionics', 'Trouble-shooting', 'Electronic Priniciples', 'Quality Assurance']
                     }, {
                         BULLET: 'Ensured assigned equipment was properly maintained, repaired and calibrated to published standards',
-                        SKILLS: ['Leadership', 'Management', 'Avionic Systems', 'Trouble-shooting', 'Electronic Priniciples', 'Program Management']
+                        SKILLS: ['Leadership', 'Management', 'Avionics', 'Trouble-shooting', 'Electronic Priniciples', 'Program Management']
                     }, {
                         BULLET: 'Maintained, programmed and performed time critical updates on avionic components, test stations and support equipment',
                         SKILLS: ['Management', 'Quality Assuance', 'Program Management', 'Critical Thinking', 'Trouble-shooting']
@@ -313,10 +317,10 @@ var model = {
                 SKILLBULLET: [
                     {
                         BULLET: 'Operated, troubleshoot, repaired, inspected, and calibrated three Radar/Electronic Warfare Avionic Test Stations',
-                        SKILLS: ['Avionic Systems', 'Trouble-shooting', 'Electronic Priniciples']
+                        SKILLS: ['Avionics', 'Trouble-shooting', 'Electronic Priniciples']
                     }, {
                         BULLET: 'Performed maintenance, calibration, and operation checkout on Line Replaceable Units for 31 assigned B-1B aircraft',
-                        SKILLS: ['Avionic Systems', 'Trouble-shooting', 'Electronic Priniciples', 'Quality Assurance']
+                        SKILLS: ['Avionics', 'Trouble-shooting', 'Electronic Priniciples', 'Quality Assurance']
                     }, {
                         BULLET: 'Managed work center section Electronic Static Discharge program, ensured standards were met or exceeded - zero defects',
                         SKILLS: ['Management', 'Electronic Priniciples', 'Program Management']
@@ -348,7 +352,7 @@ var model = {
                 DATES: '2013 - 2015',
                 LOCATION: 'Wright-Patterson AFB, OH, USA',
                 URL: 'http://www.afit.edu',
-                SKILLS: ['Software Engineering', 'Cyber Security', 'Management', 'Communication', 'Critical Thinking', 'R', 'Java', 'C++', 'Object-Oriented', 'Testing', 'Visual Studio', 'Agile', 'Problem Solving']
+                SKILLS: ['Software Engineering', 'Cyber Security', 'Management', 'Communication', 'Critical Thinking', 'R', 'Java', 'C++', 'Object-Oriented', 'Software Testing', 'Visual Studio', 'Agile', 'Problem Solving']
             }, {
                 NAME: 'Park University',
                 DEGREE: 'Bachelors (Summa Cum Laude)',
@@ -431,7 +435,7 @@ var model = {
                 DATES: 'Nov 2002',
                 TOPIC: 'Electronic/RF theory, analog/digital circuitry, computing principles',
                 URL: '#',
-                SKILLS: ['Electronic Principles', 'Avionic Systems', 'Critical Thinking']
+                SKILLS: ['Electronic Principles', 'Avionics', 'Critical Thinking']
             },
             {
                 SCHOOL: 'Air Force Training Command',
@@ -439,7 +443,7 @@ var model = {
                 DATES: 'Jan-Apr 1998',
                 TOPIC: '(504 Hours) Electronic/RF theory, analog/digital circuitry, computing principles',
                 URL: '#',
-                SKILLS: ['Electronic Principles', 'Avionic Systems']
+                SKILLS: ['Electronic Principles', 'Avionics']
             }
 
 
@@ -462,6 +466,81 @@ var model = {
                     'images/resume.JPG'
                 ],
                 SKILLS: ['Software Engineering', 'JavaScript', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Critical Thinking']
+            }, {
+                TITLE: 'OMNet++ UAV P2P File Replication Simulation',
+                DATES: '2015',
+                DESCRIPTION: [
+                    'Master\'s Thesis project, examining impact of file replication in a UAV swarm utilizing reactive MANET protocols',
+                    'Produced utilizing OMNeT++ v4.6 and is written in C++',
+                    'Simulates a swarm of UAVs generating files at variable rates',
+                    'Implmented custom variation of ORION transfer protocol for MANETs ',
+                    'Results were analyzed with and documented utilizing custom R scripts and Latex.',
+                    'Full Thesis can viewed at the Defense Technical Information Center by clicking on the Title link'
+                ],
+                URL: 'http://www.dtic.mil/docs/citations/ADA615415',
+                EMBED: '<iframe src="https://mix.office.com/embed/zvbylas7wt19" frameborder="0" allowfullscreen></iframe>',
+                GITURL: 'https://github.com/corigami/thesis_orion_omnet',
+                IMAGES: [
+                    'images/omnet.jpg'
+                ],
+                SKILLS: ['Software Engineering', 'Software Testing', 'Object-Oriented','Design Patterns', 'Agile', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
+            },
+            {
+                TITLE: 'Unity 3D Ant Colony Optimization',
+                DATES: '2014',
+                DESCRIPTION: [
+                    'Written in C# utilizing Unity 3d game environment',
+                    'Implementes Ad hoc On-demand Distance Vector (AODV) routing protocol',
+                    'Demonstrates Ant Colony Optimization and Genetic algorithm to produce a minimally connected dominated set (MCDS)',
+                    'Extendable to use different mobility and network models due to implemention using SOLID design principles'
+                ],
+                URL: 'https://github.com/corigami/Simulator',
+                GITURL: 'https://github.com/corigami/Simulator',
+                IMAGES: [
+                    'images/unityACO_sq_300.jpg',
+                    'images/unityACO_300_b.jpg'
+                ],
+                SKILLS:  ['Software Engineering', 'JavaScript', 'Software Testing', 'Object-Oriented','Design Patterns','HTML5', 'Agile', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
+            },
+            {
+                TITLE: 'Computer Science Course Videos',
+                DATES: '2016',
+                DESCRIPTION: [
+                    'Created 30+ videos of multimedia content for Computer Science; Supports Flipped Classroom construct',
+                    'Demostrates Course theory and samples of programs-- allows more time for in class labs and exercises'
+                ],
+                URL: 'https://www.youtube.com/watch?v=WCP_j29HBA8&list=PL3hxNehc1Jwlwye68RhpB7ZsfektFU73G',
+                IMAGES: [
+                    'images/video_sample.JPG'
+                ],
+                SKILLS:  ['Software Engineering', 'JavaScript', 'Software Testing', 'Object-Oriented','Design Patterns','HTML5', 'Agile', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
+            }, {
+                TITLE: 'Software Testing Video Player',
+                DATES: '2016',
+                DESCRIPTION: [
+                    'Designed HTML5 Video Player for Software Testing videos for use on MilSuite plaform',
+                    'Developed Dynamic UI elements to display video content in logical and accessible manner',
+                    'Uses AJAX call to retrieve closed-captioning information from alternate location'
+                ],
+                URL: 'www.milSuite.mil/book/groups/spdp',
+                GITURL: 'https://github.com/corigami/milSuiteVideoPlayer',
+                IMAGES: [
+                    'images/swtest_vid_player.PNG'
+                ],
+                SKILLS: ['Software Engineering', 'JavaScript', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Critical Thinking']
+            }, {
+                TITLE: 'Closed Captioning VTT File Creator',
+                DATES: '2016',
+                DESCRIPTION: [
+                    'Designed HTML5 utility to generate closed caption files to support Sec 508 compliance',
+                    'Developed using the state design pattern to handle mouse events based on video type and timing',
+                ],
+                URL: 'www.milSuite.mil/book/groups/spdp',
+                GITURL: 'https://github.com/corigami/vttCreator',
+                IMAGES: [
+                    'images/VTT_creator.PNG'
+                ],
+                SKILLS: ['Software Engineering', 'JavaScript', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Critical Thinking']
             },
             {
                 TITLE: 'ToC Sim v2',
@@ -478,7 +557,7 @@ var model = {
                     'images/toc2_1.JPG',
                     'images/toc2_2.JPG'
                 ],
-                SKILLS: ['Software Engineering', 'JavaScript', 'HTML5', 'Testing', 'Agile', 'Programming', 'GIT', 'Communication', 'Critical Thinking']
+                SKILLS: ['Software Engineering', 'JavaScript', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Critical Thinking']
             }, {
                 TITLE: 'Theory of Constraints Simulation v1',
                 DATES: '2016',
@@ -507,9 +586,8 @@ var model = {
                 IMAGES: [
                     'images/rss.JPG'
                 ],
-                SKILLS: ['Software Engineering', 'JavaScript', 'Testing', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Critical Thinking']
+                SKILLS: ['Software Engineering', 'JavaScript', 'Software Testing', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Critical Thinking']
             },
-
             {
                 TITLE: 'Neighborhod Map',
                 DATES: '2016',
@@ -523,7 +601,7 @@ var model = {
                 IMAGES: [
                     'images/map.JPG'
                 ],
-                SKILLS: ['Software Engineering', 'JavaScript', 'Testing', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Critical Thinking']
+                SKILLS: ['Software Engineering', 'Object-Oriented','JavaScript', 'Software Testing', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Critical Thinking']
             },
             {
                 TITLE: 'Arcade Game Clone',
@@ -536,44 +614,7 @@ var model = {
                 IMAGES: [
                     'images/frogger.JPG'
                 ],
-                SKILLS: ['Software Engineering', 'JavaScript', 'Testing', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Problem Solving', 'Critical Thinking']
-            },
-            {
-                TITLE: 'OMNet++ UAV P2P File Replication Simulation',
-                DATES: '2015',
-                DESCRIPTION: [
-                    'Master\'s Thesis project, examining impact of file replication in a UAV swarm utilizing reactive MANET protocols',
-                    'Produced utilizing OMNeT++ v4.6 and is written in C++',
-                    'Simulates a swarm of UAVs generating files at variable rates',
-                    'Implmented custom variation of ORION transfer protocol for MANETs ',
-                    'Results were analyzed with and documented utilizing custom R scripts and Latex.',
-                    'Full Thesis can viewed at the Defense Technical Information Center by clicking on the Title link'
-                ],
-                URL: 'http://www.dtic.mil/docs/citations/ADA615415',
-                EMBED: '<iframe src="https://mix.office.com/embed/zvbylas7wt19" frameborder="0" allowfullscreen></iframe>',
-                GITURL: 'https://github.com/corigami/thesis_orion_omnet',
-                IMAGES: [
-                    'images/omnet.jpg'
-                ],
-                SKILLS: ['Software Engineering', 'JavaScript', 'Testing', 'HTML5', 'Agile', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
-            },
-            {
-                TITLE: 'Unity 3D Ant Colony Optimization',
-                DATES: '2014',
-                DESCRIPTION: [
-                    'Written in C# utilizing Unity 3d game environment',
-                    'Implementes Ad hoc On-demand Distance Vector (AODV) routing protocol',
-                    'Demonstrates Ant Colony Optimization and Genetic algorithm to produce a minimally connected dominated set (MCDS)',
-                    'Extendable to use different mobility and network models due to implemention using SOLID design principles'
-                ],
-                URL: 'https://github.com/corigami/Simulator',
-                EMBED: '<iframe src="https://mix.office.com/embed/ts3kisoddce5" frameborder="0" allowfullscreen></iframe>',
-                GITURL: 'https://github.com/corigami/Simulator',
-                IMAGES: [
-                    'images/unityACO_sq_300.jpg',
-                    'images/unityACO_300_b.jpg'
-                ],
-                SKILLS:  ['Software Engineering', 'JavaScript', 'Testing', 'HTML5', 'Agile', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
+                SKILLS: ['Software Engineering', 'JavaScript', 'Object-Oriented','Design Patterns','Software Testing', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Problem Solving', 'Critical Thinking']
             },
             {
                 TITLE: 'Career Development Course Tester',
@@ -590,7 +631,7 @@ var model = {
                     'images/cdcTester_sq_300b.jpg',
                     'images/cdcTester_sq_300c.jpg'
                 ],
-                SKILLS: ['Programming', 'JavaScript', 'Testing', 'HTML5', 'Agile', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
+                SKILLS: ['Programming', 'Java', 'Programming', 'Problem Solving', 'GIT', 'Object-Oriented','Critical Thinking']
             }
         ]
     }

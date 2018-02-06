@@ -1,4 +1,4 @@
-/*global  model, controller*/
+/*global model, controller*/
 var controller = {
     init: function () {},
     getBio: function () {

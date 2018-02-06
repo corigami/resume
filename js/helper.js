@@ -13,7 +13,7 @@ var helperVar = {
     HTMLbioPic: '<img src="%data%" class="biopic">',
     HTMLwelcomeMsg: '<span class="welcome-message">%data%</span>',
     HTMLskillsStart: '<h3 id="skills-h3" class="skills-header">Skills -  <span class="note">click a type or individual skill to ' +
-        'filter experience bullets</span></h3><div id="skill-group"></div>',
+        'filter experience bullets, education, and project items</span></h3><div id="skill-group"></div>',
     HTMLskillsGroupHeader: '<h4 class="skills-header show">%data%</h4>',
     HTMLskillsGroupStart: '<div class="skills header-flex-box"></div>',
     HTMLskills: '<span class="lt-blue-text skill-item skill-color %type%">%data%</span>',
@@ -53,7 +53,7 @@ var helperVar = {
     HTMLonlineSchoolContainer: '<div class="online-entry ed-flex-item shadow"></div>',
 
     //helper variables for PROJECT block of resumeBuilder.js
-    HTMLprojectStart: '<div class="project-entry lt-gray shadow"></div>',
+    HTMLprojectStart: '<div id="%id%" class="project-entry lt-gray shadow"></div>',
     HTMLprojectTitle: '<a class="title-link" href="%url%">%data%</a>',
     HTMLprojectDates: '<div class="date-text">%data%</div><br>',
     HTMLprojectDescStart: '<div class="projectDesc-entry"><br><UL></div>',
