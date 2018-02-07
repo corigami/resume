@@ -9,7 +9,7 @@ var model = {
             GITHUB: 'corigami',
             LOCATION: 'Dayton, OH, USA'
         },
-        PICTURE: 'images/me.jpg',
+        PICTURE: 'images/me2.jpg',
         WELCOME_MSG: '',
         SKILLS: [
             {
@@ -67,51 +67,36 @@ var model = {
                 TITLE: 'Course Director, Avionics Cyber Vulnerability, Mitigation, and Protection',
                 SKILLBULLET: [
                     {
-                        BULLET: 'Instructs avionics cyber vulnerability assessment processes for system program managers',
+                        BULLET: 'Develops/instructs course for avionics cyber vulnerability assessment processes for system program managers',
                         SKILLS: ['Software Engineering', 'Cyber Security', 'Security+', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Communication', 'Critical Thinking']
                     },
                     {
-                        BULLET: 'Developed/taught distance learning on software engineering & management topics',
+                        BULLET: 'Developed/taught courses on software testing, development life-cycles, engineering & management topics',
                         SKILLS: ['Software Engineering', 'Agile', 'Teaching', 'Program Management', 'Education', 'Object-Oriented', 'Management', 'Critical Thinking', 'Communication']
                     },
                     {
-                        BULLET: 'Coordinates with senior DoD and USAF officials to ensure software education needs are met',
-                        SKILLS: ['Software Engineering', 'Consulting', 'Critical Thinking', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Leadership', 'Communication']
+                        BULLET: 'Developed 5+hrs video lesson content on Software Testing— TDD, Unit, Black-box, White-box, Integration, Planning',
+                        SKILLS: ['Software Engineering', 'Agile', 'Teaching', 'Program Management', 'Education', 'Object-Oriented', 'Management', 'Critical Thinking', 'Communication']
                     },
                     {
-                        BULLET: 'Consulting to DoD and USAF cyber, software programs & systems engineering functions',
-                        SKILLS: ['Software Engineering', 'Consulting', 'Program Management', 'Acquisitions', 'Cyber Security', 'Management', 'Leadership', 'Communication']
+                        BULLET: 'Coordinates with senior USAF officials to ensure cyber security and software education requirements are met',
+                        SKILLS: ['Software Engineering', 'Consulting', 'Critical Thinking', 'Teaching', 'Program Management', 'Acquisitions', 'Management', 'Leadership', 'Communication']
                     },
                     {
                         BULLET: 'Provides programming and software design advice to local courseware developers for web based courses',
                         SKILLS: ['Software Engineering', 'Consulting', 'JavaScript', 'CSS', 'HTML5']
                     },
                     {
-                        BULLET: 'Developed video lesson on Test-Driven Development using Jasmine unit test library',
-                        SKILLS: ['Software Engineering', 'Agile', 'Software Testing', 'Teaching', 'Education', 'Critical Thinking', 'Communication', 'Programming']
-                    },
-                    {
-                        BULLET: 'Develops course content through ISD processes and creative delivery techniques',
-                        SKILLS: ['Teaching', 'Program Management', 'Critical Thinking', 'Acquisitions', 'MS Office', 'Consulting', 'Teaching', 'Management', 'Communication']
-                    },
-                    {
                         BULLET: 'Manages collaboration through milSuite.mil; develops custom web interactions and products',
                         SKILLS: ['HTML5', 'CSS', 'JavaScript', 'MS Office', 'SharePoint', 'Management', 'Leadership', 'Communication', 'Programming']
-                    }, {
-                        BULLET: 'Developed HTML5/JavaScript utility to close caption video files to assist with Section 508 Compliance',
+                    }, 
+                    {
+                        BULLET: 'Developed multiple HTML5/JavaScript utilities to support and display self-created educational video content',
                         SKILLS: ['Critical Thinking', 'JavaScript', 'HTML5', 'Programming']
                     },
                     {
-                        BULLET: 'Developed custom HTML5/JavaScript video player-leveraged AJAX requests to pull caption data from other websites',
-                        SKILLS: ['Critical Thinking', 'JavaScript', 'HTML5', 'Programming']
-                    },
-                    {
-                        BULLET: 'Managed Information and Knowledge Management Operations for large Headquarters (NATO)',
+                        BULLET: 'Managed SharePoint 2007/2013 intranet for 10K+ users; design custom sites, web parts, managed permissions',
                         SKILLS: ['HTML5', 'JavaScript', 'MS Office', 'SharePoint', 'Management', 'Leadership', 'Communication']
-                    },
-                    {
-                        BULLET: 'Managed SharePoint 2007/2013 intranet sites; design custom web parts, managed permissions',
-                        SKILLS: ['HTML5', 'JavaScript', 'MS Office', 'SharePoint', 'Management', 'Programming']
                     }
                 ],
                 EMPLOYER: 'USAF',
@@ -506,15 +491,28 @@ var model = {
                 TITLE: 'Computer Science Course Videos',
                 DATES: '2016',
                 DESCRIPTION: [
-                    'Created 30+ videos of multimedia content for Computer Science; Supports Flipped Classroom construct',
+                    'Created 35 videos of multimedia content for Computer Science; Supports Flipped Classroom construct',
                     'Demostrates Course theory and samples of programs-- allows more time for in class labs and exercises'
                 ],
                 URL: 'https://www.youtube.com/watch?v=WCP_j29HBA8&list=PL3hxNehc1Jwlwye68RhpB7ZsfektFU73G',
                 IMAGES: [
                     'images/video_sample.JPG'
                 ],
+                SKILLS:  ['Software Engineering', 'JavaScript', 'Software Testing', 'Object-Oriented','Design Patterns','HTML5', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
+            },
+            {
+                TITLE: 'Software Testing Course Videos',
+                DATES: '2015',
+                DESCRIPTION: [
+                    'Created 30 videos of multimedia content for Software Testing curriculum utilized to support distance learning',
+                    'Demostrates fundamental concepts of Software Testing--Functional Testing, Structural Testing, Testing Strategies, Test Planning'
+                ],
+                URL: 'https://www.youtube.com/watch?v=uDoNL77FzTE&list=PL3hxNehc1Jwl17w1Jsoe-H4_m2XyXG-Nj',
+                IMAGES: [
+                    'images/swTest_vid_sample.PNG'
+                ],
                 SKILLS:  ['Software Engineering', 'JavaScript', 'Software Testing', 'Object-Oriented','Design Patterns','HTML5', 'Agile', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
-            }, {
+            },{
                 TITLE: 'Software Testing Video Player',
                 DATES: '2016',
                 DESCRIPTION: [
