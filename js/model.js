@@ -546,14 +546,14 @@ var model = {
                 DESCRIPTION: [
                     'Reworked version of Theory of Constraints Simulation v1 (below)',
                     'Implemented Unit Tests through Extensive use of Jasmin Testing Framework',
-                    'Test Script can be run at https://www.gamisweb.com/toc2/test/SpecRunner.html',
+                    'Test Script can be run at <a style="display: inline" href="https://www.gamisweb.com/toc2/test/SpecRunner.html">https://www.gamisweb.com/toc2/test/SpecRunner.html</a> (scroll to the bottom to see results)',
                     'Unit tests can be viewed in github repository'
                 ],
                 URL: 'https://www.gamisweb.com/toc2',
                 GITURL: 'https://github.com/corigami/TOC-Sim-2',
                 IMAGES: [
                     'images/toc2_1.JPG',
-                    'images/toc2_2.JPG'
+                    'images/TOC_SIMv2.PNG'
                 ],
                 SKILLS: ['Software Engineering', 'JavaScript', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Critical Thinking']
             }, {
@@ -567,7 +567,7 @@ var model = {
                 URL: 'http://www.gamisweb.com/toc',
                 GITURL: 'https://github.com/corigami/ToC-Sim',
                 IMAGES: [
-                    'images/toc_500.JPG'
+                    'images/TOC_SIM.PNG'
                 ],
                 SKILLS: ['Software Engineering', 'JavaScript', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Critical Thinking']
             },
