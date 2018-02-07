@@ -1,3 +1,5 @@
+/* -------------- Element Tags ----------------------*/
+
 body,
 div,
 ul,
@@ -21,16 +23,10 @@ html {
     max-width: 1200px;
     min-width: 350px;
 }
-.clear-fix {
-    overflow: auto;
-}
-.education-entry,
-.work-entry,
-.project-entry {
-    padding: 0 5%;
-}
+
+
 h1 {
-    color: #19c;
+    color: #08A;
     display: inline;
     font-size: 40px;
     line-height: 48px;
@@ -45,13 +41,13 @@ h3 {
     color: #000;
     font-size: 20px;
     font-style: italic;
-    line-height: 22px;
+
 }
 h4 {
     color: #4a4a4a;
     font-size: 14px;
     font-weight: bold;
-    line-height: 17px;
+
 }
 h2,
 h3,
@@ -63,43 +59,46 @@ nav {
     width: 90%;
     margin: auto;
 }
-.date-text {
-    color: #999;
-    float: left;
-    font-size: 14px;
-    font-style: italic;
-    line-height: 16px;
-}
-.location-text {
-    color: #999;
-    float: right;
-    font-size: 14px;
-    font-style: italic;
-    line-height: 16px;
-}
+
 p {
     color: #333;
     font-size: 14px;
     line-height: 21px;
 }
 a {
-    color: #19c;
+    color: #08A;
     display: block;
     text-decoration: none;
 }
-.welcome-message {
-    color: #f3f3f3;
-    font-size: 18px;
-    font-style: italic;
-    line-height: 28px;
+
+li {
+    margin-left: 30px;
+    list-style-position: inside;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
-.skills-start {
-    color: #0fb;
-    display: none;
+
+ul {
+    list-style-type: none;
 }
-.education-entry {
-    margin-bottom: 10px;
+
+img {
+    display: block;
+    margin: 0 auto;
+    background-size: contain;
+    padding: 10px;
+    width: 80%;
+
 }
+span {
+    padding: 5px;
+}
+
+/* -------------- Generic Class Tags ----------------------*/
+.inline {
+    display:inline;
+}
+
 .blue {
     background-color: #00f;
 }
@@ -107,7 +106,7 @@ a {
     color: #00f;
 }
 .med-blue-text {
-    color: #19c;
+    color: #08A;
 }
 .lt-blue {
     background-color: #cff;
@@ -122,7 +121,7 @@ a {
     background-color: #0fb;
 }
 .lt-green-text {
-    color: #0fb;
+    color: #0cb;
 }
 .orange-text {
     color: #f5ae23;
@@ -132,89 +131,141 @@ a {
     font-weight: bold;
 }
 .gray {
-    background-color: #ddd;
-    clear: both;
+    background-color: #BBB;
 }
+.lt-gray{
+    background-color: #EEE;
+}
+
+.lt-gray-text{
+    color: #DDD;
+}
+
 .dark-gray {
     background-color: #444;
 }
-.header {
-    background-color: #444;
-    z-index: 2;
+
+.clear-fix {
+    overflow: auto;
 }
-.embed-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    /* 16/9 ratio */
-    padding-top: 30px;
-    /* IE6 workaround*/
-    height: 0;
-    overflow: hidden;
+
+.center-content {
+    padding: 2.5% 5%;
 }
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+
+
+.shadow {
+    box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.5);
 }
+
+/* -------------- Specialized Class Tags ----------------------*/
+
+/* ---------Multi Purpose --------------*/
+.date-text {
+    color: #999;
+    float: left;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.location-text {
+    color: #999;
+    float: right;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.title-link {
+    font-size: 20px;
+}
+
+.education-entry,
+.work-entry,
+.project-entry {
+    margin: 0 auto;
+    width:85%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
 .flex-box {
+    width:90%;
+    margin: 0 auto;
     display: -webkit-flex;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     padding: 10px;
 }
-.center-content {
-    padding: 2.5% 5%;
+/* ---------Header & Footer-------------*/
+
+.header {
+    background-color: #444;
 }
-ul {
-    list-style-type: none;
+
+.header-flex-box {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
 }
+
+.skill-item {
+    user-select: none;
+    margin: 5px;
+    padding:2px 5px;
+}
+
+.skill-color {
+    background-color: #08A;  
+}
+
 .biopic {
     display: none;
     float: left;
     padding: 10px;
     width: 150px;
 }
-img {
-    background-size: contain;
-    padding: 10px;
-    width: 100%;
-    max-width: 500px;
+
+.welcome-message {
+    color: #f3f3f3;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 28px;
 }
-span {
-    padding: 5px;
-}
+
 .connect {
-    background-color: #19c;
+    background-color: #08A;
     text-align: center;
 }
+
 .menu {
+    background-color: #142424;
     flex-wrap: wrap;
     text-align: center;
-    width: 90%;
-    z-index: 0;
+    width: 90%
 }
+
 .menu-item {
     box-sizing: border-box;
     display: inline-block;
-    width: 33.33%;
+    width: 30%;
     text-align: center;
     line-height: 24px;
     text-transform: uppercase;
-    font-size: 2.5em;
-    font-size: 2.5vw;
+    font-size: 1.5em;
     padding: 10px 0 20px 0;
-    color: white;
-    background-color: #19c;
 }
 .menu-item:hover {
     box-shadow: inset 1px 1px 4px #000;
-    background-color: #094e69;
+}
+.menu-experience {
+    background-color: darkslateblue;
 }
 #menu.fixed {
     position: fixed;
@@ -223,21 +274,85 @@ span {
     transform: translateX(-50%);
     max-width: 1080px;
 }
-.selected {
-    background-color: #0c7aa3;
+
+#skill-group {
+    display: flex;
+    flex-wrap: wrap;
 }
-.shadow {
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+
+/* ---------Work--------------*/
+
+.work-bullet{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 2px;
+    margin-bottom: 5px;
 }
-.w3-card-4 {
-    width: 400px;
-    display: inline-block;
-    vertical-align: top;
-    flex-grow: 1;
+
+.role{
+    color: #DDD;
+    text-align: right;
+}
+
+.skills-header {
+    color: #0cb;
+    margin:3px;
+    padding: 0;
+    user-select: none;
+
+}
+
+.note {
+    font-size: 14px;
+    color: #DDD;
+}
+
+/* ---------Education--------------*/
+.online-entry{
+    margin: 0 auto;
+    width:85%;
+    margin-top: 5px;
+    margin-bottom: 10px;
     padding: 10px;
-    margin: 15px;
-    background-color: lightgray;
 }
+
+.ed-header{
+   margin-bottom: 0;
+    background-color: #999;
+    padding:4px;
+    margin: 0 auto;
+    width:85%;
+    margin-top: 5px;
+}
+
+.ed-topic {
+    font-size: .9em;
+}
+
+.ed-flex-item{
+    width: 400px;
+    background-color: #DDD;
+    padding: 10px;
+    margin: 20px;
+    flex-grow: 1;
+}
+
+/* ---------Projects --------------*/
+
+.proj-flex-item{
+    width: 40%;
+    height:40%;
+    margin: 5px;
+    flex-shrink: 1;
+    flex-grow: 1;
+
+}
+
+.selected {
+    background-color: #08A;
+    color: #FFF !important;
+}
+
 
 /* Media queries to handle various device widths */
 
@@ -247,7 +362,6 @@ span {
     }
     .menu-item {
         font-size: 1.5em;
-        font-size: 2vw;
     }
 }
 @media only screen and (max-width: 1024px) {
@@ -256,7 +370,6 @@ span {
     }
     .menu-item {
         font-size: 1.5em;
-        font-size: 2vw;
     }
 }
 @media only screen and (max-width:900px) {
@@ -265,7 +378,6 @@ span {
     }
     .menu-item {
         font-size: 1.5em;
-        font-size: 3vw;
     }
 }
 @media only screen and (max-width: 750px) {
@@ -278,12 +390,8 @@ span {
     .welcome-message {
         display: none;
     }
-    .img {
-        max-width: 400px;
-    }
     .menu-item {
         font-size: 1em;
-        font-size: 4vw;
     }
 }
 .map {
@@ -299,7 +407,6 @@ span {
 @media only screen and (max-width:450px) {
     .menu-item {
         font-size: .5em;
-        font-size: 4vw;
     }
 }
 @media only screen and (min-width: 750px) {
