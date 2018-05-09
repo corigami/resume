@@ -346,6 +346,14 @@ var model = {
                 LOCATION: 'Hill AFB, UT',
                 URL: 'http://www.park.edu',
                 SKILLS: ['Java', 'C++', 'Object-Oriented', 'Programming', 'Visual Studio', 'Critical Thinking', 'Problem Solving']
+            }, {
+                NAME: 'Community College of the Air Force',
+                DEGREE: 'Associate in Applied Science',
+                MAJOR: 'Avionic Systems Technology',
+                DATES: '1997 - 2002',
+                LOCATION: 'Maxwell AFB, MS',
+                URL: 'http://www.airuniversity.af.mil/Barnes/CCAF/',
+                SKILLS: ['Avionics', 'Management', 'Leadership', 'Critical Thinking']
             }
         ],
         ONLINE: [
