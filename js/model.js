@@ -108,7 +108,7 @@ var model = {
                 SKILLBULLET: [
                     {
                         BULLET: 'Teaches programming: pseudo-code, Java, C++, HTML, CSS, JavaScript',
-                        SKILLS: ['Software Engineering', 'Teaching', 'Java', 'JUnit', 'C++', 'HTML5', 'CSS', 'JavaScript', 'Communication', 'Programming']
+                        SKILLS: ['Software Engineering', 'Teaching', 'Java', 'JUnit', 'C++', 'HTML5', 'CSS', 'JavaScript', 'Communication', 'Programming', 'Object Oriented']
                     },
                     {
                         BULLET: 'Demonstrates Object-Oriented concepts - program design, tracing, debugging, composition, inheritance',

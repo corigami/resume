@@ -101,6 +101,7 @@ var view = {
                     }
                     $('.skills:last').append(el);
                 });
+
             });
         }
     },
@@ -108,20 +109,23 @@ var view = {
     toggleShow: function (element, action) {
         'use strict';
         var trimmedSkill = element.text().replace(" ", "").toLowerCase(),
-            ind = view.skillsToShow.indexOf(element.text().trimmedSkill);
-
+            ind = view.skillsToShow.indexOf(trimmedSkill);
+            
         if (action === 'show') {
-            view.skillsToShow.push(trimmedSkill);
+            if (!view.skillsToShow.includes(trimmedSkill)) {
+                view.skillsToShow.push(trimmedSkill);
+            }
             element.addClass('skill-color');
         } else if (action === 'hide') {
-
             view.skillsToShow.splice(ind, 1);
             element.removeClass('skill-color');
         } else {
             if (element.hasClass('skill-color')) {
                 view.skillsToShow.splice(ind, 1);
             } else {
-                view.skillsToShow.push(trimmedSkill);
+                if (!view.skillsToShow.includes(trimmedSkill)) {
+                    view.skillsToShow.push(trimmedSkill);
+                }
             }
             element.toggleClass('skill-color');
         }
