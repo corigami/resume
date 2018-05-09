@@ -458,7 +458,7 @@ var model = {
                     'Master\'s Thesis project, examining impact of file replication in a UAV swarm utilizing reactive MANET protocols',
                     'Produced utilizing OMNeT++ v4.6 and is written in C++',
                     'Simulates a swarm of UAVs generating files at variable rates',
-                    'Implmented custom variation of ORION transfer protocol for MANETs ',
+                    'Implemented custom variation of ORION transfer protocol for MANETs ',
                     'Results were analyzed with and documented utilizing custom R scripts and Latex.',
                     'Full Thesis can viewed at the Defense Technical Information Center by clicking on the Title link'
                 ],
@@ -491,10 +491,12 @@ var model = {
                 TITLE: 'Computer Science Course Videos',
                 DATES: '2016',
                 DESCRIPTION: [
-                    'Created 35 videos of multimedia content for Computer Science; Supports Flipped Classroom construct',
-                    'Demostrates Course theory and samples of programs-- allows more time for in class labs and exercises'
+                    'Created over 70 videos of multimedia content for Computer Science; Supports Flipped Classroom construct',
+                    'Demostrates Course theory and samples of programs-- allows more time for in class labs and exercises',
+                    'Java I Videos - <a class= "inline" target="_blank" href="https://www.youtube.com/playlist?list=PL3hxNehc1Jwlwye68RhpB7ZsfektFU73G">Link</a>',
+                    'Java II Videos - <a class="inline" target="_blank" href="https://www.youtube.com/playlist?list=PL3hxNehc1JwlxRv5oSSFpQUS8_hUa-FKk">Link</a>'
                 ],
-                URL: 'https://www.youtube.com/watch?v=WCP_j29HBA8&list=PL3hxNehc1Jwlwye68RhpB7ZsfektFU73G',
+                URL: 'https://www.youtube.com/channel/UCmrJrR4-1ELzAJBhgm-ssDg/playlists',
                 IMAGES: [
                     'images/video_sample.JPG'
                 ],
@@ -553,7 +555,7 @@ var model = {
                 GITURL: 'https://github.com/corigami/TOC-Sim-2',
                 IMAGES: [
                     'images/toc2_1.JPG',
-                    'images/TOC_SIMv2.PNG'
+                    'images/TOC_SIMV2.PNG'
                 ],
                 SKILLS: ['Software Engineering', 'JavaScript', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Critical Thinking']
             }, {
