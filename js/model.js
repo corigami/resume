@@ -2,14 +2,14 @@
 var model = {
     BIO: {
         NAME: 'Corey Willinger',
-        ROLE: 'Transitioning Cyber Operations Officer with a passion for Teaching, Coding, and Learning',
+        ROLE: 'Retired Cyber Operations Officer with a passion for Teaching, Coding, and Learning',
         CONTACTS: {
             EMAIL: 'corey.willinger@gmail.com',
             MOBILE: '',
             GITHUB: 'corigami',
             LOCATION: 'Dayton, OH, USA'
         },
-        PICTURE: 'images/me2.jpg',
+        PICTURE: 'images/me.jpg',
         WELCOME_MSG: '',
         SKILLS: [
             {
@@ -64,6 +64,57 @@ var model = {
     WORK: {
         JOBS: [
             {
+                TITLE: 'Adjunct Faculty',
+                SKILLBULLET: [
+                    {
+                        BULLET: 'Teaches programming: pseudo-code, Python, Java, C++, HTML, CSS, JavaScript',
+                        SKILLS: ['Software Engineering', 'Teaching', 'Java', 'JUnit', 'C++', 'HTML5', 'CSS', 'JavaScript', 'Communication', 'Programming', 'Object Oriented']
+                    },
+                    {
+                        BULLET: 'Demonstrates Object-Oriented concepts - program design, tracing, debugging, composition, inheritance',
+                        SKILLS: ['Software Engineering', 'Teaching', 'Critical Thinking', 'Java', 'C++', 'HTML5', 'CSS', 'JavaScript', 'Communication', 'Programming']
+                    },
+                    {
+                        BULLET: 'Teaches introductory computer architecture topics: combinational/sequential logic and CPU concepts',
+                        SKILLS: ['Software Engineering', 'Teaching', 'Avionics', 'Electronic Principles', 'Hardware']
+                    },
+                    {
+                        BULLET: 'Develops and implements class syllabi, lectures, coding exercises; ensures standards are met on time',
+                        SKILLS: ['Teaching', 'Program Management', 'Critical Thinking', 'Education', 'Leadership', 'Communication']
+                    },
+                    {
+                        BULLET: 'Assesses student grades based on performance, participation, assignments and examinations',
+                        SKILLS: ['Teaching', 'Program Management', 'Education', 'Management']
+                    }
+                ],
+                EMPLOYER: 'Park University',
+                DATES: '2016-Present',
+                LOCATION: 'Wright-Patterson AFB, OH, USA',
+                URL: 'https://military.park.edu/location/park-university-at-wright-patterson-afb-in-dayton-oh/'
+            },{
+                TITLE: 'Software Enginner',
+                SKILLBULLET: [
+                    {
+                        BULLET: 'EW software developer w/ Python; utilized Agile dev processes and SVN version control',
+                        SKILLS: ['Software Engineering', 'Agile', 'Python', 'HTML5', 'CSS', 'JavaScript','Programming', 'Object Oriented']
+                    },
+                    {
+                        BULLET: 'Implemented micro-service architecture utilizing RabbitMQ message broker communication protocols',
+                        SKILLS: ['Software Engineering', 'Agile', 'Python', 'HTML5', 'CSS', 'JavaScript', 'Programming', 'Object Oriented']
+                    },
+                    {
+                        BULLET: 'Developed UI upgrades for application testing; Defined JSON data structures and HTML/JS UI elements',
+                        SKILLS: ['Software Engineering', 'Agile', 'Python', 'HTML5', 'CSS', 'JavaScript', 'Programming', 'Object Oriented']
+                    },
+                    {
+                        BULLET: 'Authored requirements, meeting documentation, test cases, and other non-source code artifacts',
+                        SKILLS: ['Software Engineering', 'Agile', 'Python', 'HTML5', 'CSS', 'JavaScript', 'Communication', 'Programming', 'Object Oriented']
+                    }
+                ],
+                EMPLOYER: 'SRC',
+                DATES: '2019-2019',
+                LOCATION: 'Fairborn, OH, USA'
+            },{
                 TITLE: 'Course Director, Avionics Cyber Vulnerability, Mitigation, and Protection',
                 SKILLBULLET: [
                     {
@@ -100,38 +151,10 @@ var model = {
                     }
                 ],
                 EMPLOYER: 'USAF',
-                DATES: '2015-Present',
+                DATES: '2015-2018',
                 LOCATION: 'Wright-Patterson AFB, OH, USA',
                 URL: 'https://www.afit.edu'
-            }, {
-                TITLE: 'Adjunct Faculty',
-                SKILLBULLET: [
-                    {
-                        BULLET: 'Teaches programming: pseudo-code, Java, C++, HTML, CSS, JavaScript',
-                        SKILLS: ['Software Engineering', 'Teaching', 'Java', 'JUnit', 'C++', 'HTML5', 'CSS', 'JavaScript', 'Communication', 'Programming', 'Object Oriented']
-                    },
-                    {
-                        BULLET: 'Demonstrates Object-Oriented concepts - program design, tracing, debugging, composition, inheritance',
-                        SKILLS: ['Software Engineering', 'Teaching', 'Critical Thinking', 'Java', 'C++', 'HTML5', 'CSS', 'JavaScript', 'Communication', 'Programming']
-                    },
-                    {
-                        BULLET: 'Teaches introductory computer architecture topics: combinational/sequential logic and CPU concepts',
-                        SKILLS: ['Software Engineering', 'Teaching', 'Avionics', 'Electronic Principles', 'Hardware']
-                    },
-                    {
-                        BULLET: 'Develops and implements class syllabi, lectures, coding exercises; ensures standards are met on time',
-                        SKILLS: ['Teaching', 'Program Management', 'Critical Thinking', 'Education', 'Leadership', 'Communication']
-                    },
-                    {
-                        BULLET: 'Assesses student grades based on performance, participation, assignments and examinations',
-                        SKILLS: ['Teaching', 'Program Management', 'Education', 'Management']
-                    }
-                ],
-                EMPLOYER: 'Park University',
-                DATES: '2016-Present',
-                LOCATION: 'Wright-Patterson AFB, OH, USA',
-                URL: 'https://military.park.edu/location/park-university-at-wright-patterson-afb-in-dayton-oh/'
-            },
+            }, 
             {
                 TITLE: 'Branch Chief, Network Infrastructure / Plans & Programs Division Chief',
                 SKILLBULLET: [
@@ -147,7 +170,7 @@ var model = {
                     },
                     {
                         BULLET: 'Directed/managed Air Force Institute of Technology Network Certification and Accreditation process',
-                        SKILLS: ['Leadership', 'Management', 'Strategic Planning', 'Critical Thinking', 'Information Technology', 'Cyber Security', 'Program                Management', 'Requirements']
+                        SKILLS: ['Leadership', 'Management', 'Strategic Planning', 'Critical Thinking', 'Information Technology', 'Cyber Security', 'Program Management', 'Requirements']
                     },
                     {
                         BULLET: 'Managed CISCO network infrastructure, VoIP, Video Conferencing System',
@@ -358,13 +381,12 @@ var model = {
         ],
         ONLINE: [
             {
-                SCHOOL: 'Udacity',
-                TITLE: 'Nano-degree: Deep Learning Fundamentals',
-                DATES: '2017-Present',
-                TOPIC: 'Neural , Convolutional, Recurrent, and Generative Adversarial Networks, ' +
-                    'Keras, Tensorflow, Python',
-                URL: 'http://www.udacity.com',
-                SKILLS: ['Software Engineering', 'Python', 'Deep Learning', 'Critcal Thinking', 'Programming', 'Problem Solving']
+                SCHOOL: 'CISCO CCNAv7',
+                TITLE: 'Intro to Networks Instructor Course',
+                DATES: '2020',
+                TOPIC: 'Switching, Routing, IPv4, IPv6, Security',
+                URL: 'https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna-routing-switching.html',
+                SKILLS: ['Cyber Security', 'Teaching', 'Program Management', 'Management', 'Communication', 'Critical Thinking']
             },
             {
                 SCHOOL: 'Udacity',
@@ -395,7 +417,7 @@ var model = {
                 SCHOOL: 'Comptia',
                 TITLE: 'Security+ Certification',
                 DATES: 'Valid: Jul 2013 - Present',
-                TOPIC: 'Security, netowork controls, physical controls, Cyber Security concepts, encryption, continuity planning',
+                TOPIC: 'Security, network controls, physical controls, Cyber Security concepts, encryption, continuity planning',
                 URL: 'https://certification.comptia.org',
                 SKILLS: ['Cyber Security', 'Security+', 'Critical Thinking']
             }, {
@@ -412,7 +434,7 @@ var model = {
                 DATES: 'May 2009',
                 TOPIC: '(208 Hours) Satellite Communications, Large Scale Networks, Net-Ops, Cyber Defense',
                 URL: '#',
-                SKILLS: ['Leadership', 'Management', 'Communication', 'Critical Thinking', 'IT Managagement', 'Networking', 'Strategic Planning']
+                SKILLS: ['Leadership', 'Management', 'Communication', 'Critical Thinking', 'IT Management', 'Networking', 'Strategic Planning']
             },
             {
                 SCHOOL: 'Air Education & Training Command',
@@ -453,12 +475,30 @@ var model = {
                     'Interactive components - filters display by on selected skills',
                     'Hosted on personally managed/controlled domain using SFTP, remote admin'
                 ],
-                URL: 'https://www.gamisweb.com',
+                URL: 'https://www.ctwcs.com',
                 GITURL: 'https://github.com/corigami/resume',
                 IMAGES: [
                     'images/resume.JPG'
                 ],
                 SKILLS: ['Software Engineering', 'JavaScript', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Critical Thinking']
+            },
+            {
+                TITLE: 'Computer Science Course Videos',
+                DATES: '2016',
+                DESCRIPTION: [
+                    'Created over 100 videos of multimedia content for Computer Science; Supports Flipped Classroom construct',
+                    'Demostrates Course theory and samples of programs-- allows more time for in class labs and exercises',
+                    'Java I Videos - <a class= "inline" target="_blank" href="https://www.youtube.com/playlist?list=PL3hxNehc1Jwlwye68RhpB7ZsfektFU73G">Link</a>',
+                    'Java II Videos - <a class="inline" target="_blank" href="https://www.youtube.com/playlist?list=PL3hxNehc1JwlxRv5oSSFpQUS8_hUa-FKk">Link</a>',
+                    'C++ Videos - <a class="inline" target="_blank" href="https://www.youtube.com/playlist?list=PL3hxNehc1Jwn1Hj39DdG-jVhGa1V52U7L">Link</a>',
+                    'Python Videos - <a class="inline" target="_blank" href="https://www.youtube.com/playlist?list=PL3hxNehc1JwnJnyr-CR07XvzmYQ-8e33r">Link</a>'
+
+                ],
+                URL: 'https://www.youtube.com/channel/UCmrJrR4-1ELzAJBhgm-ssDg/playlists',
+                IMAGES: [
+                    'images/video_sample.JPG'
+                ],
+                SKILLS:  ['Software Engineering', 'JavaScript', 'Software Testing', 'Object-Oriented','Design Patterns','HTML5', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
             }, {
                 TITLE: 'OMNet++ UAV P2P File Replication Simulation',
                 DATES: '2015',
@@ -470,7 +510,7 @@ var model = {
                     'Results were analyzed with and documented utilizing custom R scripts and Latex.',
                     'Full Thesis can viewed at the Defense Technical Information Center by clicking on the Title link'
                 ],
-                URL: 'http://www.dtic.mil/docs/citations/ADA615415',
+                URL: 'https://apps.dtic.mil/sti/pdfs/ADA615415.pdf',
                 EMBED: '<iframe src="https://mix.office.com/embed/zvbylas7wt19" frameborder="0" allowfullscreen></iframe>',
                 GITURL: 'https://github.com/corigami/thesis_orion_omnet',
                 IMAGES: [
@@ -494,21 +534,6 @@ var model = {
                     'images/unityACO_300_b.jpg'
                 ],
                 SKILLS:  ['Software Engineering', 'JavaScript', 'Software Testing', 'Object-Oriented','Design Patterns','HTML5', 'Agile', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
-            },
-            {
-                TITLE: 'Computer Science Course Videos',
-                DATES: '2016',
-                DESCRIPTION: [
-                    'Created over 70 videos of multimedia content for Computer Science; Supports Flipped Classroom construct',
-                    'Demostrates Course theory and samples of programs-- allows more time for in class labs and exercises',
-                    'Java I Videos - <a class= "inline" target="_blank" href="https://www.youtube.com/playlist?list=PL3hxNehc1Jwlwye68RhpB7ZsfektFU73G">Link</a>',
-                    'Java II Videos - <a class="inline" target="_blank" href="https://www.youtube.com/playlist?list=PL3hxNehc1JwlxRv5oSSFpQUS8_hUa-FKk">Link</a>'
-                ],
-                URL: 'https://www.youtube.com/channel/UCmrJrR4-1ELzAJBhgm-ssDg/playlists',
-                IMAGES: [
-                    'images/video_sample.JPG'
-                ],
-                SKILLS:  ['Software Engineering', 'JavaScript', 'Software Testing', 'Object-Oriented','Design Patterns','HTML5', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
             },
             {
                 TITLE: 'Software Testing Course Videos',
@@ -556,10 +581,10 @@ var model = {
                 DESCRIPTION: [
                     'Reworked version of Theory of Constraints Simulation v1 (below)',
                     'Implemented Unit Tests through Extensive use of Jasmin Testing Framework',
-                    'Test Script can be run at <a style="display: inline" href="https://www.gamisweb.com/toc2/test/SpecRunner.html">https://www.gamisweb.com/toc2/test/SpecRunner.html</a> (scroll to the bottom to see results)',
+                    'Test Script can be run at <a style="display: inline" href="https://www.ctwcs.com/toc2/test/SpecRunner.html">https://www.ctwcs.com/toc2/test/SpecRunner.html</a> (scroll to the bottom to see results)',
                     'Unit tests can be viewed in github repository'
                 ],
-                URL: 'https://www.gamisweb.com/toc2',
+                URL: 'https://www.ctwcs.com/toc2',
                 GITURL: 'https://github.com/corigami/TOC-Sim-2',
                 IMAGES: [
                     'images/toc2_1.JPG',
@@ -574,7 +599,7 @@ var model = {
                     'Makes use of the Chart.js to dynamicly build graphs based on simulation data',
                     'Uses jQuery to ease managment of input data'
                 ],
-                URL: 'http://www.gamisweb.com/toc',
+                URL: 'http://www.ctwcs.com/toc',
                 GITURL: 'https://github.com/corigami/ToC-Sim',
                 IMAGES: [
                     'images/TOC_SIM.PNG'
@@ -589,7 +614,7 @@ var model = {
                     'Tests for functionality of have certain functions have been implemented',
                     'Developed using red-green-refactor Test Driven Development methodology'
                 ],
-                URL: 'http://www.gamisweb.com/tdd',
+                URL: 'http://www.ctwcs.com/tdd',
                 GITURL: 'https://github.com/corigami/FEND-feedreader-testing',
                 IMAGES: [
                     'images/rss.JPG'
@@ -604,7 +629,6 @@ var model = {
                     'Encorperates error-handling, separation of concerns,and MVVM design pattern',
                     'Utilizes jQuery and Knockout.js frameworks to support interface requirements'
                 ],
-                URL: 'http://www.gamisweb.com/map',
                 GITURL: 'https://github.com/corigami/FEND-neighborhood-map',
                 IMAGES: [
                     'images/map.JPG'
@@ -617,7 +641,7 @@ var model = {
                 DESCRIPTION: [
                     'Demonstrates Object Oriented Programming in JavaScript',
                     'Implements working movement controller, collision detection with enemies and obstacles and level progression.'],
-                URL: 'http://www.gamisweb.com/frogger',
+                URL: 'http://www.ctwcs.com/frogger',
                 GITURL: 'https://github.com/corigami/frontend-nanodegree-arcade-game',
                 IMAGES: [
                     'images/frogger.JPG'
