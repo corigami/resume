@@ -91,12 +91,12 @@ var model = {
                 DATES: '2016-Present',
                 LOCATION: 'Wright-Patterson AFB, OH, USA',
                 URL: 'https://military.park.edu/location/park-university-at-wright-patterson-afb-in-dayton-oh/'
-            },{
+            }, {
                 TITLE: 'Software Enginner',
                 SKILLBULLET: [
                     {
                         BULLET: 'EW software developer w/ Python; utilized Agile dev processes and SVN version control',
-                        SKILLS: ['Software Engineering', 'Agile', 'Python', 'HTML5', 'CSS', 'JavaScript','Programming', 'Object Oriented']
+                        SKILLS: ['Software Engineering', 'Agile', 'Python', 'HTML5', 'CSS', 'JavaScript', 'Programming', 'Object Oriented']
                     },
                     {
                         BULLET: 'Implemented micro-service architecture utilizing RabbitMQ message broker communication protocols',
@@ -114,7 +114,7 @@ var model = {
                 EMPLOYER: 'SRC',
                 DATES: '2019-2019',
                 LOCATION: 'Fairborn, OH, USA'
-            },{
+            }, {
                 TITLE: 'Course Director, Avionics Cyber Vulnerability, Mitigation, and Protection',
                 SKILLBULLET: [
                     {
@@ -140,7 +140,7 @@ var model = {
                     {
                         BULLET: 'Manages collaboration through milSuite.mil; develops custom web interactions and products',
                         SKILLS: ['HTML5', 'CSS', 'JavaScript', 'MS Office', 'SharePoint', 'Management', 'Leadership', 'Communication', 'Programming']
-                    }, 
+                    },
                     {
                         BULLET: 'Developed multiple HTML5/JavaScript utilities to support and display self-created educational video content',
                         SKILLS: ['Critical Thinking', 'JavaScript', 'HTML5', 'Programming']
@@ -154,19 +154,19 @@ var model = {
                 DATES: '2015-2018',
                 LOCATION: 'Wright-Patterson AFB, OH, USA',
                 URL: 'https://www.afit.edu'
-            }, 
+            },
             {
                 TITLE: 'Branch Chief, Network Infrastructure / Plans & Programs Division Chief',
                 SKILLBULLET: [
                     {
                         BULLET: 'Led 9 civ/mil personnel in Plans & Programming, Budget, and Information Assurance',
                         SKILLS: ['Leadership', 'Management', 'Strategic Planning', 'Information Technology', 'Acquisitions',
-                                'Cyber Security', 'Security+', 'Program Management', 'Requirements']
+                            'Cyber Security', 'Security+', 'Program Management', 'Requirements']
                     },
                     {
                         BULLET: 'Managed $1 Mil budget, established purchase processes, reviewed/approved IT requirements',
                         SKILLS: ['Leadership', 'Management', 'Strategic Planning', 'Information Technology', 'Acquisitions',
-                                'Cyber Security', 'Program Management', 'Requirements', 'Critical Thinking']
+                            'Cyber Security', 'Program Management', 'Requirements', 'Critical Thinking']
                     },
                     {
                         BULLET: 'Directed/managed Air Force Institute of Technology Network Certification and Accreditation process',
@@ -227,7 +227,7 @@ var model = {
                     }, {
                         BULLET: 'Coordinated IT service requests with higher divisions',
                         SKILLS: ['Management', 'Strategic Planning', 'Information Technology',
-                                'Program Management', 'Requirements', 'Quality Assurance', 'Communication', 'IT Management']
+                            'Program Management', 'Requirements', 'Quality Assurance', 'Communication', 'IT Management']
                     }, {
                         BULLET: 'Managed $5 million in Wing IT assets',
                         SKILLS: ['Leadership', 'Management', 'Strategic Planning', 'Information Technology', 'Program Management', 'Requirements', 'Quality                Assurance']
@@ -498,8 +498,9 @@ var model = {
                 IMAGES: [
                     'images/video_sample.JPG'
                 ],
-                SKILLS:  ['Software Engineering', 'JavaScript', 'Software Testing', 'Object-Oriented','Design Patterns','HTML5', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
-            }, {
+                SKILLS: ['Software Engineering', 'JavaScript', 'Software Testing', 'Object-Oriented', 'Design Patterns', 'HTML5', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
+            },
+            {
                 TITLE: 'OMNet++ UAV P2P File Replication Simulation',
                 DATES: '2015',
                 DESCRIPTION: [
@@ -516,7 +517,7 @@ var model = {
                 IMAGES: [
                     'images/omnet.jpg'
                 ],
-                SKILLS: ['Software Engineering', 'Software Testing', 'Object-Oriented','Design Patterns', 'Agile', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
+                SKILLS: ['Software Engineering', 'Software Testing', 'Object-Oriented', 'Design Patterns', 'Agile', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
             },
             {
                 TITLE: 'Unity 3D Ant Colony Optimization',
@@ -533,7 +534,7 @@ var model = {
                     'images/unityACO_sq_300.jpg',
                     'images/unityACO_300_b.jpg'
                 ],
-                SKILLS:  ['Software Engineering', 'JavaScript', 'Software Testing', 'Object-Oriented','Design Patterns','HTML5', 'Agile', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
+                SKILLS: ['Software Engineering', 'JavaScript', 'Software Testing', 'Object-Oriented', 'Design Patterns', 'HTML5', 'Agile', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
             },
             {
                 TITLE: 'Software Testing Course Videos',
@@ -546,8 +547,8 @@ var model = {
                 IMAGES: [
                     'images/swTest_vid_sample.PNG'
                 ],
-                SKILLS:  ['Software Engineering', 'JavaScript', 'Software Testing', 'Object-Oriented','Design Patterns','HTML5', 'Agile', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
-            },{
+                SKILLS: ['Software Engineering', 'JavaScript', 'Software Testing', 'Object-Oriented', 'Design Patterns', 'HTML5', 'Agile', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
+            }, {
                 TITLE: 'Software Testing Video Player',
                 DATES: '2016',
                 DESCRIPTION: [
@@ -633,7 +634,7 @@ var model = {
                 IMAGES: [
                     'images/map.JPG'
                 ],
-                SKILLS: ['Software Engineering', 'Object-Oriented','JavaScript', 'Software Testing', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Critical Thinking']
+                SKILLS: ['Software Engineering', 'Object-Oriented', 'JavaScript', 'Software Testing', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Critical Thinking']
             },
             {
                 TITLE: 'Arcade Game Clone',
@@ -646,7 +647,7 @@ var model = {
                 IMAGES: [
                     'images/frogger.JPG'
                 ],
-                SKILLS: ['Software Engineering', 'JavaScript', 'Object-Oriented','Design Patterns','Software Testing', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Problem Solving', 'Critical Thinking']
+                SKILLS: ['Software Engineering', 'JavaScript', 'Object-Oriented', 'Design Patterns', 'Software Testing', 'HTML5', 'Agile', 'Programming', 'GIT', 'Communication', 'Problem Solving', 'Critical Thinking']
             },
             {
                 TITLE: 'Career Development Course Tester',
@@ -663,7 +664,7 @@ var model = {
                     'images/cdcTester_sq_300b.jpg',
                     'images/cdcTester_sq_300c.jpg'
                 ],
-                SKILLS: ['Programming', 'Java', 'Programming', 'Problem Solving', 'GIT', 'Object-Oriented','Critical Thinking']
+                SKILLS: ['Programming', 'Java', 'Programming', 'Problem Solving', 'GIT', 'Object-Oriented', 'Critical Thinking']
             }
         ]
     }
