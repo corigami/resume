@@ -5,7 +5,6 @@ var view = {
     skillsToShow: [],
     init: function () {
         'use strict';
-        $('#map-div').append(helperVar.googleMap);
         view.displayBio('#header');
         view.displayBio('#footerContacts');
         view.displayMenu();
@@ -47,7 +46,7 @@ var view = {
             contactLoc = section,
             FORMATTED_EMAIL = helperVar.HTMLemail.replace('%data%', BIO.CONTACTS.EMAIL),
             FORMATTED_GITHUB = helperVar.HTMLgithub.replace('%data%', BIO.CONTACTS.GITHUB),
-            FORMATED_LOCATION = helperVar.HTMLlocation.replace('%data%', BIO.CONTACTS.LOCATION),
+            FORMATTED_LOCATION = helperVar.HTMLlocation.replace('%data%', BIO.CONTACTS.LOCATION),
             FORMATTED_ROLE = helperVar.HTMLheaderRole.replace('%data%', BIO.ROLE),
             FORMATTED_NAME = helperVar.HTMLheaderName.replace('%data%', BIO.NAME),
             FORMATTED_BIOPIC = helperVar.HTMLbioPic.replace('%data%', BIO.PICTURE);
@@ -55,12 +54,13 @@ var view = {
         //add elements to header, we'll reuse them later for the footer   
         if (section === '#header') {
             contactLoc = '#topContacts';
-            $(section).prepend(FORMATTED_BIOPIC);
+            
             $(section).prepend(FORMATTED_ROLE);
             $(section).prepend(FORMATTED_NAME);
+            $(section).prepend(FORMATTED_BIOPIC);
             $(contactLoc).append(FORMATTED_EMAIL);
             $(contactLoc).append(FORMATTED_GITHUB);
-            $(contactLoc).append(FORMATED_LOCATION);
+            $(contactLoc).append(FORMATTED_LOCATION);
 
             // Add skills section to the bio
             $(section).append(helperVar.HTMLskillsStart);
@@ -295,7 +295,7 @@ $('#experience').fadeIn();
 //logic to make navigation bar "float with scroll
 $(document).ready(function () {
     'use strict';
-    var num = 508; //number of pixels before modifying styles
+    var num = 585; //number of pixels before modifying styles
 
     $(window).bind('scroll', function () {
         if ($(window).scrollTop() > num) {

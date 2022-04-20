@@ -1,8 +1,8 @@
 /*global window, document, controller, google*/
 //helper variables for BIO block of resumeBuilder.js
 var helperVar = {
-    HTMLheaderName: '<h1 id="name">%data%</h1>',
-    HTMLheaderRole: '<div class="role">%data%</div><hr/>',
+    HTMLheaderName: '<div id="name">%data%</div>',
+    HTMLheaderRole: '<div id="role">%data%</div><hr/>',
     HTMLcontactGeneric: '<li class="flex-item"><span class="lt-green-text">%contact%</span><span class="lt-blue-text">%data%</span></li>',
     HTMLmobile: '<li class="flex-item"><span class="lt-green-text">mobile</span><span class="lt-blue-text">%data%</span></li>',
     HTMLemail: '<li class="flex-item"><span class="lt-green-text">email</span><span class="lt-blue-text">%data%</span></li>',
@@ -10,7 +10,7 @@ var helperVar = {
     HTMLgithub: '<li class="flex-item"><span class="lt-green-text">github</span><a class="inline" href="https://github.com/corigami">%data%</a></span></li>',
     HTMLblog: '<li class="flex-item"><span class="lt-green-text">blog</span><span class="lt-blue-text">%data%</span></li>',
     HTMLlocation: '<li class="flex-item"><span class="lt-green-text">location</span><span class="lt-blue-text">%data%</span></li>',
-    HTMLbioPic: '<img src="%data%" class="biopic">',
+    HTMLbioPic: '<img src="%data%" id="biopic">',
     HTMLwelcomeMsg: '<span class="welcome-message">%data%</span>',
     HTMLskillsStart: '<h3 id="skills-h3" class="skills-header">Skills -  <span class="note">click a type or individual skill to ' +
         'filter experience bullets, education, and project items</span></h3><div id="skill-group"></div>',

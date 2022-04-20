@@ -25,13 +25,6 @@ html {
   width: 100%;
 }
 
-h1 {
-  color: #08a;
-  display: inline;
-  font-size: 40px;
-  line-height: 48px;
-}
-
 h2 {
   color: #808080;
   font-size: 24px;
@@ -78,6 +71,10 @@ li {
   word-wrap: break-word;
 }
 
+hr {
+    width:80%;
+}
+
 nav {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -113,7 +110,7 @@ ul {
 }
 
 .center-content {
-  padding: 2.5% 5%;
+    padding: 20px;
 }
 
 .dark-gray {
@@ -183,14 +180,6 @@ ul {
   border-radius: 5px;
 }
 
-.biopic {
-  display: none;
-  float: left;
-  padding: 10px;
-  width: 150px;
-  border-radius: 30px;
-}
-
 .connect {
   background-color: #08a;
   text-align: center;
@@ -248,6 +237,8 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
   padding: 10px;
+  width: auto;
+  justify-content: center;
 }
 
 .location-text {
@@ -305,13 +296,6 @@ ul {
   flex-grow: 1;
 }
 
-.role {
-  margin-top: 30px;
-  color: #ddd;
-  text-align: right;
-  font-size: 2em;
-}
-
 .selected {
   background-color: rgba(0, 170, 113, 0.897);
   color: #fff !important;
@@ -355,8 +339,22 @@ ul {
 
 /* --------------------------ID Selectors---------------------------------*/
 
+
+#biopic {
+    display: none;
+    float: left;
+    width: 150px;
+    border-radius: 30px;
+  }
+
 #name {
+  color: #08a;
+  font-size: 40px;
   font-size: 6em;
+  margin-top: 20px;
+  text-align: right;
+  width: auto;
+  display: block;
 }
 
 #menu.fixed {
@@ -366,6 +364,18 @@ ul {
   transform: translateX(-50%);
   max-width: 1080px;
 }
+
+#topContacts {
+    width:90%;
+}
+
+#role {
+    margin: 20px 0px;
+    color: #ddd;
+    text-align: right;
+    font-size: 2em;
+    padding-right: 20px;
+  }
 
 #skill-group {
   display: flex;
@@ -395,7 +405,7 @@ ul {
 }
 
 @media only screen and (max-width: 900px) {
-  .biopic {
+  #biopic {
     width: 175px;
   }
 
@@ -409,7 +419,7 @@ ul {
     margin-top: 10%;
   }
 
-  .biopic {
+    #biopic {
     width: 150px;
   }
 
@@ -430,7 +440,7 @@ ul {
 
 @media only screen and (min-width: 750px) {
   .skills-start,
-  .biopic {
+  #biopic {
     display: block;
   }
 }
