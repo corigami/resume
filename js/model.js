@@ -9,7 +9,7 @@ var model = {
             GITHUB: 'corigami',
             LOCATION: 'Dayton, OH, USA'
         },
-        PICTURE: 'images/me.jpg',
+        PICTURE: 'images/me2.jpg',
         WELCOME_MSG: '',
         SKILLS: [
             {
@@ -22,7 +22,7 @@ var model = {
                     'Cyber Security',
                     'Deep Learning',
                     'Design Patterns',
-                    'Electronic Priniciples',
+                    'Electronic Principles',
                     'GIT',
                     'HTML5',
                     'Java',
@@ -64,6 +64,25 @@ var model = {
     WORK: {
         JOBS: [
             {
+                TITLE: 'Academic Director',
+                SKILLBULLET: [
+                    {
+                        BULLET: 'Oversees adjunct faculty performance and leads instructor training, professional development',
+                        SKILLS: ['Teaching', 'Education', 'Critical Thinking','Leadership', 'Communication']
+                    },
+                    {
+                        BULLET: 'Ensures compliance with university policies and standards',
+                        SKILLS: ['Teaching', 'Management', 'Leadership', 'Communication']
+                    },                    {
+                        BULLET: 'Participates in hiring, managing, and developing WPAFB Campus Center adjunct faculty',
+                        SKILLS: ['Teaching', 'Management', 'Critical Thinking', 'Education', 'Leadership', 'Communication']
+                    }
+                ],
+                EMPLOYER: 'Park University',
+                DATES: '2021-Present',
+                LOCATION: 'Wright-Patterson AFB, OH, USA',
+                URL: 'https://military.park.edu/location/park-university-at-wright-patterson-afb-in-dayton-oh/'
+            },{
                 TITLE: 'Adjunct Faculty',
                 SKILLBULLET: [
                     {
@@ -76,7 +95,7 @@ var model = {
                     },
                     {
                         BULLET: 'Teaches introductory computer architecture topics: combinational/sequential logic and CPU concepts',
-                        SKILLS: ['Software Engineering', 'Teaching', 'Avionics', 'Electronic Principles', 'Hardware']
+                        SKILLS: ['Software Engineering', 'Teaching', 'Avionics', 'Electronic Principles', 'Hardware','Classroom management']
                     },
                     {
                         BULLET: 'Develops and implements class syllabi, lectures, coding exercises; ensures standards are met on time',
@@ -92,6 +111,27 @@ var model = {
                 LOCATION: 'Wright-Patterson AFB, OH, USA',
                 URL: 'https://military.park.edu/location/park-university-at-wright-patterson-afb-in-dayton-oh/'
             }, {
+                TITLE: 'Substitute Teacher',
+                SKILLBULLET: [
+                    {
+                        BULLET: 'Oversees student performance and leads instruction per teacher lesson plans',
+                        SKILLS: ['Teaching', 'Education', 'Critical Thinking','Classroom management', 'Communication']
+                    },
+                    {
+                        BULLET: 'Ensures student compliance with school standards, policies, and procedures',
+                        SKILLS: ['Teaching', 'Education', 'Critical Thinking','Classroom management', 'Communication']
+                    },
+                    {
+                        BULLET: 'Provides after-action reports on student performance and behavior ',
+                        SKILLS: ['Teaching', 'Education', 'Critical Thinking', 'Classroom management', 'Communication']
+                    },
+
+                ],
+                EMPLOYER: 'Dayton Regional STEM School',
+                DATES: '2021-Present',
+                LOCATION: 'Kettering, OH, USA',
+                URL: 'https://www.daytonstemschool.org/'
+            },{
                 TITLE: 'Software Enginner',
                 SKILLBULLET: [
                     {
@@ -381,6 +421,13 @@ var model = {
         ],
         ONLINE: [
             {
+                SCHOOL: 'Ohio State',
+                TITLE: 'Alternative Resident Educator Institute',
+                DATES: '2021',
+                TOPIC: 'Secondary Education Licensure',
+                URL: 'https://ipti.osu.edu/',
+                SKILLS: ['Teaching', 'Planning','Student Development','Lesson Planning', 'Communication', 'Critical Thinking']
+            },{
                 SCHOOL: 'CISCO CCNAv7',
                 TITLE: 'Intro to Networks Instructor Course',
                 DATES: '2020',
@@ -394,7 +441,6 @@ var model = {
                 DATES: 'June 2015- Jan 2016',
                 TOPIC: 'HTML5, CSS3, JavaScript, Responsive Design, Website Optimization, Version Control',
                 URL: 'http://www.udacity.com',
-
                 SKILLS: ['Software Engineering', 'Critical Thinking', 'JavaScript', 'HTML5', 'JUnit', 'Agile', 'Communication', 'Problem Solving']
             },
             {
@@ -414,9 +460,9 @@ var model = {
                 SKILLS: ['Teaching', 'Program Management', 'Management', 'Communication', 'Critical Thinking']
             },
             {
-                SCHOOL: 'Comptia',
+                SCHOOL: 'CompTIA',
                 TITLE: 'Security+ Certification',
-                DATES: 'Valid: Jul 2013 - Present',
+                DATES: 'Valid: 2013 - 2019',
                 TOPIC: 'Security, network controls, physical controls, Cyber Security concepts, encryption, continuity planning',
                 URL: 'https://certification.comptia.org',
                 SKILLS: ['Cyber Security', 'Security+', 'Critical Thinking']
@@ -484,7 +530,7 @@ var model = {
             },
             {
                 TITLE: 'Computer Science Course Videos',
-                DATES: '2016',
+                DATES: '2016 - Present',
                 DESCRIPTION: [
                     'Created over 100 videos of multimedia content for Computer Science; Supports Flipped Classroom construct',
                     'Demostrates Course theory and samples of programs-- allows more time for in class labs and exercises',
@@ -499,6 +545,19 @@ var model = {
                     'images/video_sample.JPG'
                 ],
                 SKILLS: ['Software Engineering', 'JavaScript', 'Software Testing', 'Object-Oriented', 'Design Patterns', 'HTML5', 'Programming', 'Problem Solving', 'GIT', 'Communication', 'Critical Thinking']
+            },
+            {
+                TITLE: 'Arduino Auto Glider',
+                DATES: '2018',
+                DESCRIPTION: [
+                    'Integrated Inertial Navigation Unit (INU) into foam glider to control flight surfaces',
+                    'Feedback from INU used to drive changes to pitch and roll'
+
+                ],
+                IMAGES: [
+                    'images/glider.jpg'
+                ],
+                SKILLS: ['Software Engineering', , 'Software Testing', 'Programming', 'Problem Solving', 'Critical Thinking']
             },
             {
                 TITLE: 'OMNet++ UAV P2P File Replication Simulation',

@@ -22,7 +22,10 @@ html {
     width: 100%;
     max-width: 1200px;
     min-width: 350px;
+
 }
+
+
 
 
 h1 {
@@ -58,6 +61,8 @@ h5 {
 nav {
     width: 90%;
     margin: auto;
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius:5px ;
 }
 
 p {
@@ -88,6 +93,7 @@ img {
     background-size: contain;
     padding: 10px;
     width: 80%;
+    
 
 }
 span {
@@ -189,6 +195,8 @@ span {
     margin-top: 5px;
     margin-bottom: 20px;
     padding: 10px;
+    border-radius: 5px;
+
 }
 
 .flex-box {
@@ -205,6 +213,8 @@ span {
 
 .header {
     background-color: #444;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
 }
 
 .header-flex-box {
@@ -219,10 +229,11 @@ span {
     user-select: none;
     margin: 5px;
     padding:2px 5px;
+    border-radius: 2px;
 }
 
 .skill-color {
-    background-color: #08A;  
+    background-color: rgba(79, 182, 208, 0.553);  
 }
 
 .biopic {
@@ -230,6 +241,7 @@ span {
     float: left;
     padding: 10px;
     width: 150px;
+    border-radius: 30px;
 }
 
 .welcome-message {
@@ -260,6 +272,7 @@ span {
     text-transform: uppercase;
     font-size: 1.5em;
     padding: 10px 0 20px 0;
+    
 }
 .menu-item:hover {
     box-shadow: inset 1px 1px 4px #000;
@@ -349,7 +362,7 @@ span {
 }
 
 .selected {
-    background-color: #08A;
+    background-color: rgba(0, 170, 113, 0.897);
     color: #FFF !important;
 }
 
