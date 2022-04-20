@@ -295,7 +295,7 @@ $('#experience').fadeIn();
 //logic to make navigation bar "float with scroll
 $(document).ready(function () {
     'use strict';
-    var num = 380; //number of pixels before modifying styles
+    var num = 508; //number of pixels before modifying styles
 
     $(window).bind('scroll', function () {
         if ($(window).scrollTop() > num) {
