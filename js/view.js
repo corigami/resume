@@ -68,37 +68,14 @@ var view = {
             //Add header and toggle functionality for each skill group
             BIO.SKILLS.forEach(function (skillType) {
                 var groupHeader = $(helperVar.HTMLskillsGroupHeader.replace('%data%', skillType.TYPE));
-                groupHeader.css('cursor', 'pointer');
                 $('#skill-group').append(groupHeader);
-
-                groupHeader.click(function () {
-                    if (groupHeader.hasClass('show')) {
-                        $('.' + skillType.TYPE).each(function () {
-                            view.toggleShow($(this), 'hide');
-                        });
-                    } else {
-                        $('.' + skillType.TYPE).each(function () {
-                            view.toggleShow($(this), 'show');
-                        });
-                    }
-                    groupHeader.toggleClass('show');
-                });
 
                 //Add skills and toggle functionality to each group
                 $('#skill-group').append($(helperVar.HTMLskillsGroupStart));
                 skillType.SKILL.forEach(function (skill) {
                     var el = $(helperVar.HTMLskills.replace('%data%', skill).replace('%type%', skillType.TYPE)),
                         trimmedSkill = skill.replace(' ', '').toLowerCase();
-                    el.css('cursor', 'pointer');
                     view.skillsToShow.push(trimmedSkill);
-
-                    el.click(function () {
-                        view.toggleShow(el);
-                    });
-
-                    if (!view.skillsToShow.includes(trimmedSkill)) {
-                        view.skillsToShow.push(trimmedSkill);
-                    }
                     $('.skills:last').append(el);
                 });
 
@@ -115,19 +92,19 @@ var view = {
             if (!view.skillsToShow.includes(trimmedSkill)) {
                 view.skillsToShow.push(trimmedSkill);
             }
-            element.addClass('skill-color');
+            element.removeClass('skill-hide');
         } else if (action === 'hide') {
             view.skillsToShow.splice(ind, 1);
-            element.removeClass('skill-color');
+            element.addClass('skill-hide');
         } else {
-            if (element.hasClass('skill-color')) {
+            if (!element.hasClass('skill-hide')) {
                 view.skillsToShow.splice(ind, 1);
             } else {
                 if (!view.skillsToShow.includes(trimmedSkill)) {
                     view.skillsToShow.push(trimmedSkill);
                 }
             }
-            element.toggleClass('skill-color');
+            element.toggleClass('skill-hide');
         }
 
         //Hide all entries and only show items that apply to current filter
@@ -224,13 +201,11 @@ var view = {
                     onlineElement.addClass(skill.replace(' ', '').toLowerCase());
                 });
             }
-
             $('#onlineFlex').append(onlineElement);
             $('.online-entry:last').append(FORMATTED_TITLE);
             $('.online-entry:last').append(FORMATTED_SCHOOL);
             $('.online-entry:last').append(FORMATTED_DATES);
             $('.online-entry:last').append(FORMATTED_TOPIC);
-
         });
         $('#education').hide();
 

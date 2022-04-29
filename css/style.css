@@ -33,13 +33,12 @@ h2 {
 }
 
 h3 {
-  color: #000;
   font-size: 20px;
   font-style: italic;
 }
 
 h4 {
-  color: #4a4a4a;
+  color: #373737;
   font-size: 14px;
   font-weight: bold;
 }
@@ -114,7 +113,7 @@ ul {
 }
 
 .dark-gray {
-  background-color: #444;
+  background-color: #0F0f0f;;
 }
 
 .gray {
@@ -169,7 +168,6 @@ ul {
 }
 
 /* --------------------------------Multi Purpose -----------------------------------*/
-.education-entry,
 .work-entry,
 .project-entry {
   margin: 0 auto;
@@ -193,20 +191,43 @@ ul {
   line-height: 16px;
 }
 
-.ed-header {
-  background-color: #999;
-  margin-bottom: 0;
-  margin-top: 5px;
-  margin: 0 auto;
-  padding: 4px;
-  width: 85%;
+.school-text {
+  color: #999;
+  float: right;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 16px;
 }
 
-.ed-flex-item {
+.school-header {
+  background-color: #FFF;
+  text-align: center;
+  margin: 20px auto 0px;
+  padding: 4px;
+  width: 300px;
+}
+
+.course-header {
+  background-color: #FFF;
+  text-align: center;
+  margin: 5px auto 0px;
+  padding: 4px;
+  width: 300px;
+}
+
+.ed-flex-course {
   width: 400px;
   background-color: #ddd;
   padding: 10px;
-  margin: 20px;
+  margin: 10px;
+  flex-grow: 1;
+}
+
+.ed-flex-school {
+  width: 85%;
+  background-color: #ddd;
+  padding: 10px;
+  margin: 10px;
   flex-grow: 1;
 }
 
@@ -226,19 +247,30 @@ ul {
 }
 
 .header {
-  background-color: #444;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
+.contact-flex-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: right;
+  margin: 20px 0;
+  padding-right: 20px;
+}
+
 .header-flex-box {
-  display: -webkit-flex;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding: 10px;
   width: auto;
-  justify-content: center;
+  justify-content: left;
+}
+
+.icon {
+  margin: 5px 10px;
 }
 
 .location-text {
@@ -280,14 +312,6 @@ ul {
   color: #ddd;
 }
 
-.online-entry {
-  margin: 0 auto;
-  width: 85%;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  padding: 10px;
-}
-
 .proj-flex-item {
   width: 40%;
   height: 40%;
@@ -301,8 +325,8 @@ ul {
   color: #fff !important;
 }
 
-.skill-color {
-  background-color: rgba(79, 182, 208, 0.553);
+.skill-hide {
+  text-decoration: line-through;
 }
 
 .skills-header {
@@ -314,9 +338,9 @@ ul {
 
 .skill-item {
   user-select: none;
-  margin: 5px;
-  padding: 2px 5px;
+  margin: 1px 2px;
   border-radius: 2px;
+  padding:2px;
 }
 
 .title-link {
@@ -352,6 +376,7 @@ ul {
   font-size: 40px;
   font-size: 6em;
   margin-top: 20px;
+  padding-right: 20px;
   text-align: right;
   width: auto;
   display: block;
@@ -365,9 +390,6 @@ ul {
   max-width: 1080px;
 }
 
-#topContacts {
-    width:90%;
-}
 
 #role {
     margin: 20px 0px;
@@ -383,6 +405,13 @@ ul {
 }
 
 /* ---------------Media queries to handle various device widths ----------------*/
+
+@media print {
+  body {
+  background-color: #FFF;
+  }
+
+}
 
 @media only screen and (min-width: 1800px) {
   .connect {

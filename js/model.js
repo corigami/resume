@@ -2,7 +2,7 @@
 var model = {
   BIO: {
     NAME: "Corey T. Willinger",
-    ROLE: "Learner. Coder. Teacher. ",
+    ROLE: "Coder. Teacher. Explorer.",
     CONTACTS: {
       EMAIL: "corey.willinger@gmail.com",
       MOBILE: "",
@@ -13,50 +13,50 @@ var model = {
     WELCOME_MSG: "",
     SKILLS: [
       {
-        TYPE: "Technical",
+        TYPE: "Software Engineering",
         SKILL: [
-          "Agile",
-          "Avionics",
-          "C++",
-          "CSS",
-          "Cyber Security",
-          "Deep Learning",
-          "Design Patterns",
-          "Electronic Principles",
-          "GIT",
-          "HTML5",
-          "Java",
+          "C++,",
+          "Java,",
+          "Python,",
+          "Agile,",
           "JavaScript",
-          "JUnit",
-          "Networking",
-          "Object-Oriented",
-          "Programming",
-          "Security+",
-          "Software Engineering",
-          "Software Testing",
-          "Trouble-shooting",
-          "Visual Studio",
+          "HTML5,",
+          "CSS3,",
+          "Agile,",
+          "Design Patterns,",
+          "GIT,",
+          "IDEs,",
+          "JUnit,",
+          "Networking,",
+          "Object-Oriented,",
+          "Software Testing,",
+          "Trouble-shooting"
+        ],
+      },      {
+        TYPE: "Teaching",
+        SKILL: [
+          "Communication,",
+          "Critical Thinking,",
+          "Student Management,",
+          "Integrated Course Development,",
+          "Standards Enforcement,",
+          "Problem Solving",
+          "Canvas",
+          "Blackboard"
         ],
       },
       {
         TYPE: "Non-Technical",
         SKILL: [
-          "Acquisitions",
-          "Consulting",
-          "Communication",
-          "Critical Thinking",
-          "Customer Service",
-          "IT Management",
-          "Leadership",
-          "Management",
-          "Problem Solving",
-          "Program Management",
-          "Quality Assurance",
-          "Requirements",
-          "SharePoint",
-          "Strategic Planning",
-          "Teaching",
-          "Training",
+          "Customer Service,",
+          "IT Management,",
+          "Leadership,",
+          "Management,",
+          "Program Management,",
+          "Quality Assurance,",
+          "Requirements,",
+          "SharePoint,",
+          "Strategic Planning,",
         ],
       },
     ],
@@ -921,11 +921,22 @@ var model = {
         DATES: "1997 - 2002",
         LOCATION: "Maxwell AFB, MS",
         URL: "http://www.airuniversity.af.mil/Barnes/CCAF/",
-        SKILLS: ["Avionics", "Management", "Leadership", "Critical Thinking"],
+        SKILLS: ["Avionics", "Management", "Leadership", "Critical Thinking"]
       },
     ],
     ONLINE: [
       {
+        SCHOOL: "Udemy",
+        TITLE: "Linux Administration Bootcamp",
+        DATES: "2022",
+        TOPIC: "Linux System Administration",
+        URL: "https://www.udemy.com/share/101XmK3@WSl5j0Vn0A9CtEmJbYyk7Pnx6G1NZUtkBKi3oK8eYnqAD0B-fkM7LT0p0W86xTGb/",
+        SKILLS: [
+          "Disk Management",
+          "User Management",
+          "Linux Fundamentals"
+        ]
+      },{
         SCHOOL: "Ohio State",
         TITLE: "Alternative Resident Educator Institute",
         DATES: "2021",
@@ -938,7 +949,21 @@ var model = {
           "Lesson Planning",
           "Communication",
           "Critical Thinking",
-        ],
+        ]
+      },
+      {
+        SCHOOL: "Udemy",
+        TITLE: "Probability and Statistics",
+        DATES: "2020",
+        TOPIC: "Secondary Education Licensure",
+        URL: "https://www.udemy.com/share/101WJi3@SLUEM72Q7r27zjFauX6QE-YXKcl6yyVMADu0A86pv7pIZyCBFcXS8kCt7srnn-uc/",
+        SKILLS: [
+          "Data Distributions",
+          "Discrete Random Variables",
+          "Sampling",
+          "Hypothesis Testing",
+          "Regression"
+        ]
       },
       {
         SCHOOL: "CISCO CCNAv7",
@@ -953,7 +978,7 @@ var model = {
           "Management",
           "Communication",
           "Critical Thinking",
-        ],
+        ]
       },
       {
         SCHOOL: "Udacity",
@@ -971,7 +996,7 @@ var model = {
           "Agile",
           "Communication",
           "Problem Solving",
-        ],
+        ]
       },
       {
         SCHOOL: "AFIT",
@@ -988,7 +1013,7 @@ var model = {
           "Strategic Thinking",
           "Communication",
           "Problem Solving",
-        ],
+        ]
       },
       {
         SCHOOL: "AFIT",
@@ -1003,7 +1028,7 @@ var model = {
           "Management",
           "Communication",
           "Critical Thinking",
-        ],
+        ]
       },
       {
         SCHOOL: "CompTIA",
@@ -1026,7 +1051,7 @@ var model = {
           "Security+",
           "Networking",
           "Critical Thinking",
-        ],
+        ]
       },
       {
         SCHOOL: "Air Force Training Command",
@@ -1043,7 +1068,7 @@ var model = {
           "IT Management",
           "Networking",
           "Strategic Planning",
-        ],
+        ]
       },
       {
         SCHOOL: "Air Education & Training Command",
@@ -1059,7 +1084,7 @@ var model = {
           "Critical Thinking",
           "Strategic Planning",
           "Problem Solving",
-        ],
+        ]
       },
       {
         SCHOOL: "Aviation and Electronic Schools of America",
@@ -1080,7 +1105,7 @@ var model = {
         URL: "#",
         SKILLS: ["Electronic Principles", "Avionics"],
       },
-    ],
+    ]
   },
 
   PROJECTS: {
@@ -1105,7 +1130,7 @@ var model = {
           "GIT",
           "Communication",
           "Critical Thinking",
-        ],
+        ]
       },
       {
         TITLE: "Computer Science Course Videos",
@@ -1132,7 +1157,7 @@ var model = {
           "GIT",
           "Communication",
           "Critical Thinking",
-        ],
+        ]
       },
       {
         TITLE: "Arduino Auto Glider",
@@ -1149,7 +1174,7 @@ var model = {
           "Programming",
           "Problem Solving",
           "Critical Thinking",
-        ],
+        ]
       },
       {
         TITLE: "OMNet++ UAV P2P File Replication Simulation",
@@ -1178,7 +1203,7 @@ var model = {
           "GIT",
           "Communication",
           "Critical Thinking",
-        ],
+        ]
       },
       {
         TITLE: "Unity 3D Ant Colony Optimization",
@@ -1205,7 +1230,7 @@ var model = {
           "GIT",
           "Communication",
           "Critical Thinking",
-        ],
+        ]
       },
       {
         TITLE: "Software Testing Course Videos",
@@ -1229,7 +1254,7 @@ var model = {
           "GIT",
           "Communication",
           "Critical Thinking",
-        ],
+        ]
       },
       {
         TITLE: "Software Testing Video Player",
@@ -1251,7 +1276,7 @@ var model = {
           "GIT",
           "Communication",
           "Critical Thinking",
-        ],
+        ]
       },
       {
         TITLE: "Closed Captioning VTT File Creator",
@@ -1272,7 +1297,7 @@ var model = {
           "GIT",
           "Communication",
           "Critical Thinking",
-        ],
+        ]
       },
       {
         TITLE: "ToC Sim v2",
@@ -1295,7 +1320,7 @@ var model = {
           "GIT",
           "Communication",
           "Critical Thinking",
-        ],
+        ]
       },
       {
         TITLE: "Theory of Constraints Simulation v1",
@@ -1317,7 +1342,7 @@ var model = {
           "GIT",
           "Communication",
           "Critical Thinking",
-        ],
+        ]
       },
       {
         TITLE: "RSS Feed - Test Driven Development Using Jasmine",
@@ -1340,7 +1365,7 @@ var model = {
           "GIT",
           "Communication",
           "Critical Thinking",
-        ],
+        ]
       },
       {
         TITLE: "Neighborhod Map",
@@ -1363,7 +1388,7 @@ var model = {
           "GIT",
           "Communication",
           "Critical Thinking",
-        ],
+        ]
       },
       {
         TITLE: "Arcade Game Clone",
@@ -1388,7 +1413,7 @@ var model = {
           "Communication",
           "Problem Solving",
           "Critical Thinking",
-        ],
+        ]
       },
       {
         TITLE: "Career Development Course Tester",
@@ -1413,8 +1438,8 @@ var model = {
           "GIT",
           "Object-Oriented",
           "Critical Thinking",
-        ],
-      },
-    ],
-  },
+        ]
+      }
+    ]
+  }
 };
