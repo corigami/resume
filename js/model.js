@@ -955,7 +955,7 @@ var model = {
         SCHOOL: "Udemy",
         TITLE: "Probability and Statistics",
         DATES: "2020",
-        TOPIC: "Secondary Education Licensure",
+        TOPIC: "Probability and Statistics",
         URL: "https://www.udemy.com/share/101WJi3@SLUEM72Q7r27zjFauX6QE-YXKcl6yyVMADu0A86pv7pIZyCBFcXS8kCt7srnn-uc/",
         SKILLS: [
           "Data Distributions",
