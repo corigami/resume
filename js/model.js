@@ -1133,9 +1133,9 @@ var model = {
         ]
       }, {
         TITLE: "Simon Says Clone",
-        DATES: "2022",
+        DATES: "2022 - 2022",
         DESCRIPTION: [
-          "A simple Simon Says clone.  Created as part of a Web Development course I took to refresh my front-end skills.",
+          "A simple Simon Says clone.  Created as part of a Web Development course I took to refresh my front-end skills."
         ],
         URL: "https://www.ctwcs.com/simon",
         GITURL: "https://github.com/corigami/simon",
@@ -1143,7 +1143,7 @@ var model = {
         SKILLS: [
           "Software Engineering",
           "JavaScript",
-          "HTML5",,
+          "HTML5",
           "Programming",
           "GIT",
           "CSS"
@@ -1154,7 +1154,7 @@ var model = {
         DATES: "2016 - Present",
         DESCRIPTION: [
           "Created over 100 videos of multimedia content for Computer Science; Supports Flipped Classroom construct",
-          "Demostrates Course theory and samples of programs-- allows more time for in class labs and exercises",
+          "Demonstrates Course theory and samples of programs-- allows more time for in class labs and exercises",
           'Java I Videos - <a class= "inline" target="_blank" href="https://www.youtube.com/playlist?list=PL3hxNehc1Jwlwye68RhpB7ZsfektFU73G">Link</a>',
           'Java II Videos - <a class="inline" target="_blank" href="https://www.youtube.com/playlist?list=PL3hxNehc1JwlxRv5oSSFpQUS8_hUa-FKk">Link</a>',
           'C++ Videos - <a class="inline" target="_blank" href="https://www.youtube.com/playlist?list=PL3hxNehc1Jwn1Hj39DdG-jVhGa1V52U7L">Link</a>',
@@ -1227,9 +1227,9 @@ var model = {
         DATES: "2014",
         DESCRIPTION: [
           "Written in C# utilizing Unity 3d game environment",
-          "Implementes Ad hoc On-demand Distance Vector (AODV) routing protocol",
+          "Implements Ad hoc On-demand Distance Vector (AODV) routing protocol",
           "Demonstrates Ant Colony Optimization and Genetic algorithm to produce a minimally connected dominated set (MCDS)",
-          "Extendable to use different mobility and network models due to implemention using SOLID design principles",
+          "Extendable to use different mobility and network models due to implementation using SOLID design principles",
         ],
         URL: "https://github.com/corigami/Simulator",
         GITURL: "https://github.com/corigami/Simulator",
@@ -1254,7 +1254,7 @@ var model = {
         DATES: "2015",
         DESCRIPTION: [
           "Created 30 videos of multimedia content for Software Testing curriculum utilized to support distance learning",
-          "Demostrates fundamental concepts of Software Testing--Functional Testing, Structural Testing, Testing Strategies, Test Planning",
+          "Demonstrates fundamental concepts of Software Testing--Functional Testing, Structural Testing, Testing Strategies, Test Planning",
         ],
         URL: "https://www.youtube.com/watch?v=uDoNL77FzTE&list=PL3hxNehc1Jwl17w1Jsoe-H4_m2XyXG-Nj",
         IMAGES: ["images/swTest_vid_sample.PNG"],
@@ -1277,7 +1277,7 @@ var model = {
         TITLE: "Software Testing Video Player",
         DATES: "2016",
         DESCRIPTION: [
-          "Designed HTML5 Video Player for Software Testing videos for use on MilSuite plaform",
+          "Designed HTML5 Video Player for Software Testing videos for use on MilSuite platform",
           "Developed Dynamic UI elements to display video content in logical and accessible manner",
           "Uses AJAX call to retrieve closed-captioning information from alternate location",
         ],
@@ -1321,7 +1321,7 @@ var model = {
         DATES: "2017",
         DESCRIPTION: [
           "Reworked version of Theory of Constraints Simulation v1 (below)",
-          "Implemented Unit Tests through Extensive use of Jasmin Testing Framework",
+          "Implemented Unit Tests through Extensive use of Jasmine Testing Framework",
           'Test Script can be run at <a style="display: inline" href="https://www.ctwcs.com/toc2/test/SpecRunner.html">https://www.ctwcs.com/toc2/test/SpecRunner.html</a> (scroll to the bottom to see results)',
           "Unit tests can be viewed in github repository",
         ],
@@ -1344,8 +1344,8 @@ var model = {
         DATES: "2016",
         DESCRIPTION: [
           "Theory of Constraints and Critical Chain theory for logistics management",
-          "Makes use of the Chart.js to dynamicly build graphs based on simulation data",
-          "Uses jQuery to ease managment of input data",
+          "Makes use of the Chart.js to dynamically build graphs based on simulation data",
+          "Uses jQuery to ease management of input data",
         ],
         URL: "http://www.ctwcs.com/toc",
         GITURL: "https://github.com/corigami/ToC-Sim",
@@ -1385,11 +1385,11 @@ var model = {
         ]
       },
       {
-        TITLE: "Neighborhod Map",
+        TITLE: "Neighborhood Map",
         DATES: "2016",
         DESCRIPTION: [
           "Responsive design, asynchronous third-party API calls to Google and Wikipedia",
-          "Encorperates error-handling, separation of concerns,and MVVM design pattern",
+          "Uses error-handling, separation of concerns,and MVVM design pattern",
           "Utilizes jQuery and Knockout.js frameworks to support interface requirements",
         ],
         GITURL: "https://github.com/corigami/FEND-neighborhood-map",
@@ -1436,9 +1436,9 @@ var model = {
         TITLE: "Career Development Course Tester",
         DATES: "2005ish",
         DESCRIPTION: [
-          "Implements Java Swing libaray for UI elements",
+          "Implements Java Swing library for UI elements",
           "Created and integrated text parser to load data from from external files",
-          "Created before completing undergradute degree",
+          "Created before completing undergraduate degree",
         ],
         GITURL: "https://github.com/corigami/gamitester",
         URL: "https://github.com/corigami/gamitester",
