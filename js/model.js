@@ -32,7 +32,7 @@ var model = {
           "Software Testing,",
           "Trouble-shooting"
         ],
-      },      {
+      }, {
         TYPE: "Teaching",
         SKILL: [
           "Communication,",
@@ -936,7 +936,7 @@ var model = {
           "User Management",
           "Linux Fundamentals"
         ]
-      },{
+      }, {
         SCHOOL: "Ohio State",
         TITLE: "Alternative Resident Educator Institute",
         DATES: "2021",
@@ -1130,6 +1130,23 @@ var model = {
           "GIT",
           "Communication",
           "Critical Thinking",
+        ]
+      }, {
+        TITLE: "Simon Says Clone",
+        DATES: "2022",
+        DESCRIPTION: [
+          "A simple Simon Says clone.  Created as part of a Web Development course I took to refresh my front-end skills.",
+        ],
+        URL: "https://www.ctwcs.com/simon",
+        GITURL: "https://github.com/corigami/simon",
+        IMAGES: ["images/simon.png"],
+        SKILLS: [
+          "Software Engineering",
+          "JavaScript",
+          "HTML5",,
+          "Programming",
+          "GIT",
+          "CSS"
         ]
       },
       {
