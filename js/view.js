@@ -215,6 +215,7 @@ var view = {
     displayProjects: function () {
         'use strict';
         var PROJECTS = controller.getProjects();
+        $('#projects').append(helperVar.HTMLprojContainer);
         PROJECTS.PROJECTS.forEach(function (project) {
             var FORMATTED_TITLE = helperVar.HTMLprojectTitle.replace('%url%', project.URL),
                 FORMATTED_DATES = helperVar.HTMLprojectDates.replace('%data%', project.DATES),
@@ -229,7 +230,7 @@ var view = {
                 });
             }
 
-            $('#projects').append(projectElement);
+            $('#projFlex').append(projectElement);
             $('.project-entry:last').append(FORMATTED_TITLE);
             $('.project-entry:last').append(FORMATTED_DATES);
             $('.project-entry:last').append(helperVar.HTMLprojDescStart);

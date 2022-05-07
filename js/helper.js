@@ -52,7 +52,8 @@ var helperVar = {
     HTMLonlineSchoolContainer: '<div class="online-entry ed-flex-course shadow"></div>',
 
     //helper variables for PROJECT block of resumeBuilder.js
-    HTMLprojectStart: '<div id="%id%" class="project-entry lt-gray shadow"></div>',
+    HTMLprojContainer: '<div id="projFlex" class="proj-flex-box"></div>',
+    HTMLprojectStart: '<div id="%id%" class="project-entry lt-gray shadow proj-flex-item"></div>',
     HTMLprojectTitle: '<a class="title-link" href="%url%">%data%</a>',
     HTMLprojectDates: '<div class="date-text">%data%</div><br>',
     HTMLprojectDescStart: '<div class="projectDesc-entry"><br><UL></div>',

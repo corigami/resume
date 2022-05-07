@@ -312,21 +312,28 @@ ul {
   color: #ddd;
 }
 
+.proj-flex-box {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  align-items: stretch;
+}
+
 .proj-flex-item {
   width: 40%;
-  height: 40%;
-  margin: 5px;
-  flex-shrink: 1;
-  flex-grow: 1;
+  margin: 15px;
+  flex-shrink: 2;
+  flex-grow: 3;
 }
 
 .selected {
   background-color: rgba(0, 170, 113, 0.897);
   color: #fff !important;
-}
-
-.skill-hide {
-  text-decoration: line-through;
 }
 
 .skills-header {
