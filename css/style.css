@@ -326,9 +326,18 @@ ul {
 
 .proj-flex-item {
   width: 40%;
-  margin: 15px;
-  flex-shrink: 2;
-  flex-grow: 3;
+  min-width: 400px;
+  margin: 10px;
+  flex-grow: 1;
+}
+
+.ed-flex-course {
+  width: 40%;
+  min-width: 400px;
+  background-color: #ddd;
+  padding: 10px;
+  margin: 10px;
+  flex-grow: 1;
 }
 
 .selected {

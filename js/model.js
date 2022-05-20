@@ -56,7 +56,7 @@ var model = {
           "Quality Assurance,",
           "Requirements,",
           "SharePoint,",
-          "Strategic Planning,",
+          "Strategic Planning",
         ],
       },
     ],
