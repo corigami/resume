@@ -65,11 +65,12 @@ var model = {
   WORK: {
     JOBS: [
       {
-        TITLE: "Academic Director",
+        TITLE: "Adjunct Faculty / Academic Director",
         SKILLBULLET: [
+          
           {
             BULLET:
-              "Oversees adjunct faculty performance and leads instructor training, professional development",
+              "Oversaw adjunct faculty performance and lead instructor training, professional development",
             SKILLS: [
               "Teaching",
               "Education",
@@ -79,12 +80,12 @@ var model = {
             ],
           },
           {
-            BULLET: "Ensures compliance with university policies and standards",
+            BULLET: "Ensured compliance with university policies and standards",
             SKILLS: ["Teaching", "Management", "Leadership", "Communication"],
           },
           {
             BULLET:
-              "Participates in hiring, managing, and developing WPAFB Campus Center adjunct faculty",
+              "Participated in hiring, managing, and developing WPAFB Campus Center adjunct faculty",
             SKILLS: [
               "Teaching",
               "Management",
@@ -94,18 +95,9 @@ var model = {
               "Communication",
             ],
           },
-        ],
-        EMPLOYER: "Park University",
-        DATES: "2021-Present",
-        LOCATION: "Wright-Patterson AFB, OH, USA",
-        URL: "https://military.park.edu/location/park-university-at-wright-patterson-afb-in-dayton-oh/",
-      },
-      {
-        TITLE: "Adjunct Faculty",
-        SKILLBULLET: [
           {
             BULLET:
-              "Teaches programming: pseudo-code, Python, Java, C++, HTML, CSS, JavaScript",
+              "Taught introductory programming: pseudo-code, Python, Java, C++, HTML, CSS, JavaScript",
             SKILLS: [
               "Software Engineering",
               "Teaching",
@@ -122,7 +114,7 @@ var model = {
           },
           {
             BULLET:
-              "Demonstrates Object-Oriented concepts - program design, tracing, debugging, composition, inheritance",
+              "Demonstrated Object-Oriented concepts - program design, tracing, debugging, composition, inheritance",
             SKILLS: [
               "Software Engineering",
               "Teaching",
@@ -138,19 +130,7 @@ var model = {
           },
           {
             BULLET:
-              "Teaches introductory computer architecture topics: combinational/sequential logic and CPU concepts",
-            SKILLS: [
-              "Software Engineering",
-              "Teaching",
-              "Avionics",
-              "Electronic Principles",
-              "Hardware",
-              "Classroom management",
-            ],
-          },
-          {
-            BULLET:
-              "Develops and implements class syllabi, lectures, coding exercises; ensures standards are met on time",
+              "Developed and implemented class syllabi, lectures, coding exercises; ensured standards are met on time",
             SKILLS: [
               "Teaching",
               "Program Management",
@@ -162,7 +142,7 @@ var model = {
           },
           {
             BULLET:
-              "Assesses student grades based on performance, participation, assignments and examinations",
+              "Assessed student grades based on performance, participation, assignments and examinations",
             SKILLS: [
               "Teaching",
               "Program Management",
@@ -172,7 +152,7 @@ var model = {
           },
         ],
         EMPLOYER: "Park University",
-        DATES: "2016-Present",
+        DATES: "2016-2022",
         LOCATION: "Wright-Patterson AFB, OH, USA",
         URL: "https://military.park.edu/location/park-university-at-wright-patterson-afb-in-dayton-oh/",
       },
@@ -181,7 +161,7 @@ var model = {
         SKILLBULLET: [
           {
             BULLET:
-              "Oversees student performance and leads instruction per teacher lesson plans",
+              "Oversaw student performance and leads instruction per teacher lesson plans",
             SKILLS: [
               "Teaching",
               "Education",
@@ -192,7 +172,7 @@ var model = {
           },
           {
             BULLET:
-              "Ensures student compliance with school standards, policies, and procedures",
+              "Ensured student compliance with school standards, policies, and procedures",
             SKILLS: [
               "Teaching",
               "Education",
@@ -203,7 +183,7 @@ var model = {
           },
           {
             BULLET:
-              "Provides after-action reports on student performance and behavior ",
+              "Provided after-action reports on student performance and behavior ",
             SKILLS: [
               "Teaching",
               "Education",
@@ -214,12 +194,12 @@ var model = {
           },
         ],
         EMPLOYER: "Dayton Regional STEM School",
-        DATES: "2021-Present",
+        DATES: "2021-2022",
         LOCATION: "Kettering, OH, USA",
         URL: "https://www.daytonstemschool.org/",
       },
       {
-        TITLE: "Software Enginner",
+        TITLE: "Software Engineer",
         SKILLBULLET: [
           {
             BULLET:
@@ -349,7 +329,7 @@ var model = {
           },
           {
             BULLET:
-              "Provides programming and software design advice to local courseware developers for web based courses",
+              "Provides programming and software design advice to local course developers for web based courses",
             SKILLS: [
               "Software Engineering",
               "Consulting",
@@ -628,7 +608,7 @@ var model = {
               "Management",
               "Avionics",
               "Trouble-shooting",
-              "Electronic Priniciples",
+              "Electronic Principles",
             ],
           },
           {
@@ -639,13 +619,13 @@ var model = {
               "Management",
               "Avionics",
               "Trouble-shooting",
-              "Electronic Priniciples",
+              "Electronic Principles",
             ],
           },
           {
             BULLET:
               "Ensured section compliance with safety, environmental, and security programs",
-            SKILLS: ["Management", "Quality Assuance", "Program Management"],
+            SKILLS: ["Management", "Quality Assurance", "Program Management"],
           },
           {
             BULLET:
@@ -655,7 +635,7 @@ var model = {
               "Management",
               "Avionics",
               "Trouble-shooting",
-              "Electronic Priniciples",
+              "Electronic Principles",
               "Quality Assurance",
               "Training",
             ],
@@ -697,7 +677,7 @@ var model = {
               "Management",
               "Avionics",
               "Trouble-shooting",
-              "Electronic Priniciples",
+              "Electronic Principles",
             ],
           },
           {
@@ -708,7 +688,7 @@ var model = {
               "Management",
               "Avionics",
               "Trouble-shooting",
-              "Electronic Priniciples",
+              "Electronic Principles",
               "Quality Assurance",
             ],
           },
@@ -720,13 +700,13 @@ var model = {
               "Management",
               "Avionics",
               "Trouble-shooting",
-              "Electronic Priniciples",
+              "Electronic Principles",
               "Program Management",
             ],
           },
           {
             BULLET: "Managed $5.2 million of test and support equipment",
-            SKILLS: ["Management", "Quality Assuance", "Program Management"],
+            SKILLS: ["Management", "Quality Assurance", "Program Management"],
           },
           {
             BULLET:
@@ -761,7 +741,7 @@ var model = {
               "Management",
               "Avionics",
               "Trouble-shooting",
-              "Electronic Priniciples",
+              "Electronic Principles",
             ],
           },
           {
@@ -772,7 +752,7 @@ var model = {
               "Management",
               "Avionics",
               "Trouble-shooting",
-              "Electronic Priniciples",
+              "Electronic Principles",
               "Quality Assurance",
             ],
           },
@@ -784,7 +764,7 @@ var model = {
               "Management",
               "Avionics",
               "Trouble-shooting",
-              "Electronic Priniciples",
+              "Electronic Principles",
               "Program Management",
             ],
           },
@@ -793,7 +773,7 @@ var model = {
               "Maintained, programmed and performed time critical updates on avionic components, test stations and support equipment",
             SKILLS: [
               "Management",
-              "Quality Assuance",
+              "Quality Assurance",
               "Program Management",
               "Critical Thinking",
               "Trouble-shooting",
@@ -822,7 +802,7 @@ var model = {
           {
             BULLET:
               "Operated, troubleshoot, repaired, inspected, and calibrated three Radar/Electronic Warfare Avionic Test Stations",
-            SKILLS: ["Avionics", "Trouble-shooting", "Electronic Priniciples"],
+            SKILLS: ["Avionics", "Trouble-shooting", "Electronic Principles"],
           },
           {
             BULLET:
@@ -830,7 +810,7 @@ var model = {
             SKILLS: [
               "Avionics",
               "Trouble-shooting",
-              "Electronic Priniciples",
+              "Electronic Principles",
               "Quality Assurance",
             ],
           },
@@ -839,7 +819,7 @@ var model = {
               "Managed work center section Electronic Static Discharge program, ensured standards were met or exceeded - zero defects",
             SKILLS: [
               "Management",
-              "Electronic Priniciples",
+              "Electronic Principles",
               "Program Management",
             ],
           },
@@ -853,7 +833,7 @@ var model = {
               "Maintained, programmed and performed time critical updates on avionic components, test stations and support equipment",
             SKILLS: [
               "Management",
-              "Quality Assuance",
+              "Quality Assurance",
               "Program Management",
               "Critical Thinking",
               "Trouble-shooting",
@@ -861,7 +841,7 @@ var model = {
           },
           {
             BULLET: "Managed $8.1 million of test and support equipment",
-            SKILLS: ["Management", "Quality Assuance", "Program Management"],
+            SKILLS: ["Management", "Quality Assurance", "Program Management"],
           },
         ],
         EMPLOYER: "USAF",
